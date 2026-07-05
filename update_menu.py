@@ -17,56 +17,8 @@ def fetch_and_parse():
     driver = webdriver.Chrome(options=chrome_options)
     
     try:
-        # 1. Scrape Canteen Menu
-        url = "https://www.menuchiaro.it/greenlife/it/"
-        print(f"Caricamento menu: {url}")
-        driver.get(url)
-        time.sleep(8)
-        
-        driver.find_element(By.CSS_SELECTOR, "a.func-menu").click()
-        time.sleep(8)
-        
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        
-        menu = {"primi": [], "secondi": [], "contorni": [], "date": ""}
-        
-        selected_day = soup.find('div', class_='selected')
-        if selected_day:
-            dw = selected_day.find('span', class_='dayofweek')
-            dn = selected_day.find('span', class_='day')
-            m = selected_day.find('span', class_='month')
-            menu["date"] = f"{dw.text.strip() if dw else ''} {dn.text.strip() if dn else ''} {m.text.strip() if m else ''}".upper()
-        else:
-            menu["date"] = "OGGI"
-            
-        for row in soup.find_all('div', class_='elenco'):
-            header = row.find('h3')
-            if not header:
-                continue
-            header_text = header.text.strip().lower()
-            
-            dishes = []
-            for li in row.find_all('li'):
-                a_tag = li.find('a')
-                if a_tag:
-                    dish_text = a_tag.text.strip()
-                    p_tag = a_tag.find('p')
-                    if p_tag:
-                        p_text = p_tag.text.strip()
-                        if p_text:
-                            dish_text = dish_text.replace(p_text, "").strip()
-                    dish_name = dish_text.split('\n')[0].strip()
-                    if dish_name and dish_name not in dishes:
-                        dishes.append(dish_name)
-                        
-            if "primo" in header_text:
-                menu["primi"] = dishes[:2]
-            elif "secondo" in header_text:
-                menu["secondi"] = dishes[:3]
-            elif "contorn" in header_text:
-                menu["contorni"] = dishes[:1]
-                
-        # 2. Scrape Fuel Prices
+        menu = {"primi": [], "secondi": [], "contorni": [], "date": "", "gas_price": "N/D"}
+        # 1. Scrape Fuel Prices
         try:
             url_gas = "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni"
             print(f"Caricamento prezzi carburanti: {url_gas}")
@@ -93,6 +45,56 @@ def fetch_and_parse():
         except Exception as e_gas:
             print("Errore durante il recupero dei prezzi del carburante:", e_gas)
             menu["gas_price"] = "N/D"
+
+        # 2. Scrape Canteen Menu
+        try:
+            url = "https://www.menuchiaro.it/greenlife/it/"
+            print(f"Caricamento menu: {url}")
+            driver.get(url)
+            time.sleep(8)
+            
+            driver.find_element(By.CSS_SELECTOR, "a.func-menu").click()
+            time.sleep(8)
+            
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            
+            selected_day = soup.find('div', class_='selected')
+            if selected_day:
+                dw = selected_day.find('span', class_='dayofweek')
+                dn = selected_day.find('span', class_='day')
+                m = selected_day.find('span', class_='month')
+                menu["date"] = f"{dw.text.strip() if dw else ''} {dn.text.strip() if dn else ''} {m.text.strip() if m else ''}".upper()
+            else:
+                menu["date"] = "OGGI"
+                
+            for row in soup.find_all('div', class_='elenco'):
+                header = row.find('h3')
+                if not header:
+                    continue
+                header_text = header.text.strip().lower()
+                
+                dishes = []
+                for li in row.find_all('li'):
+                    a_tag = li.find('a')
+                    if a_tag:
+                        dish_text = a_tag.text.strip()
+                        p_tag = a_tag.find('p')
+                        if p_tag:
+                            p_text = p_tag.text.strip()
+                            if p_text:
+                                dish_text = dish_text.replace(p_text, "").strip()
+                        dish_name = dish_text.split('\n')[0].strip()
+                        if dish_name and dish_name not in dishes:
+                            dishes.append(dish_name)
+                            
+                if "primo" in header_text:
+                    menu["primi"] = dishes[:2]
+                elif "secondo" in header_text:
+                    menu["secondi"] = dishes[:3]
+                elif "contorn" in header_text:
+                    menu["contorni"] = dishes[:1]
+        except Exception as e_canteen:
+            print("Errore durante il recupero del menu della mensa:", e_canteen)
 
         # Save to JSON
         with open("menu_data.json", "w", encoding="utf-8") as f_out:
