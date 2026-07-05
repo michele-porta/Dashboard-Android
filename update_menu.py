@@ -1,0 +1,108 @@
+import time
+import json
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+
+def fetch_and_parse():
+    print("=== Mensa Greenlife & MIMIT Fuel Scraper ===")
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    
+    print("Avvio del browser headless...")
+    driver = webdriver.Chrome(options=chrome_options)
+    
+    try:
+        # 1. Scrape Canteen Menu
+        url = "https://www.menuchiaro.it/greenlife/it/"
+        print(f"Caricamento menu: {url}")
+        driver.get(url)
+        time.sleep(8)
+        
+        driver.find_element(By.CSS_SELECTOR, "a.func-menu").click()
+        time.sleep(8)
+        
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+        menu = {"primi": [], "secondi": [], "contorni": [], "date": ""}
+        
+        selected_day = soup.find('div', class_='selected')
+        if selected_day:
+            dw = selected_day.find('span', class_='dayofweek')
+            dn = selected_day.find('span', class_='day')
+            m = selected_day.find('span', class_='month')
+            menu["date"] = f"{dw.text.strip() if dw else ''} {dn.text.strip() if dn else ''} {m.text.strip() if m else ''}".upper()
+        else:
+            menu["date"] = "OGGI"
+            
+        for row in soup.find_all('div', class_='elenco'):
+            header = row.find('h3')
+            if not header:
+                continue
+            header_text = header.text.strip().lower()
+            
+            dishes = []
+            for li in row.find_all('li'):
+                a_tag = li.find('a')
+                if a_tag:
+                    dish_text = a_tag.text.strip()
+                    p_tag = a_tag.find('p')
+                    if p_tag:
+                        p_text = p_tag.text.strip()
+                        if p_text:
+                            dish_text = dish_text.replace(p_text, "").strip()
+                    dish_name = dish_text.split('\n')[0].strip()
+                    if dish_name and dish_name not in dishes:
+                        dishes.append(dish_name)
+                        
+            if "primo" in header_text:
+                menu["primi"] = dishes[:2]
+            elif "secondo" in header_text:
+                menu["secondi"] = dishes[:3]
+            elif "contorn" in header_text:
+                menu["contorni"] = dishes[:1]
+                
+        # 2. Scrape Fuel Prices
+        try:
+            url_gas = "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni"
+            print(f"Caricamento prezzi carburanti: {url_gas}")
+            driver.get(url_gas)
+            time.sleep(6)
+            
+            soup_gas = BeautifulSoup(driver.page_source, 'html.parser')
+            anchor = soup_gas.find(id="er")
+            gas_price = "N/D"
+            if anchor:
+                table = anchor.parent.find_next_sibling("table")
+                if table:
+                    for row in table.find_all("tr"):
+                        cells = row.find_all(["td", "th"])
+                        if len(cells) >= 3:
+                            fuel_type = cells[0].text.strip().lower()
+                            service = cells[1].text.strip().lower()
+                            price = cells[2].text.strip()
+                            if "benzina" in fuel_type and "self" in service:
+                                gas_price = price
+                                break
+            print(f"Prezzo benzina Emilia Romagna rilevato: {gas_price}")
+            menu["gas_price"] = gas_price
+        except Exception as e_gas:
+            print("Errore durante il recupero dei prezzi del carburante:", e_gas)
+            menu["gas_price"] = "N/D"
+
+        # Save to JSON
+        with open("menu_data.json", "w", encoding="utf-8") as f_out:
+            json.dump(menu, f_out, indent=4, ensure_ascii=False)
+        print("Aggiornamento di menu_data.json completato con successo!")
+        
+    except Exception as e:
+        print("Errore durante lo scraping:", e)
+    finally:
+        driver.quit()
+
+if __name__ == "__main__":
+    fetch_and_parse()

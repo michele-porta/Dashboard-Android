@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Dashboard - Meteo, Bitcoin & Notizie</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dashboard interattiva con prezzo Bitcoin in tempo reale, previsioni meteo di Fidenza a 3 giorni e le ultime notizie del giorno.">
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js for Bitcoin price trend -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <!-- Background Glows -->
+        <div class="bg-glow bg-glow-1"></div>
+        <div class="bg-glow bg-glow-2"></div>
+        <div class="bg-glow bg-glow-3"></div>
+
+        <header class="main-header">
+            <div class="header-logo">
+                <span class="logo-icon"><i data-lucide="layout-dashboard"></i></span>
+                <div class="logo-text">
+                    <h1>AuraDash</h1>
+                    <p>Fidenza &bull; Bitcoin &bull; News</p>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <div class="live-clock" id="live-clock">
+                    <span class="time">--:--:--</span>
+                    <span class="date">Caricamento data...</span>
+                </div>
+                <button class="refresh-btn" id="refresh-btn" title="Aggiorna dati" aria-label="Aggiorna dati">
+                    <i data-lucide="refresh-cw" id="refresh-icon"></i>
+                    <span>Aggiorna</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="dashboard-grid">
+            
+            <!-- SECTION 1: BITCOIN CARD -->
+            <section class="card btc-card glass-panel" id="btc-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon btc-icon"><i data-lucide="coins"></i></span>
+                        <div>
+                            <h2>Bitcoin (BTC)</h2>
+                            <p class="subtitle">Andamento e prezzo in tempo reale</p>
+                        </div>
+                    </div>
+                    <div class="btc-badge">USD</div>
+                </div>
+
+                <div class="card-body">
+                    <div class="btc-price-container">
+                        <div class="btc-price-main">
+                            <span class="currency-symbol">$</span>
+                            <span class="price-val" id="btc-price">--,---.--</span>
+                        </div>
+                        <div class="btc-change-badge" id="btc-change-badge">
+                            <i data-lucide="trending-up" id="btc-trend-icon"></i>
+                            <span id="btc-change-pct">--.--%</span>
+                        </div>
+                    </div>
+
+                    <div class="btc-stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Massimo 24h</span>
+                            <span class="stat-value" id="btc-high">$--,---</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Minimo 24h</span>
+                            <span class="stat-value" id="btc-low">$--,---</span>
+                        </div>
+                    </div>
+
+                    <!-- Bitcoin Sparkline Chart -->
+                    <div class="chart-container">
+                        <div class="chart-header-actions">
+                            <span class="chart-title">Trend ultimi 7 giorni</span>
+                        </div>
+                        <div class="canvas-wrapper">
+                            <canvas id="btc-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-footer-info">
+                    <span class="update-time" id="btc-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
+            <!-- SECTION 2: WEATHER CARD (FIDENZA) -->
+            <section class="card weather-card glass-panel" id="weather-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon weather-icon"><i data-lucide="cloud-sun"></i></span>
+                        <div>
+                            <h2>Meteo Fidenza</h2>
+                            <p class="subtitle">Parma, Emilia-Romagna (Italia)</p>
+                        </div>
+                    </div>
+                    <div class="weather-coords">
+                        <i data-lucide="map-pin" class="small-icon"></i>
+                        <span>44.87° N, 10.06° E</span>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <!-- Current Weather Highlight -->
+                    <div class="weather-current">
+                        <div class="weather-main-info">
+                            <div class="weather-temp-block">
+                                <span class="current-temp" id="current-temp">--</span>
+                                <span class="temp-unit">°C</span>
+                            </div>
+                            <div class="weather-condition" id="weather-desc">Caricamento meteo...</div>
+                        </div>
+                        <div class="weather-main-icon-container">
+                            <div id="weather-main-icon" class="weather-main-icon-wrapper">
+                                <i data-lucide="cloud" class="animated-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Current Weather Details Grid -->
+                    <div class="weather-details-grid">
+                        <div class="weather-detail-item">
+                            <i data-lucide="thermometer" class="detail-icon text-orange"></i>
+                            <div class="detail-texts">
+                                <span class="detail-label">Temp Max/Min (Oggi)</span>
+                                <span class="detail-value" id="weather-today-range">--°C / --°C</span>
+                            </div>
+                        </div>
+                        <div class="weather-detail-item">
+                            <i data-lucide="droplets" class="detail-icon text-cyan"></i>
+                            <div class="detail-texts">
+                                <span class="detail-label">Precipitazioni</span>
+                                <span class="detail-value" id="weather-rain">-- mm</span>
+                            </div>
+                        </div>
+                        <div class="weather-detail-item">
+                            <i data-lucide="wind" class="detail-icon text-blue"></i>
+                            <div class="detail-texts">
+                                <span class="detail-label">Vento</span>
+                                <span class="detail-value" id="weather-wind">-- km/h</span>
+                            </div>
+                        </div>
+                        <div class="weather-detail-item">
+                            <i data-lucide="sun" class="detail-icon text-yellow"></i>
+                            <div class="detail-texts">
+                                <span class="detail-label">Indice UV Max</span>
+                                <span class="detail-value" id="weather-uv">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3-Day Forecast -->
+                    <div class="forecast-section">
+                        <h3 class="section-subtitle">Previsioni per i prossimi 3 giorni</h3>
+                        <div class="forecast-grid" id="forecast-container">
+                            <!-- Forecast items generated dynamically -->
+                            <div class="forecast-item-skeleton"></div>
+                            <div class="forecast-item-skeleton"></div>
+                            <div class="forecast-item-skeleton"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <span class="update-time" id="weather-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
+            <!-- SECTION 3: TOP NEWS CARD -->
+            <section class="card news-card glass-panel" id="news-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon news-icon"><i data-lucide="newspaper"></i></span>
+                        <div>
+                            <h2>Notizie Principali</h2>
+                            <p class="subtitle">I fatti salienti del giorno in Italia</p>
+                        </div>
+                    </div>
+                    <div class="news-badge-count">Top 5</div>
+                </div>
+
+                <div class="card-body">
+                    <div class="news-list" id="news-container">
+                        <!-- News items generated dynamically -->
+                        <div class="news-skeleton"></div>
+                        <div class="news-skeleton"></div>
+                        <div class="news-skeleton"></div>
+                        <div class="news-skeleton"></div>
+                        <div class="news-skeleton"></div>
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <span class="update-time" id="news-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
+            <!-- SECTION 5: CANTEEN WIDGET -->
+            <section class="card canteen-card glass-panel" id="canteen-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon canteen-icon"><i data-lucide="utensils"></i></span>
+                        <div>
+                            <h2>Mensa Greenlife</h2>
+                            <p class="subtitle">Menù del giorno &bull; Credit Agricole</p>
+                        </div>
+                    </div>
+                    <div class="menu-date-badge" id="canteen-date">-- ---</div>
+                </div>
+
+                <div class="card-body">
+                    <div class="menu-courses">
+                        <!-- Primi -->
+                        <div class="course-group">
+                            <h3 class="course-title"><i data-lucide="soup"></i> Primi Piatti</h3>
+                            <ul class="dish-list" id="canteen-primi">
+                                <li class="dish-skeleton"></li>
+                                <li class="dish-skeleton"></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Secondi -->
+                        <div class="course-group">
+                            <h3 class="course-title"><i data-lucide="beef"></i> Secondi Piatti</h3>
+                            <ul class="dish-list" id="canteen-secondi">
+                                <li class="dish-skeleton"></li>
+                                <li class="dish-skeleton"></li>
+                                <li class="dish-skeleton"></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Contorni -->
+                        <div class="course-group">
+                            <h3 class="course-title"><i data-lucide="salad"></i> Contorni</h3>
+                            <ul class="dish-list" id="canteen-contorni">
+                                <li class="dish-skeleton"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <span class="update-time" id="canteen-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
+            <!-- SECTION 4: GOLD PRICE CARD -->
+            <section class="card commodities-card glass-panel" id="commodities-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon commodities-icon"><i data-lucide="sparkles"></i></span>
+                        <div>
+                            <h2>Quotazione Oro</h2>
+                            <p class="subtitle">Prezzo spot dell'oro al grammo in tempo reale</p>
+                        </div>
+                    </div>
+                    <div class="region-badge" style="background: rgba(251, 191, 36, 0.1); color: var(--commodities-color); border: 1px solid rgba(251, 191, 36, 0.2);">spot</div>
+                </div>
+
+                <div class="card-body">
+                    <div class="commodities-grid">
+                        
+                        <!-- Gold Price Card -->
+                        <div class="commodity-box">
+                            <div class="box-header">
+                                <span class="box-label"><i data-lucide="trending-up"></i> Oro al grammo</span>
+                                <span class="currency-pill">EUR</span>
+                            </div>
+                            <div class="box-value-group">
+                                <span class="box-currency">€</span>
+                                <span class="box-val" id="gold-price">--.--</span>
+                                <span class="box-unit">/g</span>
+                            </div>
+                            <div class="box-change" id="gold-change-group">
+                                <i data-lucide="trending-up" id="gold-trend-icon"></i>
+                                <span id="gold-change-pct">--.--%</span>
+                            </div>
+                        </div>
+
+                        <!-- Fuel Price Card -->
+                        <div class="commodity-box">
+                            <div class="box-header">
+                                <span class="box-label"><i data-lucide="droplet" style="color: var(--weather-color);"></i> Benzina E-R</span>
+                                <span class="currency-pill" style="background: rgba(14, 165, 233, 0.1); color: var(--weather-color);">self</span>
+                            </div>
+                            <div class="box-value-group">
+                                <span class="box-currency">€</span>
+                                <span class="box-val" id="fuel-price">--.--</span>
+                                <span class="box-unit">/L</span>
+                            </div>
+                            <div class="box-change" style="background: transparent; color: var(--text-muted); padding: 0.25rem 0;">
+                                <span>Media Emilia Romagna</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <span class="update-time" id="commodities-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="main-footer">
+            <div class="system-status">
+                <span class="pulse-dot"></span>
+                <span>Sistema Operativo</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Error Toast Notification -->
+    <div id="toast" class="toast-notification">
+        <i data-lucide="alert-circle" class="toast-icon"></i>
+        <span class="toast-message" id="toast-message">Messaggio di errore</span>
+    </div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
