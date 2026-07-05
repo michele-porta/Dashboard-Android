@@ -45,7 +45,7 @@ async function refreshDashboard() {
     btn.classList.add("loading");
     await Promise.allSettled([
         updateBitcoinPrice(), updateBitcoinChart(), updateWeather(), 
-        updateNews(), updateCommodities(), updateCanteenMenu()
+        updateNews(), updateCommodities(), updateDashboardData()
     ]);
     setTimeout(() => btn.classList.remove("loading"), 600);
 }
@@ -337,9 +337,9 @@ async function updateCommodities() {
     }
 }
 
-async function updateCanteenMenu() {
+async function updateDashboardData() {
     try {
-        const response = await fetch(`menu_data.json?_t=${Date.now()}`);
+        const response = await fetch(`dashboard_data.json?_t=${Date.now()}`);
         if (!response.ok) throw new Error();
         const data = await response.json();
         

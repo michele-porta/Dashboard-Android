@@ -20,8 +20,8 @@ AuraDash è una dashboard interattiva, moderna e responsiva progettata per table
 
 L'applicazione è serverless e non richiede un PC/server locale sempre acceso:
 1. **Frontend (Netlify)**: Sito statico responsivo (HTML5/CSS3/JS) ospitato gratuitamente su Netlify.
-2. **Scraper (Python + Selenium)**: Script Python (`update_menu.py`) in modalità headless che estrae i dati di mensa e carburante.
-3. **Automazione (GitHub Actions)**: Un workflow automatico (`.github/workflows/update_menu.yml`) esegue lo scraper ogni giorno alle **07:00 del mattino** (ora italiana), aggiorna `menu_data.json` e lo carica nel repository, aggiornando in tempo reale il sito web.
+2. **Scraper (Python + Selenium)**: Script Python (`update_data.py`) in modalità headless che estrae i dati di utenze, mensa e carburante.
+3. **Automazione (GitHub Actions)**: Un workflow automatico (`.github/workflows/update_data.yml`) esegue lo scraper ogni giorno alle **07:00 del mattino** (ora italiana), aggiorna `dashboard_data.json` e lo carica nel repository, aggiornando in tempo reale il sito web.
 
 ---
 

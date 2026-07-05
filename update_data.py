@@ -132,9 +132,9 @@ def fetch_and_parse():
             print("Errore durante il recupero delle tariffe Octopus:", e_oct)
 
         # Save to JSON
-        with open("menu_data.json", "w", encoding="utf-8") as f_out:
+        with open("dashboard_data.json", "w", encoding="utf-8") as f_out:
             json.dump(menu, f_out, indent=4, ensure_ascii=False)
-        print("Aggiornamento di menu_data.json completato con successo!")
+        print("Aggiornamento di dashboard_data.json completato con successo!")
         
     except Exception as e:
         print("Errore durante lo scraping:", e)

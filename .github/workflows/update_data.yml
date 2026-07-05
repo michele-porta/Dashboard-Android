@@ -1,4 +1,4 @@
-name: Update Canteen Menu and Fuel Prices
+name: Update Dashboard Data
 
 on:
   schedule:
@@ -10,7 +10,7 @@ permissions:
   contents: write # Needed to allow the workflow to commit and push changes back to the repo
 
 jobs:
-  update-menu:
+  update-data:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,12 +29,12 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run scraper script
-      run: python update_menu.py
+      run: python update_data.py
 
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add menu_data.json
-        # Commit only if there are changes to menu_data.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update menu and fuel data" && git push)
+        git add dashboard_data.json
+        # Commit only if there are changes to dashboard_data.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update dashboard data" && git push)
