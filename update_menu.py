@@ -1,5 +1,6 @@
 import time
 import json
+import re
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -18,7 +19,11 @@ def fetch_and_parse():
     driver = webdriver.Chrome(options=chrome_options)
     
     try:
-        menu = {"primi": [], "secondi": [], "contorni": [], "date": "", "gas_price": "N/D"}
+        menu = {
+            "primi": [], "secondi": [], "contorni": [], "date": "", "gas_price": "N/D",
+            "oct_luce_price": "N/D", "oct_luce_fee": "N/D",
+            "oct_gas_price": "N/D", "oct_gas_fee": "N/D"
+        }
         # 1. Scrape Fuel Prices
         try:
             url_gas = "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni"
@@ -96,6 +101,35 @@ def fetch_and_parse():
                     menu["contorni"] = dishes[:1]
         except Exception as e_canteen:
             print("Errore durante il recupero del menu della mensa:", e_canteen)
+
+        # 3. Scrape Octopus Energy Tariffs
+        try:
+            url_oct = "https://octopusenergy.it/offerta/tariffe"
+            print(f"Caricamento tariffe Octopus: {url_oct}")
+            driver.get(url_oct)
+            time.sleep(8)
+            
+            page_src = driver.page_source
+            matches = list(re.finditer(r'"displayName"\s*:\s*"([^"]*?Fissa 12M[^"]*?)"', page_src))
+            for m in matches:
+                name = m.group(1)
+                subtext = page_src[m.start():m.start() + 3000]
+                charge_m = re.search(r'"consumptionCharge"\s*:\s*"([^"]*?)"', subtext)
+                fee_m = re.search(r'"annualStandingCharge"\s*:\s*"([^"]*?)"', subtext)
+                
+                charge_val = charge_m.group(1) if charge_m else "N/D"
+                fee_val = fee_m.group(1) if fee_m else "N/D"
+                
+                if "Gas" in name:
+                    menu["oct_gas_price"] = charge_val
+                    menu["oct_gas_fee"] = fee_val
+                else:
+                    menu["oct_luce_price"] = charge_val
+                    menu["oct_luce_fee"] = fee_val
+            
+            print(f"Tariffe Octopus rilevate: Luce={menu.get('oct_luce_price')}/{menu.get('oct_luce_fee')}, Gas={menu.get('oct_gas_price')}/{menu.get('oct_gas_fee')}")
+        except Exception as e_oct:
+            print("Errore durante il recupero delle tariffe Octopus:", e_oct)
 
         # Save to JSON
         with open("menu_data.json", "w", encoding="utf-8") as f_out:

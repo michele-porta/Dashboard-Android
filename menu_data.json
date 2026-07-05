@@ -2,6 +2,10 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "",
-    "gas_price": "1.831"
+    "date": "DOM 5 LUG",
+    "gas_price": "1.831",
+    "oct_luce_price": "0,1188",
+    "oct_luce_fee": "72",
+    "oct_gas_price": "0,43",
+    "oct_gas_fee": "84"
 }

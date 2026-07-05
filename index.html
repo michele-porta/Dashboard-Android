@@ -267,13 +267,13 @@
             <section class="card commodities-card glass-panel" id="commodities-section">
                 <div class="card-header">
                     <div class="card-title">
-                        <span class="card-icon commodities-icon"><i data-lucide="sparkles"></i></span>
+                        <span class="card-icon commodities-icon"><i data-lucide="trending-up"></i></span>
                         <div>
-                            <h2>Quotazione Oro</h2>
-                            <p class="subtitle">Prezzo spot dell'oro al grammo in tempo reale</p>
+                            <h2>Tariffe & Quotazioni</h2>
+                            <p class="subtitle">Utenze, carburante e mercati in tempo reale</p>
                         </div>
                     </div>
-                    <div class="region-badge" style="background: rgba(251, 191, 36, 0.1); color: var(--commodities-color); border: 1px solid rgba(251, 191, 36, 0.2);">spot</div>
+                    <div class="region-badge" style="background: rgba(251, 191, 36, 0.1); color: var(--commodities-color); border: 1px solid rgba(251, 191, 36, 0.2);">live</div>
                 </div>
 
                 <div class="card-body">
@@ -309,6 +309,38 @@
                             </div>
                             <div class="box-change" style="background: transparent; color: var(--text-muted); padding: 0.25rem 0;">
                                 <span>Media Emilia Romagna</span>
+                            </div>
+                        </div>
+
+                        <!-- Octopus Electricity Card -->
+                        <div class="commodity-box">
+                            <div class="box-header">
+                                <span class="box-label"><i data-lucide="zap" style="color: var(--canteen-color);"></i> Luce Octopus</span>
+                                <span class="currency-pill" style="background: rgba(16, 185, 129, 0.1); color: var(--canteen-color);">Fissa 12M</span>
+                            </div>
+                            <div class="box-value-group">
+                                <span class="box-currency">€</span>
+                                <span class="box-val" id="oct-luce-price">--.----</span>
+                                <span class="box-unit">/kWh</span>
+                            </div>
+                            <div class="box-change" style="background: transparent; color: var(--text-muted); padding: 0.25rem 0;">
+                                <span>Quota fissa: <span id="oct-luce-fee">--</span>€/anno</span>
+                            </div>
+                        </div>
+
+                        <!-- Octopus Gas Card -->
+                        <div class="commodity-box">
+                            <div class="box-header">
+                                <span class="box-label"><i data-lucide="flame" style="color: #ef4444;"></i> Gas Octopus</span>
+                                <span class="currency-pill" style="background: rgba(239, 68, 68, 0.1); color: #ef4444;">Fissa 12M</span>
+                            </div>
+                            <div class="box-value-group">
+                                <span class="box-currency">€</span>
+                                <span class="box-val" id="oct-gas-price">--.--</span>
+                                <span class="box-unit">/Smc</span>
+                            </div>
+                            <div class="box-change" style="background: transparent; color: var(--text-muted); padding: 0.25rem 0;">
+                                <span>Quota fissa: <span id="oct-gas-fee">--</span>€/anno</span>
                             </div>
                         </div>
 

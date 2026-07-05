@@ -350,6 +350,12 @@ async function updateCanteenMenu() {
         
         document.getElementById("fuel-price").textContent = data.gas_price || "--.--";
         
+        // Octopus Tariffs
+        document.getElementById("oct-luce-price").textContent = data.oct_luce_price || "--.----";
+        document.getElementById("oct-luce-fee").textContent = data.oct_luce_fee || "--";
+        document.getElementById("oct-gas-price").textContent = data.oct_gas_price || "--.--";
+        document.getElementById("oct-gas-fee").textContent = data.oct_gas_fee || "--";
+        
         updateCardStatus("canteen-section", "canteen-update-time", true);
         lucide.createIcons();
     } catch {
@@ -357,7 +363,11 @@ async function updateCanteenMenu() {
         fillList("canteen-secondi", []);
         fillList("canteen-contorni", []);
         document.getElementById("fuel-price").textContent = "--.--";
+        document.getElementById("oct-luce-price").textContent = "--.----";
+        document.getElementById("oct-luce-fee").textContent = "--";
+        document.getElementById("oct-gas-price").textContent = "--.--";
+        document.getElementById("oct-gas-fee").textContent = "--";
         updateCardStatus("canteen-section", "canteen-update-time", false);
-        showToast("Errore nel caricamento del menù della mensa.");
+        showToast("Errore nel caricamento del menù e delle tariffe.");
     }
 }
