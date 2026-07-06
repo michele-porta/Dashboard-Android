@@ -353,6 +353,35 @@
                 </div>
             </section>
 
+            <!-- SECTION 6: SPORTS CARD -->
+            <section class="card sports-card glass-panel" id="sports-section">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="card-icon sports-icon"><i data-lucide="trophy"></i></span>
+                        <div>
+                            <h2>Calcio & Risultati</h2>
+                            <p class="subtitle">Mondiali, Serie A & Champions League</p>
+                        </div>
+                    </div>
+                    <div class="sports-tabs">
+                        <button class="sports-tab active" id="tab-worldcup" onclick="switchSportsLeague('worldcup')">Mondiali</button>
+                        <button class="sports-tab" id="tab-seriea" onclick="switchSportsLeague('seriea')">Serie A</button>
+                        <button class="sports-tab" id="tab-champions" onclick="switchSportsLeague('champions')">Champions</button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="sports-container" id="sports-container">
+                        <!-- Matches will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <div class="card-footer-info">
+                    <span class="update-time" id="sports-update-time">Ultimo agg.: --:--</span>
+                    <span class="status-indicator online"></span>
+                </div>
+            </section>
+
         </main>
 
         <footer class="main-footer">
@@ -370,6 +399,6 @@
     </div>
 
     <!-- Main JavaScript Logic -->
-    <script src="app.js?v=1.0.3"></script>
+    <script src="app.js?v=1.0.4"></script>
 </body>
 </html>
