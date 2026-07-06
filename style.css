@@ -258,6 +258,16 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
 .status-indicator { width: 8px; height: 8px; border-radius: 50%; }
 .status-indicator.online { background-color: var(--success); box-shadow: 0 0 8px var(--success); }
 
+/* Weather Sports Column Layout */
+.weather-sports-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.weather-card {
+    min-height: 380px !important;
+}
+
 /* Sports Card Styling */
 .sports-card:hover { box-shadow: 0 20px 48px rgba(245, 158, 11, 0.2); }
 .sports-icon { background: rgba(245, 158, 11, 0.1); color: #f59e0b; }
@@ -280,6 +290,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     border-radius: 8px;
     cursor: pointer;
     transition: var(--transition-smooth);
+    white-space: nowrap;
 }
 .sports-tab.active {
     background: var(--news-color);
