@@ -236,6 +236,23 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
 .news-date { display: flex; align-items: center; gap: 0.2rem; }
 .news-date i { width: 12px; height: 12px; }
 
+/* Active News Selector and Carousel Transitions */
+.news-item.active-selector {
+    background: rgba(139, 92, 246, 0.08) !important;
+    border-color: rgba(139, 92, 246, 0.4) !important;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.1);
+}
+.news-item-clickable {
+    cursor: pointer;
+}
+.fade-in {
+    animation: fadeIn 0.4s ease-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .card-footer-info { padding: 0.75rem 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.04); display: flex; justify-content: space-between; align-items: center; background: rgba(0, 0, 0, 0.15); }
 .card-footer-info .update-time { font-size: 0.7rem; color: var(--text-muted); }
 .status-indicator { width: 8px; height: 8px; border-radius: 50%; }

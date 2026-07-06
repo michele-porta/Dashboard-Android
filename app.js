@@ -2,7 +2,7 @@ const FIDENZA_LAT = 44.8659, FIDENZA_LON = 10.0631;
 const API_BTC_TICKER = "https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT";
 const API_BTC_KLINES = "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=8";
 const API_WEATHER = `https://api.open-meteo.com/v1/forecast?latitude=${FIDENZA_LAT}&longitude=${FIDENZA_LON}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,uv_index_max,precipitation_probability_max&timezone=Europe/Rome`;
-const API_NEWS_BASE = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.ansa.it%2Fsito%2Fansait_rss.xml";
+
 
 const WEATHER_MAP = {
     0: { desc: "Sereno", icon: "sun" }, 1: { desc: "Prevalentemente sereno", icon: "cloud-sun" },
@@ -22,6 +22,9 @@ const WEATHER_MAP = {
 };
 
 let btcChart = null;
+let newsArticles = [];
+let activeNewsIndex = 0;
+let newsRotationInterval = null;
 
 document.addEventListener("DOMContentLoaded", () => {
     initClock();
@@ -223,80 +226,124 @@ async function updateWeather() {
 
 async function updateNews() {
     try {
-        const response = await fetch(`${API_NEWS_BASE}&_t=${Date.now()}`);
+        // Bypass rss2json cache by attaching a timestamp directly to the ANSA feed URL
+        const feedUrl = `https://www.ansa.it/sito/ansait_rss.xml?_cb=${Date.now()}`;
+        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+        const response = await fetch(`${apiUrl}&_t=${Date.now()}`);
         if (!response.ok) throw new Error();
         const data = await response.json();
         
-        const articles = data.items
+        newsArticles = data.items
             .sort((a, b) => new Date(b.pubDate.replace(/-/g, "/")) - new Date(a.pubDate.replace(/-/g, "/")))
             .slice(0, 5);
             
-        const container = document.getElementById("news-container");
-        container.innerHTML = "";
+        activeNewsIndex = 0;
+        renderNews();
         
-        articles.forEach((art, index) => {
-            const timeAgo = formatTimeAgo(art.pubDate);
-            const isFeatured = index === 0;
-            
-            const safeTitle = escapeHTML(art.title);
-            const safeLink = (art.link && (art.link.startsWith('http://') || art.link.startsWith('https://'))) ? art.link : '#';
-            const safeThumbnail = (art.thumbnail && (art.thumbnail.startsWith('http://') || art.thumbnail.startsWith('https://'))) ? art.thumbnail : '';
-            
-            if (isFeatured) {
-                const imageHTML = safeThumbnail 
-                    ? `<img src="${safeThumbnail}" class="news-img" alt="Notizia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                       <div class="news-fallback-featured" style="display:none;">
-                           <i data-lucide="newspaper"></i>
-                           <span>ANSA NEWS</span>
-                       </div>`
-                    : `<div class="news-fallback-featured">
-                           <i data-lucide="newspaper"></i>
-                           <span>ANSA NEWS</span>
-                       </div>`;
-                       
-                container.insertAdjacentHTML('beforeend', `
-                    <a href="${safeLink}" target="_blank" rel="noopener noreferrer" class="news-item featured-news">
-                        <div class="news-img-featured-wrapper">${imageHTML}</div>
-                        <div class="news-content-featured">
-                            <span class="news-badge-featured">Ultime Notizie</span>
-                            <h3 class="news-title-featured" title="${safeTitle}">${safeTitle}</h3>
-                            <div class="news-meta">
-                                <span class="news-source">ANSA.it</span>
-                                <span class="news-date"><i data-lucide="clock"></i> ${timeAgo}</span>
-                            </div>
-                        </div>
-                    </a>
-                `);
-            } else {
-                const imageHTML = safeThumbnail 
-                    ? `<img src="${safeThumbnail}" class="news-img" alt="Notizia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                       <div class="news-fallback-standard" style="display:none;">
-                           <i data-lucide="newspaper"></i>
-                       </div>`
-                    : `<div class="news-fallback-standard">
-                           <i data-lucide="newspaper"></i>
-                       </div>`;
-                       
-                container.insertAdjacentHTML('beforeend', `
-                    <a href="${safeLink}" target="_blank" rel="noopener noreferrer" class="news-item">
-                        <div class="news-img-wrapper">${imageHTML}</div>
-                        <div class="news-content">
-                            <h4 class="news-title" title="${safeTitle}">${safeTitle}</h4>
-                            <div class="news-meta">
-                                <span class="news-source">ANSA.it</span>
-                                <span class="news-date"><i data-lucide="clock"></i> ${timeAgo}</span>
-                            </div>
-                        </div>
-                    </a>
-                `);
-            }
-        });
+        if (newsRotationInterval) clearInterval(newsRotationInterval);
+        startNewsRotation();
+        
         updateCardStatus("news-section", "news-update-time", true);
-        lucide.createIcons();
     } catch {
         showToast("Errore nel recupero delle notizie del giorno.");
         updateCardStatus("news-section", "news-update-time", false);
     }
+}
+
+function renderNews() {
+    if (!newsArticles.length) return;
+    
+    const container = document.getElementById("news-container");
+    container.innerHTML = "";
+    
+    // 1. Render Featured News Card
+    const featured = newsArticles[activeNewsIndex];
+    const featuredTimeAgo = formatTimeAgo(featured.pubDate);
+    const safeFeaturedTitle = escapeHTML(featured.title);
+    const safeFeaturedLink = (featured.link && (featured.link.startsWith('http://') || featured.link.startsWith('https://'))) ? featured.link : '#';
+    const safeFeaturedThumbnail = (featured.thumbnail && (featured.thumbnail.startsWith('http://') || featured.thumbnail.startsWith('https://'))) ? featured.thumbnail : '';
+    
+    const featuredImageHTML = safeFeaturedThumbnail 
+        ? `<img src="${safeFeaturedThumbnail}" class="news-img" alt="Notizia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+           <div class="news-fallback-featured" style="display:none;">
+               <i data-lucide="newspaper"></i>
+               <span>ANSA NEWS</span>
+           </div>`
+        : `<div class="news-fallback-featured">
+               <i data-lucide="newspaper"></i>
+               <span>ANSA NEWS</span>
+           </div>`;
+           
+    let html = `
+        <a href="${safeFeaturedLink}" target="_blank" rel="noopener noreferrer" class="news-item featured-news fade-in">
+            <div class="news-img-featured-wrapper">${featuredImageHTML}</div>
+            <div class="news-content-featured">
+                <span class="news-badge-featured">In Evidenza</span>
+                <h3 class="news-title-featured" title="${safeFeaturedTitle}">${safeFeaturedTitle}</h3>
+                <div class="news-meta">
+                    <span class="news-source">ANSA.it</span>
+                    <span class="news-date"><i data-lucide="clock"></i> ${featuredTimeAgo}</span>
+                </div>
+            </div>
+        </a>
+    `;
+    
+    // 2. Render List of Headline Selectors
+    let listHTML = `<div class="news-list">`;
+    newsArticles.forEach((art, index) => {
+        const timeAgo = formatTimeAgo(art.pubDate);
+        const safeTitle = escapeHTML(art.title);
+        const safeThumbnail = (art.thumbnail && (art.thumbnail.startsWith('http://') || art.thumbnail.startsWith('https://'))) ? art.thumbnail : '';
+        const isActive = index === activeNewsIndex;
+        
+        const imageHTML = safeThumbnail 
+            ? `<img src="${safeThumbnail}" class="news-img" alt="Notizia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+               <div class="news-fallback-standard" style="display:none;">
+                   <i data-lucide="newspaper"></i>
+               </div>`
+            : `<div class="news-fallback-standard">
+                   <i data-lucide="newspaper"></i>
+               </div>`;
+               
+        listHTML += `
+            <div class="news-item-clickable" onclick="selectNewsArticle(${index})">
+                <div class="news-item ${isActive ? 'active-selector' : ''}">
+                    <div class="news-img-wrapper">${imageHTML}</div>
+                    <div class="news-content">
+                        <h4 class="news-title" title="${safeTitle}">${safeTitle}</h4>
+                        <div class="news-meta">
+                            <span class="news-source">ANSA.it</span>
+                            <span class="news-date"><i data-lucide="clock"></i> ${timeAgo}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+    listHTML += `</div>`;
+    
+    html += listHTML;
+    container.innerHTML = html;
+    
+    lucide.createIcons();
+}
+
+function selectNewsArticle(index) {
+    if (index === activeNewsIndex) return;
+    activeNewsIndex = index;
+    renderNews();
+    
+    if (newsRotationInterval) clearInterval(newsRotationInterval);
+    startNewsRotation();
+}
+
+function startNewsRotation() {
+    newsRotationInterval = setInterval(() => {
+        if (newsArticles.length) {
+            activeNewsIndex = (activeNewsIndex + 1) % newsArticles.length;
+            renderNews();
+        }
+    }, 15000);
 }
 
 function formatTimeAgo(pubDateStr) {
