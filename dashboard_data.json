@@ -1,8 +1,17 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
+    "primi": [
+        "Penne all'arrabbiata vegan",
+        "Insalata di riso con funghi (pf)"
+    ],
+    "secondi": [
+        "Fagottino con prosciutto cotto e formaggio",
+        "Fettuccine di totano gratinato",
+        "Burger di soia e peperoni con salsa di olive vegan"
+    ],
+    "contorni": [
+        "Broccoli aglio, olio e peperoncino"
+    ],
+    "date": "LUN 6 LUG",
     "gas_price": "1.834",
     "oct_luce_price": "0,1188",
     "oct_luce_fee": "72",
