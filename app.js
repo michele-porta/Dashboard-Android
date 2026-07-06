@@ -343,7 +343,7 @@ function startNewsRotation() {
             activeNewsIndex = (activeNewsIndex + 1) % newsArticles.length;
             renderNews();
         }
-    }, 15000);
+    }, 30000);
 }
 
 function formatTimeAgo(pubDateStr) {
