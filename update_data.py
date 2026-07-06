@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def fetch_and_parse():
     print("=== Mensa Greenlife & MIMIT Fuel Scraper ===")
@@ -57,10 +59,22 @@ def fetch_and_parse():
             url = "https://www.menuchiaro.it/greenlife/it/"
             print(f"Caricamento menu: {url}")
             driver.get(url)
-            time.sleep(8)
             
-            driver.find_element(By.CSS_SELECTOR, "a.func-menu").click()
-            time.sleep(8)
+            # Wait for menu button to be present and click it via JS to bypass overlays
+            try:
+                btn = WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "a.func-menu"))
+                )
+                driver.execute_script("arguments[0].click();", btn)
+            except Exception as e_click:
+                print(f"Errore: impossibile cliccare il menu. Titolo pagina: '{driver.title}'")
+                print(f"Sorgente pagina (primi 600 caratteri): {driver.page_source[:600]}")
+                raise e_click
+            
+            # Wait for menu content to load (wait for dish items inside elenco)
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.elenco li"))
+            )
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             
