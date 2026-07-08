@@ -303,8 +303,8 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     gap: 0.8rem;
     overflow-y: auto;
     flex: 1;
-    min-height: 250px;
-    max-height: 380px;
+    height: 330px;
+    max-height: 330px;
     padding-right: 0.25rem;
 }
 .sports-container::-webkit-scrollbar { width: 5px; }
