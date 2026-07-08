@@ -1,8 +1,17 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
+    "primi": [
+        "Risotto allo zafferano",
+        "Penne rucola e speck"
+    ],
+    "secondi": [
+        "Cotoletta di pollo",
+        "Trancio di verdesca in verde",
+        "Frittata alla campagnola"
+    ],
+    "contorni": [
+        "Patate arrosto"
+    ],
+    "date": "MER 8 LUG",
     "gas_price": "1.848",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
