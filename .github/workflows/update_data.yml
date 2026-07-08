@@ -2,8 +2,8 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    # Runs at 04:20 UTC (06:20 Italian summer time / 05:20 winter time) every day
-    - cron: '20 4 * * *'
+    # Runs at 01:33 UTC (03:33 Italian summer time / 02:33 winter time) every day
+    - cron: '33 1 * * *'
   workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
 
 permissions:
