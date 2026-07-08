@@ -30,7 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -c "
-          import urllib.request, json, os
+          import urllib.request, json, os, urllib.error
           token = os.getenv('GITHUB_TOKEN')
           repo = os.getenv('GITHUB_REPOSITORY')
           headers = {
@@ -62,8 +62,8 @@ jobs:
                   try:
                       with urllib.request.urlopen(status_req) as sr:
                           print(f'Stato impostato su inactive per il deploy {dep_id}')
-                  except Exception as e_status:
-                      print(f'Impossibile impostare stato inactive per {dep_id}: {e_status}')
+                  except urllib.error.HTTPError as e_status:
+                      print(f'Impossibile impostare stato inactive per {dep_id}: {e_status.code} - {e_status.read().decode()}')
                   
                   # 2. Delete deployment
                   del_url = f'https://api.github.com/repos/{repo}/deployments/{dep_id}'
@@ -71,10 +71,11 @@ jobs:
                   try:
                       with urllib.request.urlopen(del_req) as dr:
                           print(f'Deploy {dep_id} eliminato con successo.')
-                  except Exception as e_del:
-                      print(f'Errore eliminazione deploy {dep_id}: {e_del}')
-          except Exception as e:
-              print(f'Errore generale: {e}')
+                  except urllib.error.HTTPError as e_del:
+                      print(f'Errore eliminazione deploy {dep_id}: {e_del.code} - {e_del.read().decode()}')
+          except urllib.error.HTTPError as e:
+              print(f'Errore API: {e.code} - {e.read().decode()}')
+              raise e
           "
 
       - name: Setup Pages
