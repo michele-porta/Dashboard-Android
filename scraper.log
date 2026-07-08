@@ -1,0 +1,42 @@
+=== Mensa Greenlife & MIMIT Fuel Scraper ===
+Avvio del browser headless...
+Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
+Prezzo benzina Emilia Romagna rilevato: 1.848
+Caricamento menu: https://www.menuchiaro.it/greenlife/it/
+Errore: impossibile cliccare il menu. Titolo pagina: '403 Forbidden'
+Sorgente pagina (primi 600 caratteri): <html><head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+
+
+
+
+
+
+
+
+</body></html>
+Errore durante il recupero del menu della mensa: Message: 
+Stacktrace:
+#0 0x55f46cd113da <unknown>
+#1 0x55f46c6f3139 <unknown>
+#2 0x55f46c747884 <unknown>
+#3 0x55f46c747ad1 <unknown>
+#4 0x55f46c792974 <unknown>
+#5 0x55f46c78fb5c <unknown>
+#6 0x55f46c73ae4f <unknown>
+#7 0x55f46c73bc31 <unknown>
+#8 0x55f46ccd79f7 <unknown>
+#9 0x55f46ccd6203 <unknown>
+#10 0x55f46ccc0f16 <unknown>
+#11 0x55f46ccd6d9a <unknown>
+#12 0x55f46cca8eb0 <unknown>
+#13 0x55f46ccfdd58 <unknown>
+#14 0x55f46ccfdef5 <unknown>
+#15 0x55f46cd0ff5e <unknown>
+#16 0x7f09b369caa4 <unknown>
+#17 0x7f09b3729c6c <unknown>
+
+Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
+Tariffe Octopus rilevate: Luce=0,1243/72, Gas=0,49/84
+Aggiornamento di dashboard_data.json completato con successo!
