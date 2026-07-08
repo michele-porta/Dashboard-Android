@@ -1,8 +1,17 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
+    "primi": [
+        "Pasta al pomodoro fresco e mozzarella",
+        "Cous cous freddo con curry e verdure vegan (pf)"
+    ],
+    "secondi": [
+        "Arrosto di suino zenzero e miele",
+        "Filetto di nasello limone e rosmarino",
+        "Ricotta al forno in crosta di sesamo"
+    ],
+    "contorni": [
+        "Carote al burro e salvia"
+    ],
+    "date": "MER 8 LUG",
     "gas_price": "1.848",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
