@@ -2,12 +2,46 @@ import time
 import json
 import re
 import urllib.request
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
+def fetch_json(url, proxy=None):
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*'
+    })
+    if proxy:
+        proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
+        opener = urllib.request.build_opener(proxy_support)
+    else:
+        opener = urllib.request.build_opener()
+    with opener.open(req, timeout=10) as r:
+        return json.loads(r.read().decode('utf-8'))
+
+def get_it_proxies():
+    try:
+        px_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=IT&ssl=all&anonymity=all'
+        req = urllib.request.Request(px_url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            proxies = r.read().decode('utf-8').strip().split('\r\n')
+            return [p.strip() for p in proxies if p.strip()]
+    except Exception as e_px:
+        print("Impossibile recuperare lista proxy:", e_px)
+        return []
+
+def clean_match(m, is_past=True):
+    return {
+        "home": m.get("strHomeTeam", "N/D"),
+        "away": m.get("strAwayTeam", "N/D"),
+        "home_score": m.get("intHomeScore") if is_past else None,
+        "away_score": m.get("intAwayScore") if is_past else None,
+        "home_badge": m.get("strHomeTeamBadge") or "",
+        "away_badge": m.get("strAwayTeamBadge") or "",
+        "date": m.get("dateEvent") or "",
+        "time": m.get("strTime") or ""
+    }
 
 def fetch_and_parse():
     print("=== Mensa Greenlife & MIMIT Fuel Scraper ===")
@@ -15,7 +49,7 @@ def fetch_and_parse():
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("--lang=it-IT")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
@@ -31,12 +65,14 @@ def fetch_and_parse():
             "oct_luce_price": "N/D", "oct_luce_fee": "N/D",
             "oct_gas_price": "N/D", "oct_gas_fee": "N/D"
         }
+        
         # 1. Scrape Fuel Prices
         try:
             url_gas = "https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni"
             print(f"Caricamento prezzi carburanti: {url_gas}")
+            driver.set_page_load_timeout(15)
             driver.get(url_gas)
-            time.sleep(6)
+            time.sleep(4)
             
             soup_gas = BeautifulSoup(driver.page_source, 'html.parser')
             anchor = soup_gas.find(id="er")
@@ -56,44 +92,17 @@ def fetch_and_parse():
             print(f"Prezzo benzina Emilia Romagna rilevato: {gas_price}")
             menu["gas_price"] = gas_price
         except Exception as e_gas:
-            print("Errore durante il recupero dei prezzi del carburante:", e_gas)
-            menu["gas_price"] = "N/D"
+            print(f"Errore carburante: {e_gas}")
 
-        # 2. Scrape Canteen Menu (using direct JSON API with proxy failover)
+        # 2. Scrape Canteen Menu
         try:
-            from datetime import datetime, timedelta
             today_dt = datetime.now()
-            # Range: from 2 days ago to 5 days in the future to capture current week
             date_start = (today_dt - timedelta(days=2)).strftime("%Y-%m-%dT22:00:00.000Z")
             date_end = (today_dt + timedelta(days=5)).strftime("%Y-%m-%dT22:00:00.000Z")
             
             api_url = f"https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio={date_start}&dataFine={date_end}"
             print(f"Richiesta API Menu: {api_url}")
             
-            def fetch_json(url, proxy=None):
-                req = urllib.request.Request(url, headers={
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                    'Accept': 'application/json, text/plain, */*'
-                })
-                if proxy:
-                    proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
-                    opener = urllib.request.build_opener(proxy_support)
-                else:
-                    opener = urllib.request.build_opener()
-                with opener.open(req, timeout=10) as r:
-                    return json.loads(r.read().decode('utf-8'))
-
-            def get_it_proxies():
-                try:
-                    px_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=IT&ssl=all&anonymity=all'
-                    req = urllib.request.Request(px_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req, timeout=5) as r:
-                        proxies = r.read().decode('utf-8').strip().split('\r\n')
-                        return [p.strip() for p in proxies if p.strip()]
-                except Exception as e_px:
-                    print("Impossibile recuperare lista proxy:", e_px)
-                    return []
-
             data = None
             try:
                 print("Tentativo di caricamento diretto dell'API...")
@@ -115,7 +124,6 @@ def fetch_and_parse():
             if not data:
                 raise ValueError("Impossibile recuperare il menu sia direttamente che tramite proxy.")
 
-            # Parse Canteen JSON
             target_date = today_dt.date()
             dettagli = data.get("DettaglioGiorno", [])
             found = False
@@ -151,15 +159,14 @@ def fetch_and_parse():
                 menu["contorni"] = []
                 
         except Exception as e_canteen:
-            print("Errore durante il recupero del menu della mensa:", e_canteen)
-            raise e_canteen
+            print(f"Errore mensa: {e_canteen}")
 
         # 3. Scrape Octopus Energy Tariffs
         try:
             url_oct = "https://octopusenergy.it/offerta/tariffe"
             print(f"Caricamento tariffe Octopus: {url_oct}")
             driver.get(url_oct)
-            time.sleep(8)
+            time.sleep(5)
             
             page_src = driver.page_source
             matches = list(re.finditer(r'"displayName"\s*:\s*"([^"]*?Fissa 12M[^"]*?)"', page_src))
@@ -179,11 +186,11 @@ def fetch_and_parse():
                     menu["oct_luce_price"] = charge_val
                     menu["oct_luce_fee"] = fee_val
             
-            print(f"Tariffe Octopus rilevate: Luce={menu.get('oct_luce_price')}/{menu.get('oct_luce_fee')}, Gas={menu.get('oct_gas_price')}/{menu.get('oct_gas_fee')}")
+            print(f"Tariffe Octopus rilevate: Luce={menu.get('oct_luce_price')}, Gas={menu.get('oct_gas_price')}")
         except Exception as e_oct:
-            print("Errore durante il recupero delle tariffe Octopus:", e_oct)
+            print(f"Errore tariffe Octopus: {e_oct}")
 
-        # 4. Scrape Sports Data (World Cup, Serie A, Champions League)
+        # 4. Scrape Sports Data
         try:
             print("Caricamento risultati sportivi da TheSportsDB...")
             leagues = {
@@ -194,33 +201,18 @@ def fetch_and_parse():
             menu["sports"] = {}
             for name, lid in leagues.items():
                 try:
-                    # Fetch past
                     past_url = f"https://www.thesportsdb.com/api/v1/json/3/eventspastleague.php?id={lid}"
                     req_p = urllib.request.Request(past_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req_p, timeout=8) as rp:
+                    with urllib.request.urlopen(req_p, timeout=10) as rp:
                         p_data = json.loads(rp.read().decode('utf-8'))
                         
-                    # Fetch next
                     next_url = f"https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id={lid}"
                     req_n = urllib.request.Request(next_url, headers={'User-Agent': 'Mozilla/5.0'})
-                    with urllib.request.urlopen(req_n, timeout=8) as rn:
+                    with urllib.request.urlopen(req_n, timeout=10) as rn:
                         n_data = json.loads(rn.read().decode('utf-8'))
                         
                     p_events = p_data.get("events") or []
                     n_events = n_data.get("events") or []
-                    
-                    # Clean and format events in python to reduce JSON size
-                    def clean_match(m, is_past=True):
-                        return {
-                            "home": m.get("strHomeTeam", "N/D"),
-                            "away": m.get("strAwayTeam", "N/D"),
-                            "home_score": m.get("intHomeScore") if is_past else None,
-                            "away_score": m.get("intAwayScore") if is_past else None,
-                            "home_badge": m.get("strHomeTeamBadge") or "",
-                            "away_badge": m.get("strAwayTeamBadge") or "",
-                            "date": m.get("dateEvent") or "",
-                            "time": m.get("strTime") or ""
-                        }
                     
                     menu["sports"][name] = {
                         "past": [clean_match(m, True) for m in reversed(p_events[-5:])],
@@ -228,10 +220,10 @@ def fetch_and_parse():
                     }
                     print(f"Lega {name} caricata con successo.")
                 except Exception as e_league:
-                    print(f"Errore caricamento lega {name}:", e_league)
+                    print(f"Errore caricamento lega {name}: {e_league}")
                     menu["sports"][name] = {"past": [], "next": []}
         except Exception as e_sports:
-            print("Errore generale durante il recupero dei dati sportivi:", e_sports)
+            print(f"Errore generale risultati sportivi: {e_sports}")
 
         # Save to JSON
         with open("dashboard_data.json", "w", encoding="utf-8") as f_out:
@@ -239,7 +231,7 @@ def fetch_and_parse():
         print("Aggiornamento di dashboard_data.json completato con successo!")
         
     except Exception as e:
-        print("Errore durante lo scraping:", e)
+        print(f"Errore generale nello script: {e}")
     finally:
         driver.quit()
 

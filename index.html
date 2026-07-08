@@ -6,6 +6,8 @@
     <title>Smart Dashboard - Meteo, Bitcoin & Notizie</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="Dashboard interattiva con prezzo Bitcoin in tempo reale, previsioni meteo di Fidenza a 3 giorni e le ultime notizie del giorno.">
+    <!-- Security: Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https:;">
     <!-- Google Fonts: Outfit & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -196,10 +198,10 @@
                             <p class="subtitle">Mondiali, Serie A & Champions League</p>
                         </div>
                     </div>
-                    <div class="sports-tabs">
-                        <button class="sports-tab active" id="tab-worldcup" onclick="switchSportsLeague('worldcup')">Mondiali</button>
-                        <button class="sports-tab" id="tab-seriea" onclick="switchSportsLeague('seriea')">Serie A</button>
-                        <button class="sports-tab" id="tab-champions" onclick="switchSportsLeague('champions')">Champions</button>
+                    <div class="sports-tabs" id="sports-tabs-container">
+                        <button class="sports-tab active" id="tab-worldcup" data-league="worldcup">Mondiali</button>
+                        <button class="sports-tab" id="tab-seriea" data-league="seriea">Serie A</button>
+                        <button class="sports-tab" id="tab-champions" data-league="champions">Champions</button>
                     </div>
                 </div>
 
@@ -404,6 +406,6 @@
     </div>
 
     <!-- Main JavaScript Logic -->
-    <script src="app.js?v=1.0.6"></script>
+    <script type="module" src="js/main.js?v=1.0.7"></script>
 </body>
 </html>

@@ -21,6 +21,10 @@
     --success-glow: rgba(16, 185, 129, 0.2);
     --danger: #ef4444;
     --danger-glow: rgba(239, 68, 68, 0.2);
+    --color-orange: #f97316;
+    --color-cyan: #06b6d4;
+    --color-blue: #3b82f6;
+    --color-yellow: #eab308;
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -131,7 +135,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
 .weather-main-icon-wrapper i { width: 58px; height: 58px; color: var(--weather-color); filter: drop-shadow(0 0 12px rgba(14, 165, 233, 0.4)); }
 .weather-detail-item { display: flex; align-items: center; gap: 0.75rem; background: rgba(255, 255, 255, 0.02); padding: 0.75rem 1rem; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.03); }
 .weather-detail-item i { width: 22px; height: 22px; }
-.text-orange { color: #f97316; } .text-cyan { color: #06b6d4; } .text-blue { color: #3b82f6; } .text-yellow { color: #eab308; }
+.text-orange { color: var(--color-orange); } .text-cyan { color: var(--color-cyan); } .text-blue { color: var(--color-blue); } .text-yellow { color: var(--color-yellow); }
 .detail-texts { display: flex; flex-direction: column; }
 
 .forecast-section, .menu-courses { display: flex; flex-direction: column; gap: 0.75rem; }
