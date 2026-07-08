@@ -26,6 +26,7 @@ let newsArticles = [];
 let activeNewsIndex = 0;
 let newsRotationInterval = null;
 let activeSportsLeague = "worldcup";
+let sportsData = {};
 
 document.addEventListener("DOMContentLoaded", () => {
     initClock();
@@ -49,8 +50,7 @@ async function refreshDashboard() {
     btn.classList.add("loading");
     await Promise.allSettled([
         updateBitcoinPrice(), updateBitcoinChart(), updateWeather(), 
-        updateNews(), updateCommodities(), updateDashboardData(),
-        updateSportsData()
+        updateNews(), updateCommodities(), updateDashboardData()
     ]);
     setTimeout(() => btn.classList.remove("loading"), 600);
 }
@@ -405,6 +405,10 @@ async function updateDashboardData() {
         document.getElementById("oct-gas-price").textContent = data.oct_gas_price || "--.--";
         document.getElementById("oct-gas-fee").textContent = data.oct_gas_fee || "--";
         
+        // Sports Data
+        sportsData = data.sports || {};
+        updateSportsData();
+        
         updateCardStatus("canteen-section", "canteen-update-time", true);
         lucide.createIcons();
     } catch {
@@ -416,43 +420,24 @@ async function updateDashboardData() {
         document.getElementById("oct-luce-fee").textContent = "--";
         document.getElementById("oct-gas-price").textContent = "--.--";
         document.getElementById("oct-gas-fee").textContent = "--";
+        
+        sportsData = {};
+        updateSportsData();
+        
         updateCardStatus("canteen-section", "canteen-update-time", false);
         showToast("Errore nel caricamento del menù e delle tariffe.");
     }
 }
 
-async function updateSportsData() {
+function updateSportsData() {
     try {
-        let leagueId = "4429"; // Default: World Cup
-        if (activeSportsLeague === "seriea") {
-            leagueId = "4332";
-        } else if (activeSportsLeague === "champions") {
-            leagueId = "4480";
-        }
+        const league = activeSportsLeague; // "worldcup", "seriea", "champions"
+        const data = sportsData[league] || { past: [], next: [] };
         
-        // Fetch past results and upcoming matches in parallel
-        const [pastRes, nextRes] = await Promise.all([
-            fetch(`https://www.thesportsdb.com/api/v1/json/3/eventspastleague.php?id=${leagueId}`),
-            fetch(`https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id=${leagueId}`)
-        ]);
-        
-        if (!pastRes.ok || !nextRes.ok) throw new Error();
-        
-        const pastData = await pastRes.json();
-        const nextData = await nextRes.json();
-        
-        const pastEvents = pastData.events || [];
-        const nextEvents = nextData.events || [];
-        
-        // Take latest 5 completed matches (reverse to get most recent) and next 5 scheduled matches
-        const recentResults = [...pastEvents].reverse().slice(0, 5);
-        const upcomingMatches = nextEvents.slice(0, 5);
-        
-        renderSports(recentResults, upcomingMatches);
+        renderSports(data.past, data.next);
         updateCardStatus("sports-section", "sports-update-time", true);
     } catch (e) {
-        console.error("Sports API Error:", e);
-        showToast("Errore nel recupero dei risultati sportivi.");
+        console.error("Sports render error:", e);
         updateCardStatus("sports-section", "sports-update-time", false);
     }
 }
@@ -472,12 +457,12 @@ function renderSports(past, next) {
     if (past.length > 0) {
         html += `<div class="match-round">Ultimi Risultati</div>`;
         past.forEach(match => {
-            const homeScore = match.intHomeScore !== null ? match.intHomeScore : "-";
-            const awayScore = match.intAwayScore !== null ? match.intAwayScore : "-";
-            const homeBadge = match.strHomeTeamBadge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
-            const awayBadge = match.strAwayTeamBadge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
-            const homeName = escapeHTML(match.strHomeTeam);
-            const awayName = escapeHTML(match.strAwayTeam);
+            const homeScore = match.home_score !== null && match.home_score !== undefined ? match.home_score : "-";
+            const awayScore = match.away_score !== null && match.away_score !== undefined ? match.away_score : "-";
+            const homeBadge = match.home_badge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
+            const awayBadge = match.away_badge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
+            const homeName = escapeHTML(match.home);
+            const awayName = escapeHTML(match.away);
             
             html += `
                 <div class="match-item">
@@ -503,13 +488,13 @@ function renderSports(past, next) {
     if (next.length > 0) {
         html += `<div class="match-round" style="margin-top: 1rem;">Prossimi Incontri</div>`;
         next.forEach(match => {
-            const homeBadge = match.strHomeTeamBadge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
-            const awayBadge = match.strAwayTeamBadge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
-            const homeName = escapeHTML(match.strHomeTeam);
-            const awayName = escapeHTML(match.strAwayTeam);
+            const homeBadge = match.home_badge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
+            const awayBadge = match.away_badge || 'https://r2.thesportsdb.com/images/media/team/badge/placeholder.png';
+            const homeName = escapeHTML(match.home);
+            const awayName = escapeHTML(match.away);
             
-            let dateStr = match.dateEvent || "";
-            let timeStr = match.strTime || "";
+            let dateStr = match.date || "";
+            let timeStr = match.time || "";
             let displayTime = "";
             if (dateStr) {
                 const parts = dateStr.split("-");
@@ -561,12 +546,6 @@ function switchSportsLeague(league) {
     } else if (league === "champions") {
         document.getElementById("tab-champions").classList.add("active");
     }
-    
-    document.getElementById("sports-container").innerHTML = `
-        <div class="sports-no-matches">
-            <span style="opacity: 0.7;">Caricamento dati...</span>
-        </div>
-    `;
     
     updateSportsData();
 }

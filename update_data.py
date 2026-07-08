@@ -183,6 +183,56 @@ def fetch_and_parse():
         except Exception as e_oct:
             print("Errore durante il recupero delle tariffe Octopus:", e_oct)
 
+        # 4. Scrape Sports Data (World Cup, Serie A, Champions League)
+        try:
+            print("Caricamento risultati sportivi da TheSportsDB...")
+            leagues = {
+                "worldcup": "4429",
+                "seriea": "4332",
+                "champions": "4480"
+            }
+            menu["sports"] = {}
+            for name, lid in leagues.items():
+                try:
+                    # Fetch past
+                    past_url = f"https://www.thesportsdb.com/api/v1/json/3/eventspastleague.php?id={lid}"
+                    req_p = urllib.request.Request(past_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req_p, timeout=8) as rp:
+                        p_data = json.loads(rp.read().decode('utf-8'))
+                        
+                    # Fetch next
+                    next_url = f"https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id={lid}"
+                    req_n = urllib.request.Request(next_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req_n, timeout=8) as rn:
+                        n_data = json.loads(rn.read().decode('utf-8'))
+                        
+                    p_events = p_data.get("events") or []
+                    n_events = n_data.get("events") or []
+                    
+                    # Clean and format events in python to reduce JSON size
+                    def clean_match(m, is_past=True):
+                        return {
+                            "home": m.get("strHomeTeam", "N/D"),
+                            "away": m.get("strAwayTeam", "N/D"),
+                            "home_score": m.get("intHomeScore") if is_past else None,
+                            "away_score": m.get("intAwayScore") if is_past else None,
+                            "home_badge": m.get("strHomeTeamBadge") or "",
+                            "away_badge": m.get("strAwayTeamBadge") or "",
+                            "date": m.get("dateEvent") or "",
+                            "time": m.get("strTime") or ""
+                        }
+                    
+                    menu["sports"][name] = {
+                        "past": [clean_match(m, True) for m in reversed(p_events[-5:])],
+                        "next": [clean_match(m, False) for m in n_events[:5]]
+                    }
+                    print(f"Lega {name} caricata con successo.")
+                except Exception as e_league:
+                    print(f"Errore caricamento lega {name}:", e_league)
+                    menu["sports"][name] = {"past": [], "next": []}
+        except Exception as e_sports:
+            print("Errore generale durante il recupero dei dati sportivi:", e_sports)
+
         # Save to JSON
         with open("dashboard_data.json", "w", encoding="utf-8") as f_out:
             json.dump(menu, f_out, indent=4, ensure_ascii=False)
