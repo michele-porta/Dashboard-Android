@@ -1,6 +1,7 @@
 import time
 import json
 import re
+import urllib.request
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -58,65 +59,97 @@ def fetch_and_parse():
             print("Errore durante il recupero dei prezzi del carburante:", e_gas)
             menu["gas_price"] = "N/D"
 
-        # 2. Scrape Canteen Menu
+        # 2. Scrape Canteen Menu (using direct JSON API with proxy failover)
         try:
-            url = "https://www.menuchiaro.it/greenlife/it/"
-            print(f"Caricamento menu: {url}")
-            driver.get(url)
+            from datetime import datetime, timedelta
+            today_dt = datetime.now()
+            # Range: from 2 days ago to 5 days in the future to capture current week
+            date_start = (today_dt - timedelta(days=2)).strftime("%Y-%m-%dT22:00:00.000Z")
+            date_end = (today_dt + timedelta(days=5)).strftime("%Y-%m-%dT22:00:00.000Z")
             
-            # Wait for menu button to be present and click it via JS to bypass overlays
+            api_url = f"https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio={date_start}&dataFine={date_end}"
+            print(f"Richiesta API Menu: {api_url}")
+            
+            def fetch_json(url, proxy=None):
+                req = urllib.request.Request(url, headers={
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept': 'application/json, text/plain, */*'
+                })
+                if proxy:
+                    proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
+                    opener = urllib.request.build_opener(proxy_support)
+                else:
+                    opener = urllib.request.build_opener()
+                with opener.open(req, timeout=10) as r:
+                    return json.loads(r.read().decode('utf-8'))
+
+            def get_it_proxies():
+                try:
+                    px_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=IT&ssl=all&anonymity=all'
+                    req = urllib.request.Request(px_url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req, timeout=5) as r:
+                        proxies = r.read().decode('utf-8').strip().split('\r\n')
+                        return [p.strip() for p in proxies if p.strip()]
+                except Exception as e_px:
+                    print("Impossibile recuperare lista proxy:", e_px)
+                    return []
+
+            data = None
             try:
-                btn = WebDriverWait(driver, 20).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "a.func-menu"))
-                )
-                driver.execute_script("arguments[0].click();", btn)
-            except Exception as e_click:
-                print(f"Errore: impossibile cliccare il menu. Titolo pagina: '{driver.title}'")
-                print(f"Sorgente pagina (primi 600 caratteri): {driver.page_source[:600]}")
-                raise e_click
-            
-            # Wait for menu content to load (wait for dish items inside elenco)
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.elenco li"))
-            )
-            
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            
-            selected_day = soup.find('div', class_='selected')
-            if selected_day:
-                dw = selected_day.find('span', class_='dayofweek')
-                dn = selected_day.find('span', class_='day')
-                m = selected_day.find('span', class_='month')
-                menu["date"] = f"{dw.text.strip() if dw else ''} {dn.text.strip() if dn else ''} {m.text.strip() if m else ''}".upper()
-            else:
-                menu["date"] = "OGGI"
+                print("Tentativo di caricamento diretto dell'API...")
+                data = fetch_json(api_url)
+                print("Caricamento diretto riuscito!")
+            except Exception as e_direct:
+                print(f"Caricamento diretto fallito ({e_direct}). Avvio rotazione proxy...")
+                proxies = get_it_proxies()
+                print(f"Trovati {len(proxies)} proxy da testare.")
+                for px in proxies:
+                    try:
+                        print(f"Tentativo con proxy: {px}")
+                        data = fetch_json(api_url, proxy=px)
+                        print(f"SUCCESS con proxy: {px}!")
+                        break
+                    except Exception as e_px_fail:
+                        print(f"Proxy {px} fallito: {e_px_fail}")
                 
-            for row in soup.find_all('div', class_='elenco'):
-                header = row.find('h3')
-                if not header:
+            if not data:
+                raise ValueError("Impossibile recuperare il menu sia direttamente che tramite proxy.")
+
+            # Parse Canteen JSON
+            target_date = today_dt.date()
+            dettagli = data.get("DettaglioGiorno", [])
+            found = False
+            for giorno in dettagli:
+                date_str = giorno.get("DataRiferimento", "")
+                m = re.search(r'/Date\((\d+)', date_str)
+                if not m:
                     continue
-                header_text = header.text.strip().lower()
+                ts = int(m.group(1)) / 1000.0
+                dt = datetime.fromtimestamp(ts)
+                if dt.date() == target_date:
+                    found = True
+                    wd_map = ["LUN", "MAR", "MER", "GIO", "VEN", "SAB", "DOM"]
+                    m_map = ["GEN", "FEB", "MAR", "APR", "MAG", "GIU", "LUG", "AGO", "SET", "OTT", "NOV", "DIC"]
+                    menu["date"] = f"{wd_map[dt.weekday()]} {dt.day} {m_map[dt.month - 1]}"
+                    
+                    for cat in giorno.get("Categorie", []):
+                        cat_desc = cat.get("Descrizione", "").lower()
+                        dishes = [p.get("Descrizione") for p in cat.get("Piatti", []) if p.get("Descrizione")]
+                        if "primo" in cat_desc:
+                            menu["primi"] = dishes[:2]
+                        elif "secondo" in cat_desc:
+                            menu["secondi"] = dishes[:3]
+                        elif "contorn" in cat_desc:
+                            menu["contorni"] = dishes[:1]
+                    break
+            
+            if not found:
+                print(f"Nessun menu trovato per la data di oggi: {target_date}")
+                menu["date"] = "OGGI"
+                menu["primi"] = []
+                menu["secondi"] = []
+                menu["contorni"] = []
                 
-                dishes = []
-                for li in row.find_all('li'):
-                    a_tag = li.find('a')
-                    if a_tag:
-                        dish_text = a_tag.text.strip()
-                        p_tag = a_tag.find('p')
-                        if p_tag:
-                            p_text = p_tag.text.strip()
-                            if p_text:
-                                dish_text = dish_text.replace(p_text, "").strip()
-                        dish_name = dish_text.split('\n')[0].strip()
-                        if dish_name and dish_name not in dishes:
-                            dishes.append(dish_name)
-                            
-                if "primo" in header_text:
-                    menu["primi"] = dishes[:2]
-                elif "secondo" in header_text:
-                    menu["secondi"] = dishes[:3]
-                elif "contorn" in header_text:
-                    menu["contorni"] = dishes[:1]
         except Exception as e_canteen:
             print("Errore durante il recupero del menu della mensa:", e_canteen)
             raise e_canteen
