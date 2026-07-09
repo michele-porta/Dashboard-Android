@@ -1,17 +1,17 @@
 {
     "primi": [
-        "Pasta al pomodoro fresco e mozzarella",
-        "Cous cous freddo con curry e verdure vegan (pf)"
+        "Sedani del salumiere",
+        "Insalata di farro vegan (pf)"
     ],
     "secondi": [
-        "Arrosto di suino zenzero e miele",
-        "Filetto di nasello limone e rosmarino",
-        "Ricotta al forno in crosta di sesamo "
+        "Bocconcini di manzo in salsa di soia e verdure",
+        "Filetto di scorfano in croccante di mais",
+        "Tortino di pasta sfoglia e verdure "
     ],
     "contorni": [
-        "Carote al burro e salvia"
+        "Fagiolini con olive nere ed erba cipollina"
     ],
-    "date": "MER 8 LUG",
+    "date": "GIO 9 LUG",
     "gas_price": "1.848",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
@@ -73,25 +73,25 @@
         "champions": {
             "past": [
                 {
-                    "home": "Víkingur Reykjavík",
-                    "away": "Győri ETO",
+                    "home": "Maxline Vitebsk",
+                    "away": "Universitatea Craiova",
                     "home_score": "1",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/srhq2w1579111270.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/mk29081781160208.png",
-                    "date": "2026-07-07",
-                    "time": "19:00:00"
+                    "away_score": "4",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wl5hg71779336693.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/1jdz2y1579793710.png",
+                    "date": "2026-07-08",
+                    "time": "17:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Kairat Almaty",
-                    "away": "Sutjeska",
+                    "home": "KuPS",
+                    "away": "Vardar",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jgxq3z1565903948.png",
-                    "date": "2026-07-08",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8vj1d11738559246.png",
+                    "date": "2026-07-14",
                     "time": "15:00:00"
                 }
             ]
