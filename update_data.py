@@ -3,6 +3,7 @@ import json
 import re
 import urllib.request
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -96,7 +97,8 @@ def fetch_and_parse():
 
         # 2. Scrape Canteen Menu
         try:
-            today_dt = datetime.now()
+            tz_rome = ZoneInfo("Europe/Rome")
+            today_dt = datetime.now(tz_rome)
             date_start = (today_dt - timedelta(days=2)).strftime("%Y-%m-%dT22:00:00.000Z")
             date_end = (today_dt + timedelta(days=5)).strftime("%Y-%m-%dT22:00:00.000Z")
             
@@ -133,7 +135,7 @@ def fetch_and_parse():
                 if not m:
                     continue
                 ts = int(m.group(1)) / 1000.0
-                dt = datetime.fromtimestamp(ts)
+                dt = datetime.fromtimestamp(ts, tz=tz_rome)
                 if dt.date() == target_date:
                     found = True
                     wd_map = ["LUN", "MAR", "MER", "GIO", "VEN", "SAB", "DOM"]
