@@ -2,6 +2,7 @@ import time
 import json
 import re
 import urllib.request
+import concurrent.futures
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
@@ -9,29 +10,34 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-def fetch_json(url, proxy=None):
-    req = urllib.request.Request(url, headers={
+def get_geonode_proxies():
+    # Fetch 100 HTTP/HTTPS proxies worldwide sorted by lastChecked
+    url = "https://proxylist.geonode.com/api/proxy-list?limit=100&page=1&sort_by=lastChecked&sort_type=desc&protocols=http%2Chttps"
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read().decode('utf-8'))
+        proxies = data.get('data', [])
+        return [f"{p.get('ip')}:{p.get('port')}" for p in proxies]
+    except Exception as e:
+        print(f"Errore nel recupero dei proxy da Geonode: {e}")
+        return []
+
+def try_proxy_fetch(api_url, proxy):
+    req = urllib.request.Request(api_url, headers={
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*'
     })
-    if proxy:
-        proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
-        opener = urllib.request.build_opener(proxy_support)
-    else:
-        opener = urllib.request.build_opener()
-    with opener.open(req, timeout=10) as r:
-        return json.loads(r.read().decode('utf-8'))
-
-def get_it_proxies():
+    proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
+    opener = urllib.request.build_opener(proxy_support)
     try:
-        px_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=IT&ssl=all&anonymity=all'
-        req = urllib.request.Request(px_url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=10) as r:
-            proxies = r.read().decode('utf-8').strip().split('\r\n')
-            return [p.strip() for p in proxies if p.strip()]
-    except Exception as e_px:
-        print("Impossibile recuperare lista proxy:", e_px)
-        return []
+        with opener.open(req, timeout=8) as r:
+            res_data = json.loads(r.read().decode('utf-8'))
+            if "DettaglioGiorno" in res_data:
+                return res_data
+    except Exception:
+        pass
+    return None
 
 def clean_match(m, is_past=True):
     return {
@@ -115,15 +121,21 @@ def fetch_and_parse():
                 data = json.loads(json_text)
                 print("Menu caricato ed elaborato con successo tramite Selenium!")
             except Exception as e_sel:
-                print(f"Caricamento via Selenium fallito ({e_sel}).")
-                try:
-                    print(f"BODY TEXT PREVIEW: {driver.find_element(By.TAG_NAME, 'body').text[:500]}")
-                    print(f"PAGE SOURCE PREVIEW: {driver.page_source[:500]}")
-                except Exception as e_inner:
-                    print(f"Impossibile estrarre sorgente pagina: {e_inner}")
+                print(f"Caricamento via Selenium fallito ({e_sel}). Avvio recupero parallelo tramite proxy...")
+                proxies = get_geonode_proxies()
+                if proxies:
+                    print(f"Avvio test di {len(proxies)} proxy in parallelo...")
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+                        futures = {executor.submit(try_proxy_fetch, api_url, px): px for px in proxies}
+                        for future in concurrent.futures.as_completed(futures):
+                            res = future.result()
+                            if res:
+                                data = res
+                                print(f"Menu caricato con successo tramite proxy: {futures[future]}")
+                                break
                 
             if not data:
-                raise ValueError("Impossibile recuperare il menu tramite Selenium.")
+                raise ValueError("Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.")
 
             target_date = today_dt.date()
             dettagli = data.get("DettaglioGiorno", [])
