@@ -7,6 +7,7 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 
 def fetch_json(url, proxy=None):
     req = urllib.request.Request(url, headers={
@@ -103,28 +104,21 @@ def fetch_and_parse():
             date_end = (today_dt + timedelta(days=5)).strftime("%Y-%m-%dT22:00:00.000Z")
             
             api_url = f"https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio={date_start}&dataFine={date_end}"
-            print(f"Richiesta API Menu: {api_url}")
+            print(f"Caricamento API Menu via Selenium: {api_url}")
             
             data = None
             try:
-                print("Tentativo di caricamento diretto dell'API...")
-                data = fetch_json(api_url)
-                print("Caricamento diretto riuscito!")
-            except Exception as e_direct:
-                print(f"Caricamento diretto fallito ({e_direct}). Avvio rotazione proxy...")
-                proxies = get_it_proxies()
-                print(f"Trovati {len(proxies)} proxy da testare.")
-                for px in proxies:
-                    try:
-                        print(f"Tentativo con proxy: {px}")
-                        data = fetch_json(api_url, proxy=px)
-                        print(f"SUCCESS con proxy: {px}!")
-                        break
-                    except Exception as e_px_fail:
-                        print(f"Proxy {px} fallito: {e_px_fail}")
+                driver.get(api_url)
+                time.sleep(3)
+                body_element = driver.find_element(By.TAG_NAME, "body")
+                json_text = body_element.text
+                data = json.loads(json_text)
+                print("Menu caricato ed elaborato con successo tramite Selenium!")
+            except Exception as e_sel:
+                print(f"Caricamento via Selenium fallito ({e_sel}).")
                 
             if not data:
-                raise ValueError("Impossibile recuperare il menu sia direttamente che tramite proxy.")
+                raise ValueError("Impossibile recuperare il menu tramite Selenium.")
 
             target_date = today_dt.date()
             dettagli = data.get("DettaglioGiorno", [])
