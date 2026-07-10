@@ -60,5 +60,5 @@ Lo scraper headless estrae i dati complessi non disponibili tramite API pubblich
 
 Questo progetto è stato sviluppato, ottimizzato e configurato con il supporto di:
 * **Antigravity**: L'assistente di programmazione AI di Google DeepMind.
-* **Gemini 3.5 Flash (Medium)**: Il modello LLM che ha guidato lo sviluppo, l'audit di sicurezza, le ottimizzazioni di rete e la configurazione dell'automazione CI/CD.
+* **Gemini 3.5 Flash (High)**: Il modello LLM che ha guidato lo sviluppo, l'audit di sicurezza, le ottimizzazioni di rete e la configurazione dell'automazione CI/CD.
 
