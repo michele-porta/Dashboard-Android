@@ -1,18 +1,18 @@
 {
     "primi": [
-        "Risotto allo zafferano",
-        "Penne rucola e speck"
+        "Sedani del salumiere",
+        "Insalata di farro vegan (pf)"
     ],
     "secondi": [
-        "Cotoletta di pollo",
-        "Trancio di verdesca in verde",
-        "Frittata alla campagnola"
+        "Bocconcini di manzo in salsa di soia e verdure",
+        "Filetto di scorfano in croccante di mais",
+        "Tortino di pasta sfoglia e verdure "
     ],
     "contorni": [
-        "Patate arrosto"
+        "Fagiolini con olive nere ed erba cipollina"
     ],
-    "date": "GIO 9 LUG",
-    "gas_price": "1.851",
+    "date": "VEN 10 LUG",
+    "gas_price": "1.861",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,49",
@@ -21,26 +21,26 @@
         "worldcup": {
             "past": [
                 {
-                    "home": "Switzerland",
-                    "away": "Colombia",
-                    "home_score": "0",
+                    "home": "France",
+                    "away": "Morocco",
+                    "home_score": "2",
                     "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/mb7yqe1717365808.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
-                    "date": "2026-07-07",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hbmwkj1731791275.png",
+                    "date": "2026-07-09",
                     "time": "20:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "France",
-                    "away": "Morocco",
+                    "home": "Spain",
+                    "away": "Belgium",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hbmwkj1731791275.png",
-                    "date": "2026-07-09",
-                    "time": "20:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8xlvxv1592062265.png",
+                    "date": "2026-07-10",
+                    "time": "19:00:00"
                 }
             ]
         },
