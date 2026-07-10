@@ -1,8 +1,17 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
+    "primi": [
+        "Sedani del salumiere",
+        "Insalata di farro vegan (pf)"
+    ],
+    "secondi": [
+        "Bocconcini di manzo in salsa di soia e verdure",
+        "Filetto di scorfano in croccante di mais",
+        "Tortino di pasta sfoglia e verdure "
+    ],
+    "contorni": [
+        "Fagiolini con olive nere ed erba cipollina"
+    ],
+    "date": "VEN 10 LUG",
     "gas_price": "1.861",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
