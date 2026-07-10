@@ -11,8 +11,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 def get_geonode_proxies():
-    # Fetch 100 HTTP/HTTPS proxies worldwide sorted by lastChecked
-    url = "https://proxylist.geonode.com/api/proxy-list?limit=100&page=1&sort_by=lastChecked&sort_type=desc&protocols=http%2Chttps"
+    # Fetch 30 HTTP/HTTPS proxies worldwide sorted by lastChecked (freshest and most likely to work)
+    url = "https://proxylist.geonode.com/api/proxy-list?limit=30&page=1&sort_by=lastChecked&sort_type=desc&protocols=http%2Chttps"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req, timeout=10) as r:
@@ -31,7 +31,7 @@ def try_proxy_fetch(api_url, proxy):
     proxy_support = urllib.request.ProxyHandler({'http': proxy, 'https': proxy})
     opener = urllib.request.build_opener(proxy_support)
     try:
-        with opener.open(req, timeout=8) as r:
+        with opener.open(req, timeout=6) as r:
             res_data = json.loads(r.read().decode('utf-8'))
             if "DettaglioGiorno" in res_data:
                 return res_data
@@ -125,7 +125,7 @@ def fetch_and_parse():
                 proxies = get_geonode_proxies()
                 if proxies:
                     print(f"Avvio test di {len(proxies)} proxy in parallelo...")
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
                         futures = {executor.submit(try_proxy_fetch, api_url, px): px for px in proxies}
                         for future in concurrent.futures.as_completed(futures):
                             res = future.result()
