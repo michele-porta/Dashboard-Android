@@ -116,6 +116,11 @@ def fetch_and_parse():
                 print("Menu caricato ed elaborato con successo tramite Selenium!")
             except Exception as e_sel:
                 print(f"Caricamento via Selenium fallito ({e_sel}).")
+                try:
+                    print(f"BODY TEXT PREVIEW: {driver.find_element(By.TAG_NAME, 'body').text[:500]}")
+                    print(f"PAGE SOURCE PREVIEW: {driver.page_source[:500]}")
+                except Exception as e_inner:
+                    print(f"Impossibile estrarre sorgente pagina: {e_inner}")
                 
             if not data:
                 raise ValueError("Impossibile recuperare il menu tramite Selenium.")
