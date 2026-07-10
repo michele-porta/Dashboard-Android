@@ -1,22 +1,10 @@
 === Mensa Greenlife & MIMIT Fuel Scraper ===
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
-Prezzo benzina Emilia Romagna rilevato: 1.851
-Richiesta API Menu: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-08T22:00:00.000Z&dataFine=2026-07-15T22:00:00.000Z
+Prezzo benzina Emilia Romagna rilevato: 1.848
+Richiesta API Menu: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-06T22:00:00.000Z&dataFine=2026-07-13T22:00:00.000Z
 Tentativo di caricamento diretto dell'API...
-Caricamento diretto fallito (HTTP Error 403: Forbidden). Avvio rotazione proxy...
-Trovati 3 proxy da testare.
-Tentativo con proxy: 93.187.25.12:58080
-Proxy 93.187.25.12:58080 fallito: <urlopen error timed out>
-Tentativo con proxy: 193.43.140.222:7890
-Proxy 193.43.140.222:7890 fallito: <urlopen error timed out>
-Tentativo con proxy: 93.187.26.134:58080
-Proxy 93.187.26.134:58080 fallito: <urlopen error timed out>
-Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy.
+Caricamento diretto riuscito!
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
-Tariffe Octopus rilevate: Luce=0,1243, Gas=0,49
-Caricamento risultati sportivi da TheSportsDB...
-Lega worldcup caricata con successo.
-Lega seriea caricata con successo.
-Lega champions caricata con successo.
+Tariffe Octopus rilevate: Luce=0,1243/72, Gas=0,49/84
 Aggiornamento di dashboard_data.json completato con successo!
