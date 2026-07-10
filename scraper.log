@@ -4,6 +4,13 @@ Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburan
 Prezzo benzina Emilia Romagna rilevato: 1.861
 Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-08T22:00:00.000Z&dataFine=2026-07-15T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)).
+BODY TEXT PREVIEW: 403 Forbidden
+PAGE SOURCE PREVIEW: <html><head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+
+
+</body></html>
 Errore mensa: Impossibile recuperare il menu tramite Selenium.
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
 Tariffe Octopus rilevate: Luce=0,1243, Gas=0,49
