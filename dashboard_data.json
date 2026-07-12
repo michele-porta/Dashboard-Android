@@ -2,8 +2,8 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "SAB 11 LUG",
-    "gas_price": "1.861",
+    "date": "DOM 12 LUG",
+    "gas_price": "1.871",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,49",
@@ -12,26 +12,26 @@
         "worldcup": {
             "past": [
                 {
-                    "home": "Spain",
-                    "away": "Belgium",
-                    "home_score": "2",
+                    "home": "Argentina",
+                    "away": "Switzerland",
+                    "home_score": "3",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8xlvxv1592062265.png",
-                    "date": "2026-07-10",
-                    "time": "19:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/mb7yqe1717365808.png",
+                    "date": "2026-07-12",
+                    "time": "01:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Norway",
-                    "away": "England",
+                    "home": "France",
+                    "away": "Spain",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/gyfn811591973155.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
-                    "date": "2026-07-11",
-                    "time": "21:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
+                    "date": "2026-07-14",
+                    "time": "19:00:00"
                 }
             ]
         },
