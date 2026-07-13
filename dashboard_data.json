@@ -1,9 +1,18 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "DOM 12 LUG",
-    "gas_price": "1.871",
+    "primi": [
+        "Sedani alla puttanesca",
+        "Insalata di pasta con ceci, olive, pomodoro e basilico vegan (pf)"
+    ],
+    "secondi": [
+        "Rosticciata di wurstel salsiccia e patate",
+        "Trancio di verdesca alla pugliese",
+        "Sfogliata di zucchine e asparagi vegan"
+    ],
+    "contorni": [
+        "Carote trifolate"
+    ],
+    "date": "LUN 13 LUG",
+    "gas_price": "1.872",
     "oct_luce_price": "0,1243",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,49",
