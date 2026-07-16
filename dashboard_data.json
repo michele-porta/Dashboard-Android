@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "1.878",
+    "gas_price": "1.891",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,54",
@@ -12,26 +12,26 @@
         "worldcup": {
             "past": [
                 {
-                    "home": "France",
-                    "away": "Spain",
-                    "home_score": "0",
+                    "home": "England",
+                    "away": "Argentina",
+                    "home_score": "1",
                     "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
-                    "date": "2026-07-14",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
+                    "date": "2026-07-15",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "England",
-                    "away": "Argentina",
+                    "home": "France",
+                    "away": "England",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
-                    "date": "2026-07-15",
-                    "time": "19:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+                    "date": "2026-07-18",
+                    "time": "21:00:00"
                 }
             ]
         },
@@ -64,26 +64,26 @@
         "champions": {
             "past": [
                 {
-                    "home": "Larne",
-                    "away": "Tre Fiori",
-                    "home_score": "2",
+                    "home": "Egnatia",
+                    "away": "Petrocub Hîncești",
+                    "home_score": "6",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/pg8k1v1615586095.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/rvtlzi1690787341.png",
-                    "date": "2026-07-14",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/r2mzoe1781541722.png",
+                    "date": "2026-07-15",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Universitatea Craiova",
-                    "away": "Maxline Vitebsk",
+                    "home": "AGF Aarhus",
+                    "away": "Lech Poznań",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/1jdz2y1579793710.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/wl5hg71779336693.png",
-                    "date": "2026-07-15",
-                    "time": "17:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8zfxyx1685597440.png",
+                    "date": "2026-07-21",
+                    "time": "17:00:00"
                 }
             ]
         }

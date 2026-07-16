@@ -1,8 +1,8 @@
 === Mensa Greenlife & MIMIT Fuel Scraper ===
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
-Prezzo benzina Emilia Romagna rilevato: 1.878
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-13T22:00:00.000Z&dataFine=2026-07-20T22:00:00.000Z
+Prezzo benzina Emilia Romagna rilevato: 1.891
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-14T22:00:00.000Z&dataFine=2026-07-21T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
 Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
