@@ -1,46 +1,46 @@
 {
     "primi": [
-        "Sedani del salumiere",
-        "Insalata di farro vegan (pf)"
+        "Pasta con scorfano e pesto di zucchine",
+        "Pasta fredda mediterranea (pf)"
     ],
     "secondi": [
-        "Bocconcini di manzo in salsa di soia e verdure",
-        "Filetto di scorfano in croccante di mais",
-        "Tortino di pasta sfoglia e verdure "
+        "Bocconcini di manzo alla messicana",
+        "Fritto di calamari ",
+        "Omelette alle bietole"
     ],
     "contorni": [
-        "Fagiolini con olive nere ed erba cipollina"
+        "Cavolfiore alle olive"
     ],
-    "date": "VEN 10 LUG",
-    "gas_price": "1.861",
-    "oct_luce_price": "0,1243",
+    "date": "VEN 17 LUG",
+    "gas_price": "1.902",
+    "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,49",
+    "oct_gas_price": "0,54",
     "oct_gas_fee": "84",
     "sports": {
         "worldcup": {
             "past": [
                 {
-                    "home": "France",
-                    "away": "Morocco",
-                    "home_score": "2",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hbmwkj1731791275.png",
-                    "date": "2026-07-09",
-                    "time": "20:00:00"
+                    "home": "England",
+                    "away": "Argentina",
+                    "home_score": "1",
+                    "away_score": "2",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
+                    "date": "2026-07-15",
+                    "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Spain",
-                    "away": "Belgium",
+                    "home": "France",
+                    "away": "England",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8xlvxv1592062265.png",
-                    "date": "2026-07-10",
-                    "time": "19:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+                    "date": "2026-07-18",
+                    "time": "21:00:00"
                 }
             ]
         },
@@ -73,26 +73,26 @@
         "champions": {
             "past": [
                 {
-                    "home": "Maxline Vitebsk",
-                    "away": "Universitatea Craiova",
-                    "home_score": "1",
-                    "away_score": "4",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wl5hg71779336693.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/1jdz2y1579793710.png",
-                    "date": "2026-07-08",
-                    "time": "17:00:00"
+                    "home": "Egnatia",
+                    "away": "Petrocub Hîncești",
+                    "home_score": "6",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/r2mzoe1781541722.png",
+                    "date": "2026-07-15",
+                    "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "KuPS",
-                    "away": "Vardar",
+                    "home": "AGF Aarhus",
+                    "away": "Lech Poznań",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8vj1d11738559246.png",
-                    "date": "2026-07-14",
-                    "time": "15:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8zfxyx1685597440.png",
+                    "date": "2026-07-21",
+                    "time": "17:00:00"
                 }
             ]
         }
