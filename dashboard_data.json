@@ -1,9 +1,18 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "1.891",
+    "primi": [
+        "Pasta con scorfano e pesto di zucchine",
+        "Pasta fredda mediterranea (pf)"
+    ],
+    "secondi": [
+        "Bocconcini di manzo alla messicana",
+        "Fritto di calamari ",
+        "Omelette alle bietole"
+    ],
+    "contorni": [
+        "Cavolfiore alle olive"
+    ],
+    "date": "VEN 17 LUG",
+    "gas_price": "1.902",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,54",
