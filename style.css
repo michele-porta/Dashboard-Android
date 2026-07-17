@@ -314,6 +314,8 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     flex-direction: column;
     gap: 0.8rem;
     overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
     flex: 1;
     height: 330px;
     max-height: 330px;
@@ -357,6 +359,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     width: 24px;
     height: 24px;
     object-fit: contain;
+    flex-shrink: 0;
 }
 .team-name {
     font-size: 0.85rem;
@@ -365,6 +368,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    display: block;
     flex: 1;
     min-width: 0;
 }
