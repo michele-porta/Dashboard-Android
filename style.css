@@ -284,6 +284,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
+...
 .sports-tab {
     background: transparent;
     border: none;
@@ -295,6 +296,7 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
     cursor: pointer;
     transition: var(--transition-smooth);
     white-space: nowrap;
+    flex-shrink: 0;
 }
 .sports-tab.active {
     background: var(--news-color);
@@ -416,12 +418,44 @@ h1, h2, h3, .current-temp, .price-val { font-family: 'Outfit', sans-serif; font-
 @keyframes weather-bounce { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
 
 @media (max-width: 768px) {
-    body { padding: 0.5rem; }
-    .dashboard-wrapper { padding: 1rem; }
-    .main-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    body { padding: 0; }
+    .dashboard-wrapper { padding: 0.75rem; }
+    .main-header { flex-direction: column; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1rem; }
     .header-actions { width: 100%; justify-content: space-between; }
     .live-clock { align-items: flex-start; }
-    .dashboard-grid { grid-template-columns: 1fr; }
+    .dashboard-grid { grid-template-columns: 1fr; gap: 1rem; }
+    
+    /* Responsive Card Layout */
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 1rem;
+    }
+    .card-body {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .card-footer-info {
+        padding: 0.6rem 1rem;
+    }
+    
+    /* Sports Tabs Responsiveness */
+    .sports-tabs {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        display: flex;
+        gap: 0.35rem;
+        padding: 0.2rem;
+        align-self: stretch;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Badges alignment */
+    .btc-badge, .weather-coords, .news-badge-count, .region-badge, .menu-date-badge {
+        align-self: flex-start;
+    }
 }
 
 /* Commodities, Gold & Canteen */
