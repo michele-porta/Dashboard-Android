@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Pasta con scorfano e pesto di zucchine",
-        "Pasta fredda mediterranea (pf)"
-    ],
-    "secondi": [
-        "Bocconcini di manzo alla messicana",
-        "Fritto di calamari ",
-        "Omelette alle bietole"
-    ],
-    "contorni": [
-        "Cavolfiore alle olive"
-    ],
-    "date": "VEN 17 LUG",
-    "gas_price": "1.902",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
+    "gas_price": "1.913",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,54",
@@ -85,14 +76,14 @@
             ],
             "next": [
                 {
-                    "home": "AGF Aarhus",
-                    "away": "Lech Poznań",
+                    "home": "Mjällby",
+                    "away": "Lincoln Red Imps",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/8zfxyx1685597440.png",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ruwqxv1430239112.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/w1d87s1594393899.png",
                     "date": "2026-07-21",
-                    "time": "17:00:00"
+                    "time": "16:00:00"
                 }
             ]
         }
