@@ -12,27 +12,12 @@
         "Fagioli cannellini in umido"
     ],
     "date": "LUN 20 LUG",
-    "gas_price": "1.925",
+    "gas_price": "1.926",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,54",
     "oct_gas_fee": "84",
     "sports": {
-        "worldcup": {
-            "past": [
-                {
-                    "home": "Spain",
-                    "away": "Argentina",
-                    "home_score": "1",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
-                    "date": "2026-07-19",
-                    "time": "19:00:00"
-                }
-            ],
-            "next": []
-        },
         "seriea": {
             "past": [
                 {
@@ -84,6 +69,38 @@
                     "time": "16:00:00"
                 }
             ]
-        }
+        },
+        "calciomercato": [
+            {
+                "title": "Cardoso Varela torna al Porto dopo l'avventura croata: per lui contratto di tre anni",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/cardoso-varela-torna-porto-avventura-croata-contratto-2255403",
+                "date": "20/07 13:21"
+            },
+            {
+                "title": "Malagò: \"Mondiale, ha vinto la migliore di tutte. Sul caso Balogun passato il segno\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/malago-mondiale-vinto-migliore-tutte-bolagun-passato-segno-2255400",
+                "date": "20/07 13:20"
+            },
+            {
+                "title": "Juventus, c'è il report medico sull'infortunio di Ekhator: lesione alla coscia. La nota",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-report-medico-infortunio-ekhator-lesione-coscia-nota-2255402",
+                "date": "20/07 13:19"
+            },
+            {
+                "title": "Napoli, buone notizie dall'allenamento per Allegri: in gruppo Politano, Marin e Vergara",
+                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-buone-notizie-allenamento-allegri-politano-marin-vergara-2255399",
+                "date": "20/07 13:16"
+            },
+            {
+                "title": "Omaggio alla Spagna 'Mundial' in un'opera di land art in Veneto",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/omaggio-spagna-mundial-opera-land-art-veneto-2255398",
+                "date": "20/07 13:13"
+            },
+            {
+                "title": "Atalanta, rinforzato il settore giovanile con un centravanti sloveno. Preso Koren",
+                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-rinforzato-settore-giovanile-centravanti-slovenia-preso-koren-2255397",
+                "date": "20/07 13:09"
+            }
+        ]
     }
 }

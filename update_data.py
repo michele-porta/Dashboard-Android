@@ -207,7 +207,6 @@ def fetch_and_parse():
         try:
             print("Caricamento risultati sportivi da TheSportsDB...")
             leagues = {
-                "worldcup": "4429",
                 "seriea": "4332",
                 "champions": "4480"
             }
@@ -235,6 +234,47 @@ def fetch_and_parse():
                 except Exception as e_league:
                     print(f"Errore caricamento lega {name}: {e_league}")
                     menu["sports"][name] = {"past": [], "next": []}
+            
+            # Scrape Calciomercato News from Tuttomercatoweb RSS
+            try:
+                print("Caricamento notizie calciomercato da Tuttomercatoweb...")
+                import xml.etree.ElementTree as ET
+                from email.utils import parsedate_to_datetime
+                import html
+                
+                url_tmw = "https://www.tuttomercatoweb.com/rss/"
+                req_tmw = urllib.request.Request(url_tmw, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req_tmw, timeout=10) as r_tmw:
+                    xml_data = r_tmw.read()
+                
+                root = ET.fromstring(xml_data)
+                items = root.findall('.//item')
+                
+                calciomercato_news = []
+                for item in items[:6]:
+                    title = item.find('title').text if item.find('title') is not None else "N/D"
+                    link = item.find('link').text if item.find('link') is not None else "N/D"
+                    pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
+                    
+                    formatted_date = ""
+                    if pub_date:
+                        try:
+                            dt = parsedate_to_datetime(pub_date)
+                            formatted_date = dt.strftime("%d/%m %H:%M")
+                        except Exception:
+                            formatted_date = pub_date[:16]
+                    
+                    calciomercato_news.append({
+                        "title": html.unescape(title).strip(),
+                        "link": link.strip(),
+                        "date": formatted_date
+                    })
+                
+                menu["sports"]["calciomercato"] = calciomercato_news
+                print("Calciomercato caricato con successo.")
+            except Exception as e_market:
+                print(f"Errore caricamento calciomercato: {e_market}")
+                menu["sports"]["calciomercato"] = []
         except Exception as e_sports:
             print(f"Errore generale risultati sportivi: {e_sports}")
 

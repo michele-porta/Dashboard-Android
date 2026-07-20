@@ -392,6 +392,51 @@ function createMatchItem(homeName, homeBadge, awayName, awayBadge, centerText, i
     return item;
 }
 
+export function renderCalciomercatoNews(newsItems) {
+    const container = document.getElementById("sports-container");
+    container.innerHTML = "";
+    
+    if (!newsItems || newsItems.length === 0) {
+        container.innerHTML = `<div class="sports-no-matches">Nessuna notizia di calciomercato disponibile.</div>`;
+        return;
+    }
+    
+    newsItems.forEach(item => {
+        const linkElem = document.createElement("a");
+        linkElem.href = item.link;
+        linkElem.target = "_blank";
+        linkElem.className = "match-item";
+        linkElem.style.textDecoration = "none";
+        linkElem.style.color = "inherit";
+        linkElem.style.display = "flex";
+        linkElem.style.flexDirection = "column";
+        linkElem.style.alignItems = "flex-start";
+        linkElem.style.gap = "0.25rem";
+        
+        const titleSpan = document.createElement("span");
+        titleSpan.className = "team-name";
+        titleSpan.style.width = "100%";
+        titleSpan.style.whiteSpace = "normal";
+        titleSpan.style.display = "-webkit-box";
+        titleSpan.style.webkitLineClamp = "2";
+        titleSpan.style.webkitBoxOrient = "vertical";
+        titleSpan.style.overflow = "hidden";
+        titleSpan.style.fontSize = "0.9rem";
+        titleSpan.style.lineHeight = "1.3";
+        titleSpan.textContent = item.title;
+        
+        const dateSpan = document.createElement("span");
+        dateSpan.style.fontSize = "0.7rem";
+        dateSpan.style.color = "var(--text-muted)";
+        dateSpan.style.fontWeight = "600";
+        dateSpan.textContent = item.date;
+        
+        linkElem.appendChild(titleSpan);
+        linkElem.appendChild(dateSpan);
+        container.appendChild(linkElem);
+    });
+}
+
 export function handleSportsTabSwitch(league) {
     document.querySelectorAll(".sports-tab").forEach(tab => {
         tab.classList.remove("active");
