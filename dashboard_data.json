@@ -1,9 +1,18 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "DOM 19 LUG",
-    "gas_price": "1.923",
+    "primi": [
+        "Bavette al pesto di basilico",
+        "Pasta fredda con cruditè di verdure e tonno (pf)"
+    ],
+    "secondi": [
+        "Petto di pollo trifolato con verdure",
+        "Fettuccine di totano gratinato",
+        "Tortino di spinaci reggiano (tipo erbazzone)"
+    ],
+    "contorni": [
+        "Fagioli cannellini in umido"
+    ],
+    "date": "LUN 20 LUG",
+    "gas_price": "1.925",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,54",
@@ -12,28 +21,17 @@
         "worldcup": {
             "past": [
                 {
-                    "home": "France",
-                    "away": "England",
-                    "home_score": "4",
-                    "away_score": "6",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
-                    "date": "2026-07-18",
-                    "time": "21:00:00"
-                }
-            ],
-            "next": [
-                {
                     "home": "Spain",
                     "away": "Argentina",
-                    "home_score": null,
-                    "away_score": null,
+                    "home_score": "1",
+                    "away_score": "0",
                     "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
                     "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
                     "date": "2026-07-19",
                     "time": "19:00:00"
                 }
-            ]
+            ],
+            "next": []
         },
         "seriea": {
             "past": [
