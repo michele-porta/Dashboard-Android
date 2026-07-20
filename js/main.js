@@ -1,7 +1,7 @@
 import { 
     initClock, showToast, updateCardStatus, renderBitcoinPrice, renderBitcoinChart, 
     renderWeather, renderNewsList, renderCommodities, renderDashboardData, 
-    renderSportsMatches, handleSportsTabSwitch, resetDashboardDataUI
+    renderSportsMatches, renderCalciomercatoNews, handleSportsTabSwitch, resetDashboardDataUI
 } from './ui.js';
 
 import { 
@@ -29,7 +29,7 @@ const WEATHER_MAP = {
 let newsArticles = [];
 let activeNewsIndex = 0;
 let newsRotationInterval = null;
-let activeSportsLeague = "worldcup";
+let activeSportsLeague = "calciomercato";
 let sportsData = {};
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -151,8 +151,13 @@ async function updateDashboardDataWidget() {
 
 function updateSportsDataUI() {
     try {
-        const data = sportsData[activeSportsLeague] || { past: [], next: [] };
-        renderSportsMatches(data.past, data.next);
+        if (activeSportsLeague === "calciomercato") {
+            const data = sportsData["calciomercato"] || [];
+            renderCalciomercatoNews(data);
+        } else {
+            const data = sportsData[activeSportsLeague] || { past: [], next: [] };
+            renderSportsMatches(data.past, data.next);
+        }
         updateCardStatus("sports-section", "sports-update-time", true);
     } catch (e) {
         console.error("Sports render error:", e);
