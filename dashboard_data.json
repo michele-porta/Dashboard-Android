@@ -1,17 +1,17 @@
 {
     "primi": [
-        "Bavette al pesto di basilico",
-        "Pasta fredda con cruditè di verdure e tonno (pf)"
+        "Rigatoni all'amatriciana",
+        "Farfalle con verdure e curry vegan"
     ],
     "secondi": [
-        "Petto di pollo trifolato con verdure",
-        "Fettuccine di totano gratinato",
-        "Tortino di spinaci reggiano (tipo erbazzone)"
+        "Cotoletta di suino alla milanese ",
+        "Filetto di merluzzo al pomodoro fresco e olive",
+        "Strudel di formaggio e verdure"
     ],
     "contorni": [
-        "Fagioli cannellini in umido"
+        "Patate sabbiose"
     ],
-    "date": "LUN 20 LUG",
+    "date": "MAR 21 LUG",
     "gas_price": "1.926",
     "oct_luce_price": "0,1364",
     "oct_luce_fee": "72",
@@ -72,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Cardoso Varela torna al Porto dopo l'avventura croata: per lui contratto di tre anni",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/cardoso-varela-torna-porto-avventura-croata-contratto-2255403",
-                "date": "20/07 13:21"
+                "title": "Roma, oggi è il giorno di Summerville? Intanto l’olandese alimenta l’attesa sui social",
+                "link": "https://www.tuttomercatoweb.com/serie-a/roma-summerville-l-olandese-alimenta-l-attesa-social-2255609",
+                "date": "21/07 06:38"
             },
             {
-                "title": "Malagò: \"Mondiale, ha vinto la migliore di tutte. Sul caso Balogun passato il segno\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/malago-mondiale-vinto-migliore-tutte-bolagun-passato-segno-2255400",
-                "date": "20/07 13:20"
+                "title": "Lazio, chiusa la prima settimana di ritiro a Formello: gli interrogativi di Gattuso",
+                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-chiusa-settimana-ritiro-formello-interrogativi-gattuso-2255610",
+                "date": "21/07 06:30"
             },
             {
-                "title": "Juventus, c'è il report medico sull'infortunio di Ekhator: lesione alla coscia. La nota",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-report-medico-infortunio-ekhator-lesione-coscia-nota-2255402",
-                "date": "20/07 13:19"
+                "title": "Addio a Keegan Mighty Mouse, la leggenda inglese che ha rivoluzionato il Calcio",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/addio-keegan-mighty-mouse-leggenda-inglese-rivoluzionato-calcio-2255496",
+                "date": "21/07 06:26"
             },
             {
-                "title": "Napoli, buone notizie dall'allenamento per Allegri: in gruppo Politano, Marin e Vergara",
-                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-buone-notizie-allenamento-allegri-politano-marin-vergara-2255399",
-                "date": "20/07 13:16"
+                "title": "Erling Haaland, il principale attore del Mondiale. Se arriva il Real Madrid che succede?",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/erling-haaland-principale-attore-mondiale-arriva-real-madrid-succede-2255611",
+                "date": "21/07 05:00"
             },
             {
-                "title": "Omaggio alla Spagna 'Mundial' in un'opera di land art in Veneto",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/omaggio-spagna-mundial-opera-land-art-veneto-2255398",
-                "date": "20/07 13:13"
+                "title": "Le partite di oggi: il programma di martedì 21 luglio",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-martedi-21-luglio-2255429",
+                "date": "21/07 04:30"
             },
             {
-                "title": "Atalanta, rinforzato il settore giovanile con un centravanti sloveno. Preso Koren",
-                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-rinforzato-settore-giovanile-centravanti-slovenia-preso-koren-2255397",
-                "date": "20/07 13:09"
+                "title": "Alessandro Canovi: \"L'Italia prenda esempio dalla Spagna, altrimenti il calcio qui muore. Guardiola sarebbe un gran segnale, ma anche Pirlo ok. Dopo Malagò c'è solo... l'eutanasia\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/alessandro-canovi-l-italia-prenda-spagna-calcio-muore-guardiola-gran-segnale-pirlo-ok-malago-solo-eu-2255608",
+                "date": "21/07 01:21"
             }
         ]
     }
