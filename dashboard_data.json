@@ -1,21 +1,21 @@
 {
     "primi": [
-        "Rigatoni all'amatriciana",
-        "Farfalle con verdure e curry vegan"
+        "Risotto alla mantovana",
+        "Pasta fredda alla caprese (pf)"
     ],
     "secondi": [
-        "Cotoletta di suino alla milanese ",
-        "Filetto di merluzzo al pomodoro fresco e olive",
-        "Strudel di formaggio e verdure"
+        "Pollo al forno alle erbe aromatiche",
+        "Trancio di verdesca alle melanzane",
+        "Frittata ai formaggi"
     ],
     "contorni": [
-        "Patate sabbiose"
+        "Finocchi al forno con pomodori e olive"
     ],
-    "date": "MAR 21 LUG",
-    "gas_price": "1.926",
-    "oct_luce_price": "0,1364",
+    "date": "MER 22 LUG",
+    "gas_price": "1.934",
+    "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,54",
+    "oct_gas_price": "0,63",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -47,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Egnatia",
-                    "away": "Petrocub Hîncești",
-                    "home_score": "6",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/r2mzoe1781541722.png",
-                    "date": "2026-07-15",
+                    "home": "Larne",
+                    "away": "Crvena Zvezda",
+                    "home_score": "0",
+                    "away_score": "4",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/pg8k1v1615586095.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
+                    "date": "2026-07-21",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Mjällby",
-                    "away": "Lincoln Red Imps",
+                    "home": "Omonia Nicosia",
+                    "away": "Kairat Almaty",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ruwqxv1430239112.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/w1d87s1594393899.png",
-                    "date": "2026-07-21",
-                    "time": "16:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/nmd7vt1779579017.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
+                    "date": "2026-07-22",
+                    "time": "17:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Roma, oggi è il giorno di Summerville? Intanto l’olandese alimenta l’attesa sui social",
-                "link": "https://www.tuttomercatoweb.com/serie-a/roma-summerville-l-olandese-alimenta-l-attesa-social-2255609",
-                "date": "21/07 06:38"
+                "title": "Dalla Serie A alla Terza Categoria: la favola calcistica e l'infinita passione di Enrico Fantini",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/serie-terza-categoria-favola-calcistica-infinita-passione-enrico-fantini-2255837",
+                "date": "22/07 06:46"
             },
             {
-                "title": "Lazio, chiusa la prima settimana di ritiro a Formello: gli interrogativi di Gattuso",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-chiusa-settimana-ritiro-formello-interrogativi-gattuso-2255610",
-                "date": "21/07 06:30"
+                "title": "Kessie aspetta la Juve, ma Carnevali deve prima cedere a centrocampo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/kessie-aspetta-juve-carnevali-cedere-centrocampo-2255874",
+                "date": "22/07 06:45"
             },
             {
-                "title": "Addio a Keegan Mighty Mouse, la leggenda inglese che ha rivoluzionato il Calcio",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/addio-keegan-mighty-mouse-leggenda-inglese-rivoluzionato-calcio-2255496",
-                "date": "21/07 06:26"
+                "title": "Roma, stallo Summerville. Intanto oltre 8.000 tifosi celebrano i 99 anni del club: Dybala ospite d'eccezione",
+                "link": "https://www.tuttomercatoweb.com/serie-a/roma-stallo-summerville-8-000-tifosi-celebrano-99-club-dybala-ospite-eccezione-2255945",
+                "date": "22/07 06:38"
             },
             {
-                "title": "Erling Haaland, il principale attore del Mondiale. Se arriva il Real Madrid che succede?",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/erling-haaland-principale-attore-mondiale-arriva-real-madrid-succede-2255611",
-                "date": "21/07 05:00"
+                "title": "Lazio, al palo per Dominguez e John Kennedy: si torna sull'idea Comuzzo",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-palo-dominguez-john-kennedy-torna-idea-comuzzo-2255946",
+                "date": "22/07 06:30"
             },
             {
-                "title": "Le partite di oggi: il programma di martedì 21 luglio",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-martedi-21-luglio-2255429",
-                "date": "21/07 04:30"
+                "title": "Inter, per la fascia serve pazienza: Spence è il preferito. In difesa spunta l’ipotesi Romero. Napoli, con Buongiorno ko in prospettiva c’è l’idea Gatti. Su Lucca occhio anche alla Fiorentina",
+                "link": "https://www.tuttomercatoweb.com/editoriale/inter-fascia-serve-pazienza-spence-preferito-difesa-spunta-l-ipotesi-romero-napoli-buongiorno-ko-pro-2255918",
+                "date": "22/07 06:02"
             },
             {
-                "title": "Alessandro Canovi: \"L'Italia prenda esempio dalla Spagna, altrimenti il calcio qui muore. Guardiola sarebbe un gran segnale, ma anche Pirlo ok. Dopo Malagò c'è solo... l'eutanasia\"",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/alessandro-canovi-l-italia-prenda-spagna-calcio-muore-guardiola-gran-segnale-pirlo-ok-malago-solo-eu-2255608",
-                "date": "21/07 01:21"
+                "title": "Guardiola il salvatore, Infantino l’alleato: siamo messi così",
+                "link": "https://www.tuttomercatoweb.com/l-angolo-di-calcio2000/guardiola-salvatore-infantino-l-alleato-messi-2255943",
+                "date": "22/07 06:00"
             }
         ]
     }
