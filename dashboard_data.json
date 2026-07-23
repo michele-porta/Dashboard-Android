@@ -1,18 +1,18 @@
 {
     "primi": [
-        "Risotto alla mantovana",
-        "Pasta fredda alla caprese (pf)"
+        "Sedani con pomodoro, primo sale e basilico",
+        "Spaghetti alla carbonara di zucchine, peperoni e melanzane"
     ],
     "secondi": [
-        "Pollo al forno alle erbe aromatiche",
-        "Trancio di verdesca alle melanzane",
-        "Frittata ai formaggi"
+        "Scaloppina di suino rucola e grana",
+        "Filetto di nasello al basilico",
+        "Calzone di pasta sfoglia con pomodoro e mozzarella"
     ],
     "contorni": [
-        "Finocchi al forno con pomodori e olive"
+        "Patate arrosto"
     ],
-    "date": "MER 22 LUG",
-    "gas_price": "1.934",
+    "date": "GIO 23 LUG",
+    "gas_price": "N/D",
     "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,63",
@@ -47,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Larne",
-                    "away": "Crvena Zvezda",
-                    "home_score": "0",
-                    "away_score": "4",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/pg8k1v1615586095.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
-                    "date": "2026-07-21",
+                    "home": "Egnatia",
+                    "away": "Celje",
+                    "home_score": "3",
+                    "away_score": "3",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
+                    "date": "2026-07-22",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Omonia Nicosia",
-                    "away": "Kairat Almaty",
+                    "home": "KuPS",
+                    "away": "Sabah Baku",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/nmd7vt1779579017.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
-                    "date": "2026-07-22",
-                    "time": "17:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
+                    "date": "2026-07-28",
+                    "time": "15:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Dalla Serie A alla Terza Categoria: la favola calcistica e l'infinita passione di Enrico Fantini",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/serie-terza-categoria-favola-calcistica-infinita-passione-enrico-fantini-2255837",
-                "date": "22/07 06:46"
+                "title": "Spunti dalle amichevoli, caso Banda e \"nuovo\" Pierotti: il Lecce è un cantiere aperto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/spunti-amichevoli-banda-nuovo-pierotti-lecce-cantiere-aperto-2256184",
+                "date": "23/07 06:45"
             },
             {
-                "title": "Kessie aspetta la Juve, ma Carnevali deve prima cedere a centrocampo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/kessie-aspetta-juve-carnevali-cedere-centrocampo-2255874",
-                "date": "22/07 06:45"
+                "title": "Guardiola è davvero la soluzione per l'Italia? Le spese pazze della Premier e il populismo: quando noi strapagavamo Mendieta…",
+                "link": "https://www.tuttomercatoweb.com/editoriale/all-italia-serve-davvero-guardiola-spese-pazze-premier-populismo-strapagavamo-mendieta-2256239",
+                "date": "23/07 06:34"
             },
             {
-                "title": "Roma, stallo Summerville. Intanto oltre 8.000 tifosi celebrano i 99 anni del club: Dybala ospite d'eccezione",
-                "link": "https://www.tuttomercatoweb.com/serie-a/roma-stallo-summerville-8-000-tifosi-celebrano-99-club-dybala-ospite-eccezione-2255945",
-                "date": "22/07 06:38"
+                "title": "Paolo Del Genio boccia il Napoli: \"Schemi elementari, così ci si affida solo allo spunto dei singoli\"",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/paolo-genio-boccia-napoli-schemi-elementari-affida-spunto-singoli-2256267",
+                "date": "23/07 06:31"
             },
             {
-                "title": "Lazio, al palo per Dominguez e John Kennedy: si torna sull'idea Comuzzo",
-                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-palo-dominguez-john-kennedy-torna-idea-comuzzo-2255946",
-                "date": "22/07 06:30"
+                "title": "Lazio, il reintegro di Romagnoli: cosa succede adesso in difesa",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-reintegro-romagnoli-succede-difesa-2256266",
+                "date": "23/07 06:30"
             },
             {
-                "title": "Inter, per la fascia serve pazienza: Spence è il preferito. In difesa spunta l’ipotesi Romero. Napoli, con Buongiorno ko in prospettiva c’è l’idea Gatti. Su Lucca occhio anche alla Fiorentina",
-                "link": "https://www.tuttomercatoweb.com/editoriale/inter-fascia-serve-pazienza-spence-preferito-difesa-spunta-l-ipotesi-romero-napoli-buongiorno-ko-pro-2255918",
-                "date": "22/07 06:02"
+                "title": "Alessio Cerci, nove gol in sette anni da una frase: \"Ce ne andiamo nel calcio che conta\"",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/alessio-cerci-gol-frase-ce-andiamo-calcio-conta-2256119",
+                "date": "23/07 05:00"
             },
             {
-                "title": "Guardiola il salvatore, Infantino l’alleato: siamo messi così",
-                "link": "https://www.tuttomercatoweb.com/l-angolo-di-calcio2000/guardiola-salvatore-infantino-l-alleato-messi-2255943",
-                "date": "22/07 06:00"
+                "title": "Le partite di oggi: il programma di giovedì 23 luglio",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-giovedi-23-luglio-2256106",
+                "date": "23/07 04:30"
             }
         ]
     }

@@ -1,11 +1,38 @@
 === Mensa Greenlife & MIMIT Fuel Scraper ===
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
-Prezzo benzina Emilia Romagna rilevato: 1.934
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-20T22:00:00.000Z&dataFine=2026-07-27T22:00:00.000Z
+Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=150.0.7871.114)
+Stacktrace:
+#0 0x55933571541a <unknown>
+#1 0x5593350ed689 <unknown>
+#2 0x5593350d521a <unknown>
+#3 0x5593350d4e96 <unknown>
+#4 0x5593350d2a7e <unknown>
+#5 0x5593350d33ff <unknown>
+#6 0x5593350e24e0 <unknown>
+#7 0x5593350fc3e7 <unknown>
+#8 0x559335103c5b <unknown>
+#9 0x5593350d3b59 <unknown>
+#10 0x5593350fc142 <unknown>
+#11 0x55933518b1f2 <unknown>
+#12 0x5593351361df <unknown>
+#13 0x559335137031 <unknown>
+#14 0x5593356dabd7 <unknown>
+#15 0x5593356d93a8 <unknown>
+#16 0x5593356c4076 <unknown>
+#17 0x5593356d9f7a <unknown>
+#18 0x5593356abf70 <unknown>
+#19 0x559335700c38 <unknown>
+#20 0x559335700dd5 <unknown>
+#21 0x559335713fce <unknown>
+#22 0x7fca9c29caa4 <unknown>
+#23 0x7fca9c329c6c <unknown>
+
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-07-21T22:00:00.000Z&dataFine=2026-07-28T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
-Menu caricato con successo tramite proxy: 157.15.40.222:8080
+Menu caricato con successo tramite proxy: 114.94.148.37:18080
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
 Tariffe Octopus rilevate: Luce=0,1496, Gas=0,63
 Caricamento risultati sportivi da TheSportsDB...
