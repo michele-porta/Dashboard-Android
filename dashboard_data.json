@@ -1,18 +1,18 @@
 {
     "primi": [
-        "Sedani con pomodoro, primo sale e basilico",
-        "Spaghetti alla carbonara di zucchine, peperoni e melanzane"
+        "Mezze penne con merluzzo, pomodoro fresco e zafferano",
+        "Cous cous con verdure e ceci speziati vegan (pf)"
     ],
     "secondi": [
-        "Scaloppina di suino rucola e grana",
-        "Filetto di nasello al basilico",
-        "Calzone di pasta sfoglia con pomodoro e mozzarella"
+        "Straccetti di manzo con verdure in salsa di soia e zenzero",
+        "Filetto di scorfano gratinato",
+        "Tortino di verdure "
     ],
     "contorni": [
-        "Patate arrosto"
+        "Carote con pane profumato"
     ],
-    "date": "GIO 23 LUG",
-    "gas_price": "N/D",
+    "date": "VEN 24 LUG",
+    "gas_price": "1.949",
     "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,63",
@@ -72,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Spunti dalle amichevoli, caso Banda e \"nuovo\" Pierotti: il Lecce è un cantiere aperto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/spunti-amichevoli-banda-nuovo-pierotti-lecce-cantiere-aperto-2256184",
-                "date": "23/07 06:45"
+                "title": "Juve, attacco decimato per lo Standard Liegi ma Openda sempre in uscita",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juve-attacco-decimato-standard-liegi-openda-uscita-2256536",
+                "date": "24/07 06:45"
             },
             {
-                "title": "Guardiola è davvero la soluzione per l'Italia? Le spese pazze della Premier e il populismo: quando noi strapagavamo Mendieta…",
-                "link": "https://www.tuttomercatoweb.com/editoriale/all-italia-serve-davvero-guardiola-spese-pazze-premier-populismo-strapagavamo-mendieta-2256239",
-                "date": "23/07 06:34"
+                "title": "Torino, Petrachi cerca la svolta sul mercato. E spunta anche Tomiyasu",
+                "link": "https://www.tuttomercatoweb.com/serie-a/torino-petrachi-cerca-svolta-mercato-spunta-tomiyasu-2256583",
+                "date": "24/07 06:38"
             },
             {
-                "title": "Paolo Del Genio boccia il Napoli: \"Schemi elementari, così ci si affida solo allo spunto dei singoli\"",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/paolo-genio-boccia-napoli-schemi-elementari-affida-spunto-singoli-2256267",
-                "date": "23/07 06:31"
+                "title": "Lazio, Gattuso spinge per Gimenez: contatti con gli agenti del messicano",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-gattuso-spinge-gimenez-contatti-agenti-messicano-2256585",
+                "date": "24/07 06:30"
             },
             {
-                "title": "Lazio, il reintegro di Romagnoli: cosa succede adesso in difesa",
-                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-reintegro-romagnoli-succede-difesa-2256266",
-                "date": "23/07 06:30"
+                "title": "Manor Solomon, la Fiorentina ha deciso di non riscattarlo per 10 milioni. Ma lui spera",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/manor-solomon-fiorentina-deciso-riscattarlo-10-milioni-spera-2256302",
+                "date": "24/07 05:00"
             },
             {
-                "title": "Alessio Cerci, nove gol in sette anni da una frase: \"Ce ne andiamo nel calcio che conta\"",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/alessio-cerci-gol-frase-ce-andiamo-calcio-conta-2256119",
-                "date": "23/07 05:00"
+                "title": "Fausto Rossi diventa ds: \"Il mio ruolo del futuro. Claudio Chiellini il mio modello. Palermo big per risalire. Samp, Corradi la novità. Juve, ok Carnevali e Spalletti\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/fausto-rossi-ds-il-ruolo-futuro-claudio-chiellini-modello-palermo-big-risalire-samp-corradi-novita-j-2256584",
+                "date": "24/07 01:33"
             },
             {
-                "title": "Le partite di oggi: il programma di giovedì 23 luglio",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-giovedi-23-luglio-2256106",
-                "date": "23/07 04:30"
+                "title": "L'offerta della Juve per il rinnovo di Vlahovic non c'è più. A giugno il serbo ha rifiutato un biennale che lo avrebbe reso, di nuovo, il più pagato in rosa. Ora dipende solo da lui, ma dovrebbe accettare le condizioni dei bianconeri",
+                "link": "https://www.tuttomercatoweb.com/editoriale/offerta-juve-rinnovo-vlahovic-piu-giugno-serbo-rifiutato-biennale-reso-nuovo-pagato-rosa-dipende-lui-2256551",
+                "date": "24/07 01:10"
             }
         ]
     }
