@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Mezze penne con merluzzo, pomodoro fresco e zafferano",
-        "Cous cous con verdure e ceci speziati vegan (pf)"
-    ],
-    "secondi": [
-        "Straccetti di manzo con verdure in salsa di soia e zenzero",
-        "Filetto di scorfano gratinato",
-        "Tortino di verdure "
-    ],
-    "contorni": [
-        "Carote con pane profumato"
-    ],
-    "date": "VEN 24 LUG",
-    "gas_price": "1.949",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "SAB 25 LUG",
+    "gas_price": "1.961",
     "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,63",
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Juve, attacco decimato per lo Standard Liegi ma Openda sempre in uscita",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juve-attacco-decimato-standard-liegi-openda-uscita-2256536",
-                "date": "24/07 06:45"
+                "title": "Genoa, Masini: \"Devo sfruttare ciò che mi viene concesso. De Rossi mi aiuta molto\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/genoa-masini-devo-sfruttare-viene-concesso-de-rossi-aiuta-molto-2256797",
+                "date": "25/07 06:38"
             },
             {
-                "title": "Torino, Petrachi cerca la svolta sul mercato. E spunta anche Tomiyasu",
-                "link": "https://www.tuttomercatoweb.com/serie-a/torino-petrachi-cerca-svolta-mercato-spunta-tomiyasu-2256583",
-                "date": "24/07 06:38"
+                "title": "Lazio, la rivoluzione in attacco: in tanti in uscita e valutazioni fuori mercato",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-rivoluzione-attacco-tanti-uscita-valutazioni-mercato-2256892",
+                "date": "25/07 06:30"
             },
             {
-                "title": "Lazio, Gattuso spinge per Gimenez: contatti con gli agenti del messicano",
-                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-gattuso-spinge-gimenez-contatti-agenti-messicano-2256585",
-                "date": "24/07 06:30"
+                "title": "Ze Maria, preso al Parma al posto di Cafù. Con oltre 200 presenze in Serie A",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/ze-maria-preso-parma-cafu-200-presenze-serie-2256690",
+                "date": "25/07 05:00"
             },
             {
-                "title": "Manor Solomon, la Fiorentina ha deciso di non riscattarlo per 10 milioni. Ma lui spera",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/manor-solomon-fiorentina-deciso-riscattarlo-10-milioni-spera-2256302",
-                "date": "24/07 05:00"
+                "title": "Ariedo Braida: \"Maldini, Pirlo e Leonardo uomini di calcio, ciò che serve alla Nazionale. Bello vederli in azzurro. Mercato, quando arrivano gli inglesi non possiamo competere. E il Milan...\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/ariedo-braida-maldini-pirlo-leonardo-uomini-calcio-serve-nazionale-bello-vederli-azzurro-mercato-arr-2256893",
+                "date": "25/07 01:00"
             },
             {
-                "title": "Fausto Rossi diventa ds: \"Il mio ruolo del futuro. Claudio Chiellini il mio modello. Palermo big per risalire. Samp, Corradi la novità. Juve, ok Carnevali e Spalletti\"",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/fausto-rossi-ds-il-ruolo-futuro-claudio-chiellini-modello-palermo-big-risalire-samp-corradi-novita-j-2256584",
-                "date": "24/07 01:33"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 24 luglio",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-24-luglio-2256891",
+                "date": "25/07 01:00"
             },
             {
-                "title": "L'offerta della Juve per il rinnovo di Vlahovic non c'è più. A giugno il serbo ha rifiutato un biennale che lo avrebbe reso, di nuovo, il più pagato in rosa. Ora dipende solo da lui, ma dovrebbe accettare le condizioni dei bianconeri",
-                "link": "https://www.tuttomercatoweb.com/editoriale/offerta-juve-rinnovo-vlahovic-piu-giugno-serbo-rifiutato-biennale-reso-nuovo-pagato-rosa-dipende-lui-2256551",
-                "date": "24/07 01:10"
+                "title": "Pep Guardiola ha detto no, l'Italia riparte dal Maestro Pirlo: sarà lui il nuovo ct azzurro",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/pep-guardiola-no-italia-riparte-i-maestro-i-pirlo-ct-azzurro-2256868",
+                "date": "25/07 00:57"
             }
         ]
     }
