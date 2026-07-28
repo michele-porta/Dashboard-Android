@@ -1,12 +1,21 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
+    "primi": [
+        "Spaghetti alla carbonara",
+        "Rigatoni con melanzane, olive e basilico vegan"
+    ],
+    "secondi": [
+        "Braciola di maiale burro e salvia",
+        "Filetto di scorfano gratinato",
+        "Burger di barbabietola e soia con paella di verdure vegan"
+    ],
+    "contorni": [
+        "Patate alla paprika"
+    ],
+    "date": "MAR 28 LUG",
     "gas_price": "1.974",
-    "oct_luce_price": "0,1496",
+    "oct_luce_price": "0,1562",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,63",
+    "oct_gas_price": "0,67",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -63,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Napoli, buona la seconda: segnali da Vergara e Hojlund si sblocca. Così finisce il ritiro",
-                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-buona-seconda-segnali-vergara-hojlund-sblocca-finisce-ritiro-2257464",
-                "date": "27/07 07:23"
+                "title": "Genoa, oggi la ripresa degli allenamenti al \"Signorini\": ci sarà anche Vasquez",
+                "link": "https://www.tuttomercatoweb.com/serie-a/genoa-ripresa-allenamenti-signorini-vasquez-2257756",
+                "date": "28/07 06:38"
             },
             {
-                "title": "Juventus, contatti recenti per Trubin: la richiesta del Benfica. Kessié deve aspettare",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-contatti-recenti-trubin-richiesta-benfica-kessie-aspettare-2257465",
-                "date": "27/07 07:17"
+                "title": "Lazio, scelto Markmann per la difesa: cosa manco per l'accordo col Nordsjaelland",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-scelto-markmann-difesa-manco-accordo-nordsjaelland-2257775",
+                "date": "28/07 06:30"
             },
             {
-                "title": "Il Milan e il colpo Chukwueze. Illusione d'estate o un rinforzo vero per Amorim?",
-                "link": "https://www.tuttomercatoweb.com/serie-a/milan-colpo-chukwueze-illusione-estate-rinforzo-vero-amorim-2257122",
-                "date": "27/07 07:15"
+                "title": "La storia di Catello Mari, il benefattore silenzioso",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/storia-catello-mari-benefattore-silenzioso-2257624",
+                "date": "28/07 06:12"
             },
             {
-                "title": "Sarri-Atalanta, prima si valuta poi si compra. Le indicazioni del mister sul mercato",
-                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-mercato-sarri-intesa-societa-rosa-2257214",
-                "date": "27/07 07:08"
+                "title": "Harry Kane, un anno di contratto e non c'è ancora l'accordo per il rinnovo. Ci sono Barça e Real",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/harry-kane-contratto-accordo-rinnovo-barca-real-2257375",
+                "date": "28/07 05:00"
             },
             {
-                "title": "Le prime pagine dei quotidiani italiani e stranieri di oggi, lunedì 27 luglio",
-                "link": "https://www.tuttomercatoweb.com/rassegna-stampa/prime-pagine-quotidiani-italiani-stranieri-oggi-lunedi-27-luglio-2257463",
-                "date": "27/07 07:04"
+                "title": "Oscar Damiani: \"Caos Pirlo, situazione... all'italiana. Così non va. Maldini e Leonardo grosse perdite. Come dt venga chi vuole, conta il ct: Conte o Mancini. Mercato fiacco, poche idee\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/oscar-damiani-caos-pirlo-situazione-italiana-va-maldini-leonardo-grosse-perdite-dt-venga-vuole-conta-2257774",
+                "date": "28/07 01:13"
             },
             {
-                "title": "Inter, Diouf manda grandi segnali a Chivu e alla dirigenza. Romero la priorità del momento",
-                "link": "https://www.tuttomercatoweb.com/serie-a/inter-diouf-manda-grandi-segnali-chivu-dirigenza-romero-priorita-2257456",
-                "date": "27/07 07:00"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 27 luglio",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-27-luglio-2257682",
+                "date": "28/07 01:00"
             }
         ]
     }
