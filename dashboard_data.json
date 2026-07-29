@@ -1,18 +1,18 @@
 {
     "primi": [
-        "Spaghetti alla carbonara",
-        "Rigatoni con melanzane, olive e basilico vegan"
+        "Tagliatelle al ragù bovino",
+        "Pasta fredda primosale, rucola e pomodorini (pf)"
     ],
     "secondi": [
-        "Braciola di maiale burro e salvia",
-        "Filetto di scorfano gratinato",
-        "Burger di barbabietola e soia con paella di verdure vegan"
+        "Saltimbocca alla romana",
+        "Fish nuggets",
+        "Parmigiana di melanzane"
     ],
     "contorni": [
-        "Patate alla paprika"
+        "Cavolfiore ai capperi"
     ],
-    "date": "MAR 28 LUG",
-    "gas_price": "1.974",
+    "date": "MER 29 LUG",
+    "gas_price": "1.979",
     "oct_luce_price": "0,1562",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,67",
@@ -47,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Egnatia",
-                    "away": "Celje",
-                    "home_score": "3",
-                    "away_score": "3",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/4tufos1639086825.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
-                    "date": "2026-07-22",
+                    "home": "Shamrock Rovers",
+                    "away": "Ararat-Armenia",
+                    "home_score": "2",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/u1zowj1491504381.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/g396se1596470244.png",
+                    "date": "2026-07-28",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "KuPS",
-                    "away": "Sabah Baku",
+                    "home": "Kairat Almaty",
+                    "away": "Omonia Nicosia",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
-                    "date": "2026-07-28",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/nmd7vt1779579017.png",
+                    "date": "2026-07-29",
                     "time": "15:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Genoa, oggi la ripresa degli allenamenti al \"Signorini\": ci sarà anche Vasquez",
-                "link": "https://www.tuttomercatoweb.com/serie-a/genoa-ripresa-allenamenti-signorini-vasquez-2257756",
-                "date": "28/07 06:38"
+                "title": "Kean, la gestione fisica e quell'indizio di possibile addio dalla Fiorentina che arriva... da Roma",
+                "link": "https://www.tuttomercatoweb.com/serie-a/kean-gestione-fisica-quell-indizio-possibile-addio-fiorentina-arriva-bologna-2257993",
+                "date": "29/07 06:38"
             },
             {
-                "title": "Lazio, scelto Markmann per la difesa: cosa manco per l'accordo col Nordsjaelland",
-                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-scelto-markmann-difesa-manco-accordo-nordsjaelland-2257775",
-                "date": "28/07 06:30"
+                "title": "Lazio, Markmann dice no: il perché e i prossimi obiettivi per la difesa",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-markmann-no-prossimi-obiettivi-difesa-2258111",
+                "date": "29/07 06:30"
             },
             {
-                "title": "La storia di Catello Mari, il benefattore silenzioso",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/storia-catello-mari-benefattore-silenzioso-2257624",
-                "date": "28/07 06:12"
+                "title": "Cagni: \"Vedo male questa Juventus... Inter e Napoli ancora avanti a tutte\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/cagni-vedo-juventus-inter-napoli-tutte-2258100",
+                "date": "29/07 05:45"
             },
             {
-                "title": "Harry Kane, un anno di contratto e non c'è ancora l'accordo per il rinnovo. Ci sono Barça e Real",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/harry-kane-contratto-accordo-rinnovo-barca-real-2257375",
-                "date": "28/07 05:00"
+                "title": "Ordine e le ultime sull'Italia: \"Errori principali di Malagò. Ora ripartiamo dall'esperienza di Mancini\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/ordine-ultime-italia-errori-principali-malago-ripartiamo-esperienza-mancini-2258099",
+                "date": "29/07 05:15"
             },
             {
-                "title": "Oscar Damiani: \"Caos Pirlo, situazione... all'italiana. Così non va. Maldini e Leonardo grosse perdite. Come dt venga chi vuole, conta il ct: Conte o Mancini. Mercato fiacco, poche idee\"",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/oscar-damiani-caos-pirlo-situazione-italiana-va-maldini-leonardo-grosse-perdite-dt-venga-vuole-conta-2257774",
-                "date": "28/07 01:13"
+                "title": "Tijjani Reijnders, la cessione \"bassa\" del Milan. Che ora può salutare il Manchester City",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/tijjani-reijnders-cessione-bassa-milan-salutare-manchester-city-2257867",
+                "date": "29/07 05:00"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 27 luglio",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-27-luglio-2257682",
-                "date": "28/07 01:00"
+                "title": "Le partite di oggi: il programma di mercoledì 29 luglio",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-mercoledi-29-luglio-2257959",
+                "date": "29/07 04:30"
             }
         ]
     }
