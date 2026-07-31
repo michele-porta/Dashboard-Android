@@ -1,12 +1,21 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "1.980",
-    "oct_luce_price": "0,1562",
+    "primi": [
+        "Farfalle al tonno",
+        "Pasta fredda all'ortolana (pf)"
+    ],
+    "secondi": [
+        "Piccatina di manzo con formaggio, timo e pomodoro fresco",
+        "Filetto di limanda impanato",
+        "Piadina stracchino e rucola"
+    ],
+    "contorni": [
+        "Carote alle spezie e sesamo"
+    ],
+    "date": "VEN 31 LUG",
+    "gas_price": "1.982",
+    "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,67",
+    "oct_gas_price": "0,65",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -50,47 +59,47 @@
             ],
             "next": [
                 {
-                    "home": "Olympiacos",
-                    "away": "NEC Nijmegen",
+                    "home": "Ararat-Armenia",
+                    "away": "Celje",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/g396se1596470244.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
                     "date": "2026-08-04",
-                    "time": "17:00:00"
+                    "time": "16:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "L'ex arbitro Minelli: \"Giro di vite sul VAR per correggere solo gravi ed evidenti errori\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/arbitro-minelli-giro-vite-var-correggere-gravi-evidenti-errori-2258430",
-                "date": "30/07 05:45"
+                "title": "Torino, la strategia per Cacciamani: dalle richieste monstre al rinnovo, il piano di Cairo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/torino-strategia-cacciamani-piano-cairo-blindarlo-2258774",
+                "date": "31/07 06:53"
             },
             {
-                "title": "Ardon Jashari, il miglior giocatore del campionato belga... Diviso fra addio e permanenza",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/ardon-jashari-miglior-giocatore-campionato-belga-diviso-addio-permanenza-2257895",
-                "date": "30/07 05:00"
+                "title": "Roma, inizia il ritiro a Cardiff. Ufficiale Castro, Koulierakis in arrivo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/roma-inizia-ritiro-cardiff-ufficiale-castro-koulierakis-arrivo-2258761",
+                "date": "31/07 06:45"
             },
             {
-                "title": "Le partite di oggi: il programma di giovedì 30 luglio",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-giovedi-30-luglio-2258290",
-                "date": "30/07 04:30"
+                "title": "Atalanta, un mercato che ad agosto dovrà muoversi tra entrate e uscite. Il punto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-mercato-sarri-agosto-giuntoli-entrate-uscite-2258642",
+                "date": "31/07 06:38"
             },
             {
-                "title": "Finalmente la Juve, finalmente Kolo Muani. Alajbegovic altro colpo per Spalletti, poi altri tre acquisti subito. Mancini, le scuse e la voglia di farsi perdonare attraverso le vittorie: per adesso tante parole e pochi fatti. La FIGC si gioca tutto",
-                "link": "https://www.tuttomercatoweb.com/editoriale/juve-kolo-muani-alajbegovic-colpo-spalletti-acquisti-subito-mancini-scuse-voglia-farsi-perdonare-vit-2258454",
-                "date": "30/07 01:10"
+                "title": "Lazio, dalle scintille agli \"schiaffi educativi\": cosa è successo a Formello con Taylor",
+                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-scintille-schiaffi-educativi-successo-formello-taylor-2258775",
+                "date": "31/07 06:30"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 29 luglio",
-                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-stop-i-indiscrezioni-trattative-retroscena-29-luglio-2258286",
-                "date": "30/07 01:00"
+                "title": "Antonio Conte, prima candidato ct e poi retromarcia. Non voleva quattro anni di contratto",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/antonio-conte-candidato-ct-retromarcia-voleva-contratto-2257901",
+                "date": "31/07 05:00"
             },
             {
-                "title": "Le scuse, l'analisi dei problemi e l'obiettivo di tornare a vincere: Italia, si è aperto il Mancini-bis",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/scuse-analisi-problemi-obiettivo-tornare-vincere-italia-aperto-mancini-bis-2258417",
-                "date": "30/07 00:56"
+                "title": "Ruolo per ruolo: ecco l'Italia dei prossimi cicli di Roberto Mancini. Tutti i nomi e le sorprese: il talento non manca, adesso spazio al coraggio. Viva gli stranieri, basta con quelli mediocri",
+                "link": "https://www.tuttomercatoweb.com/editoriale/ruolo-ruolo-italia-prossimi-cicli-roberto-mancini-nomi-sorprese-talento-manca-spazio-coraggio-viva-s-2258540",
+                "date": "31/07 01:05"
             }
         ]
     }
