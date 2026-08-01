@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Farfalle al tonno",
-        "Pasta fredda all'ortolana (pf)"
-    ],
-    "secondi": [
-        "Piccatina di manzo con formaggio, timo e pomodoro fresco",
-        "Filetto di limanda impanato",
-        "Piadina stracchino e rucola"
-    ],
-    "contorni": [
-        "Carote alle spezie e sesamo"
-    ],
-    "date": "VEN 31 LUG",
-    "gas_price": "1.982",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
+    "gas_price": "1.988",
     "oct_luce_price": "0,1496",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,65",
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Torino, la strategia per Cacciamani: dalle richieste monstre al rinnovo, il piano di Cairo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/torino-strategia-cacciamani-piano-cairo-blindarlo-2258774",
-                "date": "31/07 06:53"
+                "title": "Spalletti aspetta Kolo Muani e Alajbegovic. Douglas Luiz vuole restare",
+                "link": "https://www.tuttomercatoweb.com/serie-a/spalletti-aspetta-kolo-muani-alajbegovic-douglas-luiz-vuole-restare-2259064",
+                "date": "01/08 06:45"
             },
             {
-                "title": "Roma, inizia il ritiro a Cardiff. Ufficiale Castro, Koulierakis in arrivo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/roma-inizia-ritiro-cardiff-ufficiale-castro-koulierakis-arrivo-2258761",
-                "date": "31/07 06:45"
+                "title": "Roma, oggi l’amichevole contro il Cardiff City: attesa per Castro. E arriva Koulierakis",
+                "link": "https://www.tuttomercatoweb.com/serie-a/roma-l-amichevole-cardiff-city-castro-arriva-koulierakis-2259097",
+                "date": "01/08 06:38"
             },
             {
-                "title": "Atalanta, un mercato che ad agosto dovrà muoversi tra entrate e uscite. Il punto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-mercato-sarri-agosto-giuntoli-entrate-uscite-2258642",
-                "date": "31/07 06:38"
+                "title": "Lazio, ora Gattuso chiede rinforzi: dopo un luglio di attesa, ora servono risposte",
+                "link": "https://www.tuttomercatoweb.com/calciomercato/lazio-gattuso-chiede-rinforzi-luglio-attesa-servono-risposte-2259110",
+                "date": "01/08 06:30"
             },
             {
-                "title": "Lazio, dalle scintille agli \"schiaffi educativi\": cosa è successo a Formello con Taylor",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-scintille-schiaffi-educativi-successo-formello-taylor-2258775",
-                "date": "31/07 06:30"
+                "title": "Nemanja Matic, arrivato a parametro zero ma colonna del Sassuolo dell'anno scorso",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/nemanja-matic-arrivato-parametro-zero-colonna-sassuolo-2258336",
+                "date": "01/08 05:00"
             },
             {
-                "title": "Antonio Conte, prima candidato ct e poi retromarcia. Non voleva quattro anni di contratto",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/antonio-conte-candidato-ct-retromarcia-voleva-contratto-2257901",
-                "date": "31/07 05:00"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 31 luglio",
+                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-31-luglio-2259082",
+                "date": "01/08 01:00"
             },
             {
-                "title": "Ruolo per ruolo: ecco l'Italia dei prossimi cicli di Roberto Mancini. Tutti i nomi e le sorprese: il talento non manca, adesso spazio al coraggio. Viva gli stranieri, basta con quelli mediocri",
-                "link": "https://www.tuttomercatoweb.com/editoriale/ruolo-ruolo-italia-prossimi-cicli-roberto-mancini-nomi-sorprese-talento-manca-spazio-coraggio-viva-s-2258540",
-                "date": "31/07 01:05"
+                "title": "Aspettando Kolo Muani e Alajbegovic, la Juventus ritrova Douglas Luiz: \"Voglio rimanere\"",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/aspettando-kolo-muani-alajbegovic-juventus-ritrova-douglas-luiz-voglio-rimanere-2259084",
+                "date": "01/08 00:56"
             }
         ]
     }
