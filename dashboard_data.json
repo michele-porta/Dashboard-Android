@@ -1,21 +1,12 @@
 {
-    "primi": [
-        "Penne all'arrabbiata vegan",
-        "Insalata di riso con funghi (pf)"
-    ],
-    "secondi": [
-        "Fagottino con prosciutto cotto e formaggio",
-        "Fettuccine di totano gratinato",
-        "Burger di soia e peperoni con salsa di olive vegan"
-    ],
-    "contorni": [
-        "Broccoli aglio, olio e peperoncino"
-    ],
-    "date": "LUN 3 AGO",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
     "gas_price": "1.991",
-    "oct_luce_price": "0,1496",
+    "oct_luce_price": "0,1485",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,65",
+    "oct_gas_price": "0,63",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Inter, Diouf a destra non ti basta. Avanti con le soluzioni del mercato",
-                "link": "https://www.tuttomercatoweb.com/serie-a/inter-diouf-destra-basta-soluzioni-mercato-2259558",
-                "date": "03/08 07:00"
+                "title": "Genoa, contro il Bournemouth sarà una \"maxi\" partita: Mitaj pronto all'esordio in rossoblù",
+                "link": "https://www.tuttomercatoweb.com/serie-a/genoa-bournemouth-maxi-partita-mitaj-pronto-esordio-rossoblu-2259896",
+                "date": "04/08 06:38"
             },
             {
-                "title": "Roma, problema per Wesley ma non preoccupa. Koulierakis si presenta, attesa per Read",
-                "link": "https://www.tuttomercatoweb.com/serie-a/roma-problema-wesley-preoccupa-koulierakis-presenta-read-2259638",
-                "date": "03/08 06:53"
+                "title": "Lazio, quattro gol in tre partite: Ratkov cerca di conquistare Gattuso",
+                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-gol-partite-ratkov-cerca-conquistare-gattuso-2259959",
+                "date": "04/08 06:30"
             },
             {
-                "title": "Juve a Hong Kong: Spalletti può finalmente contare su Kolo Muani e Alajbegovic",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juve-hong-kong-spalletti-contare-kolo-muani-alajbegovic-2259596",
-                "date": "03/08 06:45"
+                "title": "Destini in frantumi sulle strade, la tragica storia dei calciatori al volante",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/destini-frantumi-strade-tragica-storia-calciatori-volante-2259868",
+                "date": "04/08 06:21"
             },
             {
-                "title": "Non solo il 'mostro' Kean, la Fiorentina sta trovando un nuovo Piccoli. E ora può restare",
-                "link": "https://www.tuttomercatoweb.com/serie-a/mostro-kean-fiorentina-trovando-piccoli-restare-2259560",
-                "date": "03/08 06:38"
+                "title": "Il silenzio dei giganti: come Ibrahimović vive il lutto lontano dai social",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/silenzio-giganti-ibrahimovic-vive-lutto-social-2259895",
+                "date": "04/08 05:45"
             },
             {
-                "title": "Lazio, Gattuso traccia la linea: un difensore e un attaccante le richieste dal mercato",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-gattuso-traccia-linea-difensore-attaccante-richieste-mercato-2259647",
-                "date": "03/08 06:30"
+                "title": "Giovanni Di Lorenzo, capitano del Napoli per due Scudetti. Ma anche per il Centenario",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/giovanni-lorenzo-capitano-napoli-scudetti-centenario-2259786",
+                "date": "04/08 05:00"
             },
             {
-                "title": "Aleksandar Stankovic, finalmente Dejan potrà regalare nuove maglie e non quelle vintage",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/aleksandar-stankovic-dejan-potra-regalare-nuove-maglie-vintage-2259221",
-                "date": "03/08 05:00"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 3 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-3-agosto-2259932",
+                "date": "04/08 01:00"
             }
         ]
     }
