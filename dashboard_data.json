@@ -1,9 +1,18 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "1.991",
+    "primi": [
+        "Pasta al pomodoro fresco e mozzarella",
+        "Cous cous freddo con curry e verdure vegan (pf)"
+    ],
+    "secondi": [
+        "Arrosto di suino zenzero e miele",
+        "Filetto di nasello limone e rosmarino",
+        "Ricotta al forno in crosta di sesamo "
+    ],
+    "contorni": [
+        "Carote al burro e salvia"
+    ],
+    "date": "MER 5 AGO",
+    "gas_price": "1.992",
     "oct_luce_price": "0,1485",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,63",
@@ -38,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Slovan Bratislava",
-                    "away": "Iberia 1999",
-                    "home_score": "1",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ifxpmk1615900731.png",
-                    "date": "2026-07-29",
-                    "time": "18:15:00"
+                    "home": "Dinamo Zagreb",
+                    "away": "Kauno Žalgiris",
+                    "home_score": "5",
+                    "away_score": "0",
+                    "home_badge": "https://www.thesportsdb.com/images/media/team/badge/zcb6f61784988620.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/yf8m3t1714153414.png",
+                    "date": "2026-08-04",
+                    "time": "18:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Ararat-Armenia",
-                    "away": "Celje",
+                    "home": "AGF Aarhus",
+                    "away": "Sabah Baku",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/g396se1596470244.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
-                    "date": "2026-08-04",
-                    "time": "16:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
+                    "date": "2026-08-05",
+                    "time": "16:30:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Genoa, contro il Bournemouth sarà una \"maxi\" partita: Mitaj pronto all'esordio in rossoblù",
-                "link": "https://www.tuttomercatoweb.com/serie-a/genoa-bournemouth-maxi-partita-mitaj-pronto-esordio-rossoblu-2259896",
-                "date": "04/08 06:38"
+                "title": "Atalanta, il grande abbraccio con i tifosi. Sostegno, passione e la necessità di stare uniti",
+                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-allenamento-tifosi-striscioni-sarri-percassi-2260234",
+                "date": "05/08 06:38"
             },
             {
-                "title": "Lazio, quattro gol in tre partite: Ratkov cerca di conquistare Gattuso",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-gol-partite-ratkov-cerca-conquistare-gattuso-2259959",
-                "date": "04/08 06:30"
+                "title": "Lazio, Gattuso ritrova Tavares. E per Gimenez c'è una sola strada",
+                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-gattuso-ritrova-tavares-gimenez-sola-strada-2260290",
+                "date": "05/08 06:30"
             },
             {
-                "title": "Destini in frantumi sulle strade, la tragica storia dei calciatori al volante",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/destini-frantumi-strade-tragica-storia-calciatori-volante-2259868",
-                "date": "04/08 06:21"
+                "title": "Pierre Emile Hojbjerg, nella rotta delle italiane da anni. Ora valutato tra i 10 e i 15 milioni",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/pierre-emile-hojbjerg-rotta-italiane-anni-valutato-10-15-2260086",
+                "date": "05/08 05:00"
             },
             {
-                "title": "Il silenzio dei giganti: come Ibrahimović vive il lutto lontano dai social",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/silenzio-giganti-ibrahimovic-vive-lutto-social-2259895",
-                "date": "04/08 05:45"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 4 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-4-agosto-2260271",
+                "date": "05/08 01:00"
             },
             {
-                "title": "Giovanni Di Lorenzo, capitano del Napoli per due Scudetti. Ma anche per il Centenario",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/giovanni-lorenzo-capitano-napoli-scudetti-centenario-2259786",
-                "date": "04/08 05:00"
+                "title": "Milano saluta Franco Baresi: un mare rossonero ai funerali, il calcio rende omaggio al \"Piscinin\"",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/milano-saluta-franco-baresi-mare-rossonero-funerali-calcio-rende-omaggio-piscinin-2260187",
+                "date": "05/08 00:56"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 3 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-3-agosto-2259932",
-                "date": "04/08 01:00"
+                "title": "Spalletti soddisfatto del mercato Juventus. E adesso il Chelsea: altra chance per Douglas Luiz",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/spalletti-soddisfatto-mercato-juventus-chelsea-altra-chance-douglas-luiz-2260289",
+                "date": "05/08 00:53"
             }
         ]
     }
