@@ -1,11 +1,11 @@
 === Mensa Greenlife & MIMIT Fuel Scraper ===
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
-Prezzo benzina Emilia Romagna rilevato: 1.992
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-08-03T22:00:00.000Z&dataFine=2026-08-10T22:00:00.000Z
+Prezzo benzina Emilia Romagna rilevato: 1.990
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-08-04T22:00:00.000Z&dataFine=2026-08-11T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
-Menu caricato con successo tramite proxy: 223.25.110.250:8088
+Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
 Tariffe Octopus rilevate: Luce=0,1485, Gas=0,63
 Caricamento risultati sportivi da TheSportsDB...
