@@ -1,12 +1,21 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "1.990",
-    "oct_luce_price": "0,1485",
+    "primi": [
+        "Sedani del salumiere",
+        "Insalata di farro vegan (pf)"
+    ],
+    "secondi": [
+        "Bocconcini di manzo in salsa di soia e verdure",
+        "Filetto di scorfano in croccante di mais",
+        "Tortino di pasta sfoglia e verdure "
+    ],
+    "contorni": [
+        "Fagiolini con olive nere ed erba cipollina"
+    ],
+    "date": "VEN 7 AGO",
+    "gas_price": "1.986",
+    "oct_luce_price": "0,1386",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,63",
+    "oct_gas_price": "0,573",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -63,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Sta nascendo una Fiorentina Galactica: Mastantuono ottavo (ma non ultimo) acquisto di Paratici",
-                "link": "https://www.tuttomercatoweb.com/serie-a/nascendo-fiorentina-i-galactica-i-mastantuono-ottavo-acquisto-paratici-2260483",
-                "date": "06/08 06:38"
+                "title": "Un talento al giorno, Caleb Yirenkyi: il record man in uscita della lega danese",
+                "link": "https://www.tuttomercatoweb.com/il-talento-del-giorno/i-un-talento-giorno-i-caleb-yirenkyi-record-man-uscita-lega-danese-2260747",
+                "date": "07/08 06:00"
             },
             {
-                "title": "Lazio, a caccia di riscatto: capitan Zaccagni prova a ripartire dal precampionato",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-caccia-riscatto-capitan-zaccagni-prova-ripartire-precampionato-2260611",
-                "date": "06/08 06:30"
+                "title": "Dani Ceballos, svincolato di lusso. Ha salutato Madrid dopo nove anni, con uno di anticipo",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/dani-ceballos-svincolato-lusso-salutato-madrid-anni-2260337",
+                "date": "07/08 05:00"
             },
             {
-                "title": "Perugia, pragmatismo contro istinto, la discontinuità di Alessandro",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/perugia-pragmatismo-istinto-discontinuita-alessandro-2260299",
-                "date": "06/08 06:21"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 6 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-6-agosto-2260888",
+                "date": "07/08 01:00"
             },
             {
-                "title": "Infantino è rimasto solo… andrà a lavorare dall’amico Trump?",
-                "link": "https://www.tuttomercatoweb.com/l-angolo-di-calcio2000/infantino-rimasto-solo-andra-lavorare-dall-amico-trump-2260610",
-                "date": "06/08 06:00"
+                "title": "Mastantuono accende Firenze: festa viola. Antognoni “imbestialito” con Commisso",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/mastantuono-accende-firenze-festa-viola-antognoni-imbestialito-commisso-2260875",
+                "date": "07/08 00:56"
             },
             {
-                "title": "Bucchioni: \"Palestra rammarico Inter. Juve sopra al Milan ma Zirkzee non è spallettiano\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/bucchioni-palestra-rammarico-inter-juve-milan-zirkzee-i-spallettiano-i-2260600",
-                "date": "06/08 05:45"
+                "title": "Il caso Esposito non si chiude: durissimo botta e risposta tra Cagliari e agente",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/esposito-chiude-durissimo-botta-risposta-cagliari-agente-2260878",
+                "date": "07/08 00:52"
             },
             {
-                "title": "Nicoletti: \"Kean alla prova del nove: o si consacra o fa capire chi è veramente\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/nicoletti-kean-prova-nove-consacra-capire-veramente-2260598",
-                "date": "06/08 05:15"
+                "title": "Italia, ecco lo staff di Maldini. Torna Oriali, Bollini vice, c’è Bonucci: manca il capo delegazione",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/italia-staff-maldini-torna-oriali-bollini-vice-c-e-bonucci-manca-capo-delegazione-2260880",
+                "date": "07/08 00:49"
             }
         ]
     }
