@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Sedani del salumiere",
-        "Insalata di farro vegan (pf)"
-    ],
-    "secondi": [
-        "Bocconcini di manzo in salsa di soia e verdure",
-        "Filetto di scorfano in croccante di mais",
-        "Tortino di pasta sfoglia e verdure "
-    ],
-    "contorni": [
-        "Fagiolini con olive nere ed erba cipollina"
-    ],
-    "date": "VEN 7 AGO",
-    "gas_price": "1.986",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "SAB 8 AGO",
+    "gas_price": "1.982",
     "oct_luce_price": "0,1386",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,573",
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Un talento al giorno, Caleb Yirenkyi: il record man in uscita della lega danese",
-                "link": "https://www.tuttomercatoweb.com/il-talento-del-giorno/i-un-talento-giorno-i-caleb-yirenkyi-record-man-uscita-lega-danese-2260747",
-                "date": "07/08 06:00"
+                "title": "Malick Thiaw, cresciuto nella stagione al Newcastle. Anche meglio rispetto al Milan",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/malick-thiaw-cresciuto-stagione-newcastle-milan-2260448",
+                "date": "08/08 05:00"
             },
             {
-                "title": "Dani Ceballos, svincolato di lusso. Ha salutato Madrid dopo nove anni, con uno di anticipo",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/dani-ceballos-svincolato-lusso-salutato-madrid-anni-2260337",
-                "date": "07/08 05:00"
+                "title": "L'Inter dimostri di poter fare mercato. Troppe chiacchiere e pochi fatti: guai a pensare di essere superiore a tutte le altre a prescindere. Juve, il portiere può diventare un \"problema\". Milan-Leao, serve una decisione netta",
+                "link": "https://www.tuttomercatoweb.com/editoriale/inter-dimostri-poter-mercato-troppe-chiacchiere-pochi-fatti-guai-pensare-superiore-prescindere-juve-2261199",
+                "date": "08/08 01:10"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 6 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-6-agosto-2260888",
-                "date": "07/08 01:00"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 7 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-7-agosto-2261191",
+                "date": "08/08 01:00"
             },
             {
-                "title": "Mastantuono accende Firenze: festa viola. Antognoni “imbestialito” con Commisso",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/mastantuono-accende-firenze-festa-viola-antognoni-imbestialito-commisso-2260875",
-                "date": "07/08 00:56"
+                "title": "Juventus, Spalletti allontana Circati. Cambiaso vuole restare: \"Sono contento qui\"",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-spalletti-allontana-circati-cambiaso-vuole-restare-sono-contento-qui-2261195",
+                "date": "08/08 00:56"
             },
             {
-                "title": "Il caso Esposito non si chiude: durissimo botta e risposta tra Cagliari e agente",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/esposito-chiude-durissimo-botta-risposta-cagliari-agente-2260878",
-                "date": "07/08 00:52"
+                "title": "Chivu: \"Inter puzzle non completo\". Intanto Lautaro e Zanetti telefonano a Romero",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/chivu-siamo-puzzle-completo-lautaro-zanetti-telefonano-romero-2261194",
+                "date": "08/08 00:53"
             },
             {
-                "title": "Italia, ecco lo staff di Maldini. Torna Oriali, Bollini vice, c’è Bonucci: manca il capo delegazione",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/italia-staff-maldini-torna-oriali-bollini-vice-c-e-bonucci-manca-capo-delegazione-2260880",
-                "date": "07/08 00:49"
+                "title": "In Argentina sono sicuri: \"Offerta del Milan per Paredes\". Intanto Bennacer dice au revoir",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/argentina-sicuri-offerta-milan-paredes-bennacer-i-au-revoir-i-2261186",
+                "date": "08/08 00:49"
             }
         ]
     }
