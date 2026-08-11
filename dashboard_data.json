@@ -1,21 +1,21 @@
 {
     "primi": [
-        "Sedani alla puttanesca",
-        "Insalata di pasta con ceci, olive, pomodoro e basilico vegan (pf)"
+        "Gnocchi di patate al pomodoro",
+        "Rigatoni alla carbonara"
     ],
     "secondi": [
-        "Rosticciata di wurstel salsiccia e patate",
-        "Trancio di verdesca alla pugliese",
-        "Sfogliata di zucchine e asparagi vegan"
+        "Pollo alla paprika",
+        "Melanzane alla nostromo",
+        "Uova al forno nel letto di spinaci"
     ],
     "contorni": [
-        "Carote trifolate"
+        "Patate arrosto"
     ],
-    "date": "LUN 10 AGO",
-    "gas_price": "N/D",
-    "oct_luce_price": "0,1386",
+    "date": "MAR 11 AGO",
+    "gas_price": "1.977",
+    "oct_luce_price": "0,1397",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,573",
+    "oct_gas_price": "0,60",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -72,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Bernardo Silva, la chimera juventina di metà primavera. Poi finito al Real Madrid",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/bernardo-silva-chimera-juventina-meta-primavera-finito-real-madrid-2260696",
-                "date": "10/08 05:00"
+                "title": "Braglia: \"Suzuki non è da Juventus, sarebbe come comprare un altro Di Gregorio\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/braglia-suzuki-juventus-gregorio-2261963",
+                "date": "11/08 05:15"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 9 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-9-agosto-2261675",
-                "date": "10/08 01:15"
+                "title": "Massimiliano Allegri, nuovo allenatore del Napoli. Unico a opporsi all'egemonia dell'Inter",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/massimiliano-allegri-allenatore-napoli-unico-opporsi-egemonia-inter-2261742",
+                "date": "11/08 05:00"
             },
             {
-                "title": "Lukaku sempre più vicino all'addio al Napoli: lo aspetta il Fenerbahce, ecco cosa manca",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/lukaku-addio-napoli-aspetta-fenerbahce-manca-2261661",
-                "date": "10/08 00:56"
+                "title": "Marco Giannitti: “Italia, immagine poco bella nel mondo. Ranieri e Mancini ok. Mercato, ok Como e Fiorentina. B, Palermo sopra tutte”",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/marco-giannitti-italia-immagine-bella-2261972",
+                "date": "11/08 01:40"
             },
             {
-                "title": "Nuova bufera su Malagò. Nomina Bianchedi capodelegazione e il Coni attacca: \"Incompatibile\"",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/nuova-bufera-malago-nomina-bianchedi-capodelegazione-coni-attacca-incompatibile-2261637",
-                "date": "10/08 00:53"
+                "title": "Dopo il no del Milan per Leao il Galatasaray non rilancerà: i turchi cambiano obiettivo e guardano ancora in Serie A. Solo in caso di altre complicazioni il nome del portoghese tornerà valido, ma occhio al \"precedente\" Osimhen",
+                "link": "https://www.tuttomercatoweb.com/editoriale/milan-leao-galatasaray-rilancera-turchi-cambiano-obiettivo-guardano-serie-a-complicazioni-portoghese-2261970",
+                "date": "11/08 01:10"
             },
             {
-                "title": "L'Inter riabbraccia Lautaro e Thuram. Primo allenamento ad Appiano anche per Stones",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/inter-riabbraccia-lautaro-thuram-allenamento-appiano-stones-2261657",
-                "date": "10/08 00:49"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 10 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-10-agosto-2261948",
+                "date": "11/08 01:00"
             },
             {
-                "title": "La Roma vuole accelerare sul mercato: doppio assalto a Rodrigo Mora e Cacciamani",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/roma-vuole-accelerare-mercato-assalto-rodrigo-mora-cacciamani-2261653",
-                "date": "10/08 00:45"
+                "title": "Juventus ancora a caccia di un portiere. Spalletti parla prima del Palermo",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-caccia-portiere-spalletti-parla-palermo-2261928",
+                "date": "11/08 00:56"
             }
         ]
     }
