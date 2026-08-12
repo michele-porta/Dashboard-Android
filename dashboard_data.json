@@ -1,18 +1,18 @@
 {
     "primi": [
-        "Gnocchi di patate al pomodoro",
-        "Rigatoni alla carbonara"
+        "Pasta zafferano e salsiccia",
+        "Insalata di riso con prosciutto cotto, rucola e edamer (pf)"
     ],
     "secondi": [
-        "Pollo alla paprika",
-        "Melanzane alla nostromo",
-        "Uova al forno nel letto di spinaci"
+        "Piccatina di suino alla palermitana",
+        "Filetto di merluzzo in croccante di verdure",
+        "Burger di barbabietola e soia con olio profumato al basilico vegan"
     ],
     "contorni": [
-        "Patate arrosto"
+        "Finocchi con pane profumato"
     ],
-    "date": "MAR 11 AGO",
-    "gas_price": "1.977",
+    "date": "MER 12 AGO",
+    "gas_price": "1.975",
     "oct_luce_price": "0,1397",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,60",
@@ -47,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Fenerbahçe",
-                    "away": "Sturm Graz",
-                    "home_score": "2",
+                    "home": "Lyon",
+                    "away": "Sparta Prague",
+                    "home_score": "3",
                     "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ppg0j71578585847.png",
-                    "date": "2026-08-05",
-                    "time": "18:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/j00qct1718287150.png",
+                    "date": "2026-08-11",
+                    "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Kairat Almaty",
-                    "away": "Levski Sofia",
+                    "home": "Celtic",
+                    "away": "LASK",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/9krgx71781149189.png",
-                    "date": "2026-08-11",
-                    "time": "15:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
+                    "date": "2026-08-19",
+                    "time": "19:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Braglia: \"Suzuki non è da Juventus, sarebbe come comprare un altro Di Gregorio\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/braglia-suzuki-juventus-gregorio-2261963",
-                "date": "11/08 05:15"
+                "title": "Ogg in TV, Supercoppa Europea: dove vedere PSG-Aston Villa",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-ogg-tv-i-supercoppa-europea-vedere-psg-aston-villa-2262252",
+                "date": "12/08 05:30"
             },
             {
-                "title": "Massimiliano Allegri, nuovo allenatore del Napoli. Unico a opporsi all'egemonia dell'Inter",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/massimiliano-allegri-allenatore-napoli-unico-opporsi-egemonia-inter-2261742",
-                "date": "11/08 05:00"
+                "title": "Matthijs De Ligt, pagato 75 milioni di euro a vent'anni. Salvo poi peggiorare ogni stagione",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/matthijs-de-ligt-pagato-75-euro-vent-anni-peggiorare-stagione-2261748",
+                "date": "12/08 05:00"
             },
             {
-                "title": "Marco Giannitti: “Italia, immagine poco bella nel mondo. Ranieri e Mancini ok. Mercato, ok Como e Fiorentina. B, Palermo sopra tutte”",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/marco-giannitti-italia-immagine-bella-2261972",
-                "date": "11/08 01:40"
+                "title": "Mentre le big europee comprano Diomandé, Rodri, Tonali e i migliori talenti del globo, la Serie A elemosina riserve, prestiti e non riesce a vendere gli esuberi. Addio Top 5: la Turchia ci sta per prendere",
+                "link": "https://www.tuttomercatoweb.com/editoriale/big-europee-comprano-diomande-rodri-tonali-migliori-talenti-globo-serie-elemosina-riserve-prestiti-r-2261895",
+                "date": "12/08 01:15"
             },
             {
-                "title": "Dopo il no del Milan per Leao il Galatasaray non rilancerà: i turchi cambiano obiettivo e guardano ancora in Serie A. Solo in caso di altre complicazioni il nome del portoghese tornerà valido, ma occhio al \"precedente\" Osimhen",
-                "link": "https://www.tuttomercatoweb.com/editoriale/milan-leao-galatasaray-rilancera-turchi-cambiano-obiettivo-guardano-serie-a-complicazioni-portoghese-2261970",
-                "date": "11/08 01:10"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena dell'11 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-11-agosto-2262251",
+                "date": "12/08 01:00"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 10 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-10-agosto-2261948",
-                "date": "11/08 01:00"
+                "title": "Cose turche: anche Vlahovic in Super Lig. Il serbo è a un passo dal Besiktas",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/cose-turche-vlahovic-super-lig-serbo-passo-besiktas-2262264",
+                "date": "12/08 00:56"
             },
             {
-                "title": "Juventus ancora a caccia di un portiere. Spalletti parla prima del Palermo",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-caccia-portiere-spalletti-parla-palermo-2261928",
-                "date": "11/08 00:56"
+                "title": "Napoli, l'addio con Lukaku è a un passo. Badiashile, c'è ottimismo. Favasuli in arrivo",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/napoli-addio-lukaku-passo-badiashile-ottimismo-favasuli-arrivo-2262262",
+                "date": "12/08 00:53"
             }
         ]
     }
