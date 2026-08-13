@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Pasta zafferano e salsiccia",
-        "Insalata di riso con prosciutto cotto, rucola e edamer (pf)"
-    ],
-    "secondi": [
-        "Piccatina di suino alla palermitana",
-        "Filetto di merluzzo in croccante di verdure",
-        "Burger di barbabietola e soia con olio profumato al basilico vegan"
-    ],
-    "contorni": [
-        "Finocchi con pane profumato"
-    ],
-    "date": "MER 12 AGO",
-    "gas_price": "1.975",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
+    "gas_price": "1.977",
     "oct_luce_price": "0,1397",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,60",
@@ -59,47 +50,47 @@
             ],
             "next": [
                 {
-                    "home": "Celtic",
-                    "away": "LASK",
+                    "home": "Fenerbahçe",
+                    "away": "Lyon",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
-                    "date": "2026-08-19",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
+                    "date": "2026-08-18",
                     "time": "19:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Ogg in TV, Supercoppa Europea: dove vedere PSG-Aston Villa",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-ogg-tv-i-supercoppa-europea-vedere-psg-aston-villa-2262252",
-                "date": "12/08 05:30"
+                "title": "Sasa Lukic, colonna del Torino in almeno quattro stagioni. Poi Fulham e ora Ipswich Town",
+                "link": "https://www.tuttomercatoweb.com/nato-oggi/sasa-lukic-colonna-torino-almeno-stagioni-fulham-ipswich-town-2262071",
+                "date": "13/08 05:00"
             },
             {
-                "title": "Matthijs De Ligt, pagato 75 milioni di euro a vent'anni. Salvo poi peggiorare ogni stagione",
-                "link": "https://www.tuttomercatoweb.com/nato-oggi/matthijs-de-ligt-pagato-75-euro-vent-anni-peggiorare-stagione-2261748",
-                "date": "12/08 05:00"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 12 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-11-agosto-2262506",
+                "date": "13/08 01:00"
             },
             {
-                "title": "Mentre le big europee comprano Diomandé, Rodri, Tonali e i migliori talenti del globo, la Serie A elemosina riserve, prestiti e non riesce a vendere gli esuberi. Addio Top 5: la Turchia ci sta per prendere",
-                "link": "https://www.tuttomercatoweb.com/editoriale/big-europee-comprano-diomande-rodri-tonali-migliori-talenti-globo-serie-elemosina-riserve-prestiti-r-2261895",
-                "date": "12/08 01:15"
+                "title": "Finalmente Spence: l'Inter piazza il colpo esterno destro. 35 milioni complessivi",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/spence-inter-piazza-colpo-esterno-destro-35-complessivi-2262578",
+                "date": "13/08 00:56"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena dell'11 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-11-agosto-2262251",
-                "date": "12/08 01:00"
+                "title": "La Lazio si regala Frattesi: accordo con l'Inter trovato. Tutti i dettagli dell'operazione",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/lazio-regala-frattesi-accordo-inter-trovato-dettagli-operazione-2262577",
+                "date": "13/08 00:53"
             },
             {
-                "title": "Cose turche: anche Vlahovic in Super Lig. Il serbo è a un passo dal Besiktas",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/cose-turche-vlahovic-super-lig-serbo-passo-besiktas-2262264",
-                "date": "12/08 00:56"
+                "title": "Vlahovic e Lukaku lasciano la Serie A per la Turchia: accolti come eroi",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/vlahovic-lukaku-lasciano-serie-turchia-accolti-eroi-2262576",
+                "date": "13/08 00:49"
             },
             {
-                "title": "Napoli, l'addio con Lukaku è a un passo. Badiashile, c'è ottimismo. Favasuli in arrivo",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/napoli-addio-lukaku-passo-badiashile-ottimismo-favasuli-arrivo-2262262",
-                "date": "12/08 00:53"
+                "title": "Molina è un giocatore della Roma: tutti i dettagli dell'operazione con l'Atletico Madrid",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/molina-giocatore-roma-dettagli-operazione-atletico-madrid-2262572",
+                "date": "13/08 00:45"
             }
         ]
     }
