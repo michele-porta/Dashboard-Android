@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "1.987",
+    "gas_price": "1.990",
     "oct_luce_price": "0,1474",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,65",
@@ -38,59 +38,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Levski Sofia",
-                    "away": "AEK Athens",
-                    "home_score": "0",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/9krgx71781149189.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/4nogst1602773624.png",
-                    "date": "2026-08-18",
+                    "home": "Slovan Bratislava",
+                    "away": "Celje",
+                    "home_score": "1",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
+                    "date": "2026-08-19",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Celtic",
-                    "away": "LASK",
+                    "home": "Sabah Baku",
+                    "away": "Hapoel Be'er Sheva",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3uv1641758780002.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
-                    "date": "2026-08-19",
-                    "time": "19:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
+                    "date": "2026-08-25",
+                    "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Le partite di oggi: il programma di mercoledì 19 agosto",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-mercoledi-19-agosto-2264240",
-                "date": "19/08 04:30"
+                "title": "Le partite di oggi: il programma di giovedì 20 agosto",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-giovedi-20-agosto-2264401",
+                "date": "20/08 04:30"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 18 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-18-agosto-2264216",
-                "date": "19/08 01:00"
+                "title": "Il Milan non corra il rischio di diventare il nuovo Wolverhampton! Al centro c'è sempre Jorge Mendes: il prossimo è il difensore? Tante offerte per Leao: i retroscena sul futuro",
+                "link": "https://www.tuttomercatoweb.com/editoriale/milan-corra-rischio-wolverhampton-investimenti-urlo-giocatori-strapagati-centro-quasi-mendes-leao-jo-2264446",
+                "date": "20/08 01:15"
             },
             {
-                "title": "Entusiasmo a Roma per Rodrigo Mora: i dettagli. I giallorossi non mollano Fofana",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/entusiasmo-roma-rodrigo-mora-dettagli-giallorossi-mollano-fofana-2264234",
-                "date": "19/08 00:56"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 19 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-19-agosto-2264525",
+                "date": "20/08 01:00"
             },
             {
-                "title": "Milan, ecco Diego Moreira: ora la firma. Nkunku tra Lipsia e Galatasaray",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/milan-c-e-diego-moreira-arrivo-firma-nkunku-lipsia-galatasaray-2264232",
-                "date": "19/08 00:52"
+                "title": "Moreira ufficiale, Jorge Mendes in città e la questione Leao. Grandi manovre in casa Milan",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/moreira-ufficiale-jorge-mendes-questione-leao-grandi-manovre-casa-milan-2264554",
+                "date": "20/08 00:56"
             },
             {
-                "title": "Juventus, Vicario è ufficiale: “Il massimo”. Palermo su Perin, con Arthur è finita",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-vicario-ufficiale-il-massimo-palermo-perin-arthur-finita-2264227",
-                "date": "19/08 00:48"
+                "title": "L'Inter blinda Lautaro e si regala Curtis Jones. Il centrocampista è atteso oggi a Milano",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/inter-blinda-lautaro-regala-curtis-jones-centrocampista-atteso-milano-2264547",
+                "date": "20/08 00:52"
             },
             {
-                "title": "Il Napoli si muove: per Favasuli manca solo l’annuncio, ecco Badiashile. Ora caccia al bomber",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/napoli-muove-favasuli-manca-l-annuncio-badiashile-caccia-bomber-2264224",
-                "date": "19/08 00:45"
+                "title": "Rodrigo Mora sceglie l'86 e parla già da giallorosso: \"Roma, spero in una grande annata\"",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/rodrigo-mora-sceglie-86-parla-giallorosso-roma-spero-annata-2264541",
+                "date": "20/08 00:49"
             }
         ]
     }
