@@ -1,12 +1,21 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "1.990",
-    "oct_luce_price": "0,1474",
+    "primi": [
+        "Mezze penne con merluzzo, pomodoro fresco e zafferano",
+        "Cous cous con verdure e ceci speziati vegan (pf)"
+    ],
+    "secondi": [
+        "Straccetti di manzo con verdure in salsa di soia e zenzero",
+        "Filetto di scorfano gratinato",
+        "Tortino di verdure "
+    ],
+    "contorni": [
+        "Carote con pane profumato"
+    ],
+    "date": "VEN 21 AGO",
+    "gas_price": "1.994",
+    "oct_luce_price": "0,1518",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,65",
+    "oct_gas_price": "0,68",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -63,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Le partite di oggi: il programma di giovedì 20 agosto",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-giovedi-20-agosto-2264401",
-                "date": "20/08 04:30"
+                "title": "Le partite di oggi: il programma di venerdì 21 agosto",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-venerdi-21-agosto-2264724",
+                "date": "21/08 04:30"
             },
             {
-                "title": "Il Milan non corra il rischio di diventare il nuovo Wolverhampton! Al centro c'è sempre Jorge Mendes: il prossimo è il difensore? Tante offerte per Leao: i retroscena sul futuro",
-                "link": "https://www.tuttomercatoweb.com/editoriale/milan-corra-rischio-wolverhampton-investimenti-urlo-giocatori-strapagati-centro-quasi-mendes-leao-jo-2264446",
-                "date": "20/08 01:15"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 20 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-20-agosto-2264887",
+                "date": "21/08 01:00"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 19 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-19-agosto-2264525",
-                "date": "20/08 01:00"
+                "title": "Riecco la Serie A: da Inter-Monza a Roma-Fiorentina, le probabili formazioni della prima giornata",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/serie-a-inter-monza-roma-fiorentina-probabili-formazioni-giornata-2264879",
+                "date": "21/08 00:56"
             },
             {
-                "title": "Moreira ufficiale, Jorge Mendes in città e la questione Leao. Grandi manovre in casa Milan",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/moreira-ufficiale-jorge-mendes-questione-leao-grandi-manovre-casa-milan-2264554",
-                "date": "20/08 00:56"
+                "title": "Curtis Jones finalmente a Milano: tempo di visite e firma con l'Inter",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/curtis-jones-milano-visite-firma-inter-2264896",
+                "date": "21/08 00:50"
             },
             {
-                "title": "L'Inter blinda Lautaro e si regala Curtis Jones. Il centrocampista è atteso oggi a Milano",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/inter-blinda-lautaro-regala-curtis-jones-centrocampista-atteso-milano-2264547",
-                "date": "20/08 00:52"
+                "title": "L'incredibile giovedì di Bamba Dieng: visite fallite con la Lazio, poi superate con la Stella Rossa",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/incredibile-giovedi-bamba-dieng-visite-fallite-lazio-superate-stella-rossa-2264874",
+                "date": "21/08 00:45"
             },
             {
-                "title": "Rodrigo Mora sceglie l'86 e parla già da giallorosso: \"Roma, spero in una grande annata\"",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/rodrigo-mora-sceglie-86-parla-giallorosso-roma-spero-annata-2264541",
-                "date": "20/08 00:49"
+                "title": "Mastantuono si presenta, il Como pronto a rilanciare per Kean: Fiorentina, sono ore decisive",
+                "link": "https://www.tuttomercatoweb.com/serie-a/mastantuono-presenta-como-pronto-rilanciare-kean-fiorentina-decisive-2264891",
+                "date": "21/08 00:42"
             }
         ]
     }
