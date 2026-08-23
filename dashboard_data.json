@@ -2,8 +2,8 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "SAB 22 AGO",
-    "gas_price": "1.998",
+    "date": "DOM 23 AGO",
+    "gas_price": "2.002",
     "oct_luce_price": "0,1518",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,68",
@@ -12,25 +12,25 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Hellas Verona",
-                    "away": "Roma",
+                    "home": "Parma",
+                    "away": "Cagliari",
                     "home_score": "0",
-                    "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/p6camf1593457737.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-                    "date": "2026-05-24",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/6yiaxs1627406063.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
+                    "date": "2026-08-22",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Udinese",
-                    "away": "Como",
+                    "home": "Frosinone",
+                    "away": "Juventus",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "date": "2026-08-22",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
+                    "date": "2026-08-23",
                     "time": "16:30:00"
                 }
             ]
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Le partite di oggi: il programma di sabato 22 agosto",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/i-le-partite-oggi-i-programma-sabato-22-agosto-2265098",
-                "date": "22/08 04:30"
+                "title": "Carmine Gautieri: \"Inter ancora squadra da battere. Como, mi aspettavo di più. Fiorentina, mercato top. Serie B, il Palermo vincerà il campionato\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/carmine-gautieri-inter-squadra-battere-como-aspettavo-piu-fiorentina-mercato-top-serie-b-palermo-vin-2265601",
+                "date": "23/08 01:00"
             },
             {
-                "title": "L'Inter davanti a tutti, poi Napoli e (forse) Como. La griglia di partenza della Serie A è parziale, il mercato può incidere ancora tanto: ecco come. Roma, Juve e Milan, l'obiettivo può essere solo la Champions. Fiorentina e Atalanta più staccate",
-                "link": "https://www.tuttomercatoweb.com/editoriale/inter-tutti-napoli-forse-como-griglia-partenza-serie-parziale-mercato-incidere-tanto-come-roma-juve-2265228",
-                "date": "22/08 01:10"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 22 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-22-agosto-2265512",
+                "date": "23/08 01:00"
             },
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 21 agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/i-calciomercato-i-stop-indiscrezioni-trattative-retroscena-21-agosto-2265230",
-                "date": "22/08 01:00"
+                "title": "Frosinone-Juve, Torino-Milan, Roma-Fiorentina e le altre: tutte le probabili formazioni",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/frosinone-juve-torino-milan-roma-fiorentina-altre-probabili-formazioni-2265581",
+                "date": "23/08 00:58"
             },
             {
-                "title": "Oggi inizia la Serie A: da Inter-Monza a Roma-Fiorentina, tutte le probabili formazioni",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/inizia-serie-a-inter-monza-roma-fiorentina-probabili-formazioni-2265227",
-                "date": "22/08 00:56"
+                "title": "L'Inter parte in quarta, travolgendo un Monza in cerca di rinforzi. E Marotta blinda Lautaro",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/inter-quarta-travolgendo-monza-cerca-rinforzi-marotta-blinda-lautaro-2265582",
+                "date": "23/08 00:56"
             },
             {
-                "title": "Per Kean al Como non è finita, ma la Fiorentina non sta a guardare. E Pellegrino si presenta",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/kean-como-finita-fiorentina-guardare-pellegrino-presenta-2265220",
-                "date": "22/08 00:53"
+                "title": "De Bruyne e Vergara valgono i primi tre punti di Allegri: vince il Napoli, rabbia del Genoa",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/de-bruyne-vergara-valgono-primi-punti-allegri-vince-napoli-rabbia-genoa-2265588",
+                "date": "23/08 00:53"
             },
             {
-                "title": "Allegri prima del Genoa: \"Campionato tutto da scoprire, il Napoli dovrà essere competitivo\"",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/allegri-genoa-campionato-scoprire-napoli-competitivo-2265217",
-                "date": "22/08 00:49"
+                "title": "Como inchiodato, 1-1 con l'Udinese. Fabregas: \"Meritavamo di più\". E parla di Kean",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/como-inchiodato-udinese-1-1-casa-fabregas-meritavamo-vittoria-parla-kean-2265572",
+                "date": "23/08 00:49"
             }
         ]
     }
