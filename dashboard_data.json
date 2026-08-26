@@ -1,21 +1,21 @@
 {
     "primi": [
-        "Spaghetti alla carbonara",
-        "Rigatoni con melanzane, olive e basilico vegan"
+        "Tagliatelle al ragù bovino",
+        "Pasta fredda primosale, rucola e pomodorini (pf)"
     ],
     "secondi": [
-        "Braciola di maiale burro e salvia",
-        "Filetto di scorfano gratinato",
-        "Burger di barbabietola e soia con paella di verdure vegan"
+        "Saltimbocca alla romana",
+        "Fish nuggets",
+        "Parmigiana di melanzane"
     ],
     "contorni": [
-        "Patate alla paprika"
+        "Cavolfiore ai capperi"
     ],
-    "date": "MAR 25 AGO",
-    "gas_price": "2.004",
-    "oct_luce_price": "0,1518",
+    "date": "MER 26 AGO",
+    "gas_price": "2.009",
+    "oct_luce_price": "0,1595",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,68",
+    "oct_gas_price": "0,73",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -47,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Slovan Bratislava",
-                    "away": "Celje",
-                    "home_score": "1",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
-                    "date": "2026-08-19",
+                    "home": "Bodø/Glimt",
+                    "away": "NEC Nijmegen",
+                    "home_score": "3",
+                    "away_score": "0",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
+                    "date": "2026-08-25",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Sabah Baku",
-                    "away": "Hapoel Be'er Sheva",
+                    "home": "Celje",
+                    "away": "Slovan Bratislava",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/5cw7q91723051971.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ar5zft1781239007.png",
-                    "date": "2026-08-25",
-                    "time": "16:45:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/amvs371681106952.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+                    "date": "2026-08-26",
+                    "time": "19:00:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 24 Agosto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-24-agosto-2266260",
-                "date": "25/08 01:00"
+                "title": "Il Como va all-in con un mercato da Scudetto e non è finita qui. Il disastro di Spalletti su Kolo Muani mentre Gasperini e Sarri sono rinati. L'autogol del Milan con Leao ha una sola via d'uscita",
+                "link": "https://www.tuttomercatoweb.com/editoriale/como-all-in-mercato-scudetto-colpi-pronti-disastro-spalletti-kolo-muani-gasperini-sarri-rinati-autog-2266358",
+                "date": "26/08 01:15"
             },
             {
-                "title": "La Juventus ha trovato anche il secondo portiere. Ma ora deve fare i conti col problema Yildiz",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-portiere-conti-problema-yildiz-2266232",
-                "date": "25/08 00:56"
+                "title": "Calciomercato no stop - Indiscrezioni, trattative e retroscena del 25 agosto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-25-agosto-2266569",
+                "date": "26/08 01:00"
             },
             {
-                "title": "È la Roma la squadra che ha impressionato di più in Serie A. Fiorentina flop e Kean andrà via",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/roma-squadra-impressionato-serie-a-fiorentina-flop-kean-andra-via-2266274",
-                "date": "25/08 00:53"
+                "title": "La Juventus accoglie Grabara e si prepara a salutare Miretti. Ma su Kessié c'è la Roma",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/juventus-accoglie-grabara-prepara-salutare-miretti-kessie-roma-2266576",
+                "date": "26/08 00:56"
             },
             {
-                "title": "Frattesi subito protagonista con la Lazio: suo il gol che espugna il Dall'Ara. Bologna ko",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/frattesi-protagonista-lazio-gol-espugna-ara-bologna-ko-2266244",
-                "date": "25/08 00:49"
+                "title": "Milan, Leao è ormai un caso: no a Premier e Arabia, ma il Galatasaray può rilanciare",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/milan-leao-ormai-caso-premier-arabia-galatasaray-rilanciare-2266580",
+                "date": "26/08 00:53"
             },
             {
-                "title": "Milan attivo sulle cessioni: Nkunku va al Lipsia, attesa per Rafa Leao",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/milan-attivo-cessioni-nkunku-lipsia-rafa-leao-2266231",
-                "date": "25/08 00:45"
+                "title": "La Lazio ha il suo attaccante: accordo con il Sassuolo, oggi si chiude per Pinamonti",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/lazio-attaccante-accordo-sassuolo-chiude-pinamonti-2266582",
+                "date": "26/08 00:49"
             },
             {
-                "title": "Si muovono gli attaccanti di Serie A: Kean nome caldo, Pinamonti verso la Lazio",
-                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/muovono-attaccanti-serie-a-kean-caldo-pinamonti-lazio-2266227",
-                "date": "25/08 00:41"
+                "title": "Sassuolo e Cagliari sempre più vicine per Esposito: agli isolani dovrebbe andare Ciervo",
+                "link": "https://www.tuttomercatoweb.com/i-fatti-del-giorno/sassuolo-cagliari-vicine-esposito-isolani-dovrebbe-andare-ciervo-2266564",
+                "date": "26/08 00:45"
             }
         ]
     }
