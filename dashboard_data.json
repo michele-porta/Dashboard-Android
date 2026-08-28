@@ -3,10 +3,10 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.009",
-    "oct_luce_price": "0,1595",
+    "gas_price": "2.008",
+    "oct_luce_price": "0,1573",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,73",
+    "oct_gas_price": "0,69",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -48,38 +48,49 @@
                     "time": "19:00:00"
                 }
             ],
-            "next": []
+            "next": [
+                {
+                    "home": "Manchester United",
+                    "away": "Bayern Munich",
+                    "home_score": null,
+                    "away_score": null,
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
+                    "date": "2026-09-08",
+                    "time": "19:00:00"
+                }
+            ]
         },
         "calciomercato": [
             {
-                "title": "Tre turni di squalifica per Borghini: ma il Guidonia Montecelio non ci sta. Presentato ricorso",
-                "link": "https://www.tuttomercatoweb.com/serie-c/turni-squalifica-borghini-guidonia-montecelio-sta-presentato-ricorso-2267049",
-                "date": "27/08 13:48"
+                "title": "Cagliari, si muove qualcosa per la trequarti: occhi su Justin Devenny del Crystal Palace",
+                "link": "https://www.tuttomercatoweb.com/serie-a/cagliari-muove-trequarti-occhi-justin-devenny-crystal-palace-2267445",
+                "date": "28/08 15:11"
             },
             {
-                "title": "Potenza, ricorso al TAR contro le porte chiuse a Crotone",
-                "link": "https://www.tuttomercatoweb.com/serie-c/potenza-ricorso-tar-porte-chiuse-crotone-2267051",
-                "date": "27/08 13:48"
+                "title": "La Scottish FA punisce Celtic e Rangers: una gara a porte chiuse in Coppa, il motivo",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/scottish-punisce-celtic-rangers-gara-porte-chiuse-coppa-motivo-2267446",
+                "date": "28/08 15:10"
             },
             {
-                "title": "Le cinque squadre della Champions League 2026/27 che (fin qui) hanno speso di più",
-                "link": "https://www.tuttomercatoweb.com/serie-a/squadre-champions-league-2026-27-fin-qui-speso-2267018",
-                "date": "27/08 13:45"
+                "title": "Como, Fabregas: \"Dobbiamo iniziare a vincere col Napoli. Io devo essere più egoista\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/como-breve-fabregas-presenta-match-napoli-2267438",
+                "date": "28/08 15:09"
             },
             {
-                "title": "Che colpo per lo Swansea! Dal Porto arriva il nazionale canadese Eustaquio",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/colpo-swansea-porto-arriva-nazionale-canadese-eustaquio-2267048",
-                "date": "27/08 13:42"
+                "title": "Atalanta, Sarri commenta il sorteggio in Conference: \"Teniamo molto a questa competizione\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-sarri-commenta-sorteggio-conference-teniamo-competizione-2267439",
+                "date": "28/08 15:07"
             },
             {
-                "title": "Atalanta, ultime di formazione per l'Hapoel Tel Aviv: CDK verso la panchina",
-                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-ultime-formazione-conference-cdk-panchina-2267047",
-                "date": "27/08 13:37"
+                "title": "Carrarese, dal Catanzaro arriva in prestito l'esterno Gonçalo Esteves",
+                "link": "https://www.tuttomercatoweb.com/serie-b/carrarese-catanzaro-arriva-prestito-esterno-goncalo-esteves-2267444",
+                "date": "28/08 15:07"
             },
             {
-                "title": "Cremonese, Giampaolo: \"Ko di Empoli brucia. Col Modena per risolvere problema di finalizzazione\"",
-                "link": "https://www.tuttomercatoweb.com/serie-b/cremonese-giampaolo-ko-empoli-brucia-modena-risolvere-problema-finalizzazione-2267046",
-                "date": "27/08 13:32"
+                "title": "Parma, Fabbian rinforza la squadra di Cuesta: arriva in prestito con diritto dalla Fiorentina",
+                "link": "https://www.tuttomercatoweb.com/serie-a/parma-fabbian-rinforza-squadra-cuesta-arriva-prestito-diritto-fiorentina-2267441",
+                "date": "28/08 15:06"
             }
         ]
     }
