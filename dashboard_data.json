@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.008",
+    "gas_price": "2.011",
     "oct_luce_price": "0,1573",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,69",
@@ -12,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Roma",
-                    "away": "Fiorentina",
-                    "home_score": "4",
+                    "home": "AC Milan",
+                    "away": "Venezia",
+                    "home_score": "2",
                     "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-                    "date": "2026-08-24",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
+                    "date": "2026-08-28",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "AC Milan",
-                    "away": "Venezia",
+                    "home": "Sassuolo",
+                    "away": "Torino",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "date": "2026-08-28",
-                    "time": "18:45:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
+                    "date": "2026-08-29",
+                    "time": "16:30:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Cagliari, si muove qualcosa per la trequarti: occhi su Justin Devenny del Crystal Palace",
-                "link": "https://www.tuttomercatoweb.com/serie-a/cagliari-muove-trequarti-occhi-justin-devenny-crystal-palace-2267445",
-                "date": "28/08 15:11"
+                "title": "Il Grifone nel nido dell'Aquila: Genoa, mettersi alle spalle il Napoli per spiccare il volo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/grifone-tana-aquila-genoa-mettersi-spalle-napoli-spiccare-volo-2267693",
+                "date": "29/08 10:09"
             },
             {
-                "title": "La Scottish FA punisce Celtic e Rangers: una gara a porte chiuse in Coppa, il motivo",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/scottish-punisce-celtic-rangers-gara-porte-chiuse-coppa-motivo-2267446",
-                "date": "28/08 15:10"
+                "title": "Palermo, ecco il colpo in attacco: dal Como arriva in prestito Alessandro Gabrielloni",
+                "link": "https://www.tuttomercatoweb.com/serie-b/palermo-colpo-attacco-como-arriva-prestito-alessandro-gabrielloni-2267696",
+                "date": "29/08 10:04"
             },
             {
-                "title": "Como, Fabregas: \"Dobbiamo iniziare a vincere col Napoli. Io devo essere più egoista\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/como-breve-fabregas-presenta-match-napoli-2267438",
-                "date": "28/08 15:09"
+                "title": "Gli ultimi colpi del Como: Suwarso e Fabregas hanno creato una squadra da Scudetto",
+                "link": "https://www.tuttomercatoweb.com/podcast-tmw/ultimi-colpo-como-suwarso-fabregas-creato-squadra-scudetto-2267071",
+                "date": "29/08 10:01"
             },
             {
-                "title": "Atalanta, Sarri commenta il sorteggio in Conference: \"Teniamo molto a questa competizione\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-sarri-commenta-sorteggio-conference-teniamo-competizione-2267439",
-                "date": "28/08 15:07"
+                "title": "Atalanta-Bologna, le probabili formazioni: CDK con Raspadori a sostegno di Scamacca",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/atalanta-bologna-probabili-formazioni-2267322",
+                "date": "29/08 10:00"
             },
             {
-                "title": "Carrarese, dal Catanzaro arriva in prestito l'esterno Gonçalo Esteves",
-                "link": "https://www.tuttomercatoweb.com/serie-b/carrarese-catanzaro-arriva-prestito-esterno-goncalo-esteves-2267444",
-                "date": "28/08 15:07"
+                "title": "Lecce-Roma, le probabili formazioni: Ilic scalpita subito. Molina pronto all'esordio",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lecce-roma-probabili-formazioni-2267321",
+                "date": "29/08 10:00"
             },
             {
-                "title": "Parma, Fabbian rinforza la squadra di Cuesta: arriva in prestito con diritto dalla Fiorentina",
-                "link": "https://www.tuttomercatoweb.com/serie-a/parma-fabbian-rinforza-squadra-cuesta-arriva-prestito-diritto-fiorentina-2267441",
-                "date": "28/08 15:06"
+                "title": "Lazio-Genoa, le probabili formazioni: Frattesi titolare, Pinamonti ancora no",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lazio-genoa-probabili-formazioni-2267319",
+                "date": "29/08 10:00"
             }
         ]
     }
