@@ -2,7 +2,7 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "",
+    "date": "DOM 30 AGO",
     "gas_price": "2.011",
     "oct_luce_price": "0,1573",
     "oct_luce_fee": "72",
@@ -12,25 +12,25 @@
         "seriea": {
             "past": [
                 {
-                    "home": "AC Milan",
-                    "away": "Venezia",
+                    "home": "Juventus",
+                    "away": "Parma",
                     "home_score": "2",
                     "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "date": "2026-08-28",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/6yiaxs1627406063.png",
+                    "date": "2026-08-29",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Sassuolo",
-                    "away": "Torino",
+                    "home": "Napoli",
+                    "away": "Como",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
-                    "date": "2026-08-29",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "date": "2026-08-30",
                     "time": "16:30:00"
                 }
             ]
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Il Grifone nel nido dell'Aquila: Genoa, mettersi alle spalle il Napoli per spiccare il volo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/grifone-tana-aquila-genoa-mettersi-spalle-napoli-spiccare-volo-2267693",
-                "date": "29/08 10:09"
+                "title": "Ligue 1, il crollo dei diritti TV obbliga al Player Trading come strategia di sopravvivenza",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/ligue-1-crollo-diritti-tv-obbliga-player-trading-strategia-sopravvivenza-2268074",
+                "date": "30/08 09:11"
             },
             {
-                "title": "Palermo, ecco il colpo in attacco: dal Como arriva in prestito Alessandro Gabrielloni",
-                "link": "https://www.tuttomercatoweb.com/serie-b/palermo-colpo-attacco-como-arriva-prestito-alessandro-gabrielloni-2267696",
-                "date": "29/08 10:04"
+                "title": "Giocondo Martorelli: \"Fiorentina, serve tempo. Contro il Frosinone sconfitta inaspettata, bravi Alvini e Castagnini. Juve, manca ancora qualcosa\"",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/giocondo-martorelli-fiorentina-serve-tempo-frosinone-sconfitta-inaspettata-bravi-alvini-castagnini-j-2268049",
+                "date": "30/08 09:08"
             },
             {
-                "title": "Gli ultimi colpi del Como: Suwarso e Fabregas hanno creato una squadra da Scudetto",
-                "link": "https://www.tuttomercatoweb.com/podcast-tmw/ultimi-colpo-como-suwarso-fabregas-creato-squadra-scudetto-2267071",
-                "date": "29/08 10:01"
+                "title": "Fiorentina, il k.o. con il Frosinone fa rumore. Polverosi: \"Una vergogna, peggio di Pioli\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-k-o-frosinone-rumore-polverosi-una-vergogna-pioli-2268076",
+                "date": "30/08 09:06"
             },
             {
-                "title": "Atalanta-Bologna, le probabili formazioni: CDK con Raspadori a sostegno di Scamacca",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/atalanta-bologna-probabili-formazioni-2267322",
-                "date": "29/08 10:00"
+                "title": "Roma, Rios è tornato di moda: contatti con il Benfica ma Italiano lo vuole al Besiktas",
+                "link": "https://www.tuttomercatoweb.com/serie-a/roma-richard-rios-tornato-moda-contatti-benfica-centrocampista-2268067",
+                "date": "30/08 09:00"
             },
             {
-                "title": "Lecce-Roma, le probabili formazioni: Ilic scalpita subito. Molina pronto all'esordio",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lecce-roma-probabili-formazioni-2267321",
-                "date": "29/08 10:00"
+                "title": "Torino, il mercato per risalire la china: vicino un centrocampista dello Sporting CP",
+                "link": "https://www.tuttomercatoweb.com/serie-a/torino-mercato-risalire-china-centrocampista-sporting-cp-2268073",
+                "date": "30/08 08:54"
             },
             {
-                "title": "Lazio-Genoa, le probabili formazioni: Frattesi titolare, Pinamonti ancora no",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lazio-genoa-probabili-formazioni-2267319",
-                "date": "29/08 10:00"
+                "title": "Messi infinito: poker nel 7-1 contro Montreal, 6 anni fa l'ultima volta. E sono 927 in carriera",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/messi-infinito-poker-7-1-montreal-6-ultima-volta-927-carriera-2268069",
+                "date": "30/08 08:48"
             }
         ]
     }
