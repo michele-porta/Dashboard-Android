@@ -2,7 +2,7 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "DOM 30 AGO",
+    "date": "",
     "gas_price": "2.011",
     "oct_luce_price": "0,1573",
     "oct_luce_fee": "72",
@@ -12,25 +12,25 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Juventus",
-                    "away": "Parma",
-                    "home_score": "2",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/6yiaxs1627406063.png",
-                    "date": "2026-08-29",
+                    "home": "Cagliari",
+                    "away": "Inter Milan",
+                    "home_score": "0",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
+                    "date": "2026-08-30",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Napoli",
-                    "away": "Como",
+                    "home": "Lecce",
+                    "away": "Roma",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "date": "2026-08-30",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
+                    "date": "2026-08-31",
                     "time": "16:30:00"
                 }
             ]
@@ -50,47 +50,47 @@
             ],
             "next": [
                 {
-                    "home": "Manchester United",
-                    "away": "Bayern Munich",
+                    "home": "Club Brugge",
+                    "away": "Aston Villa",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png",
+                    "away_badge": "https://www.thesportsdb.com/images/media/team/badge/uwzw561787679026.png",
                     "date": "2026-09-08",
-                    "time": "19:00:00"
+                    "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Ligue 1, il crollo dei diritti TV obbliga al Player Trading come strategia di sopravvivenza",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/ligue-1-crollo-diritti-tv-obbliga-player-trading-strategia-sopravvivenza-2268074",
-                "date": "30/08 09:11"
+                "title": "Juventus, Cabal resta sul piede di partenza: torna in auge l'idea Tagliafico",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-cabal-resta-piede-partenza-torna-auge-idea-tagliafico-2268448",
+                "date": "31/08 09:22"
             },
             {
-                "title": "Giocondo Martorelli: \"Fiorentina, serve tempo. Contro il Frosinone sconfitta inaspettata, bravi Alvini e Castagnini. Juve, manca ancora qualcosa\"",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/giocondo-martorelli-fiorentina-serve-tempo-frosinone-sconfitta-inaspettata-bravi-alvini-castagnini-j-2268049",
-                "date": "30/08 09:08"
+                "title": "Tra i due litiganti, il terzo gode: niente Napoli o Parma, Zeballos va al Monza",
+                "link": "https://www.tuttomercatoweb.com/serie-a/litiganti-gode-napoli-parma-zeballos-monza-2268455",
+                "date": "31/08 09:19"
             },
             {
-                "title": "Fiorentina, il k.o. con il Frosinone fa rumore. Polverosi: \"Una vergogna, peggio di Pioli\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-k-o-frosinone-rumore-polverosi-una-vergogna-pioli-2268076",
-                "date": "30/08 09:06"
+                "title": "Juve Stabia, si riflette sull'ingaggio di Vismara. Le prestazioni di Boer convincono",
+                "link": "https://www.tuttomercatoweb.com/serie-b/juve-stabia-riflette-ingaggio-vismara-prestazioni-boer-convincono-2268453",
+                "date": "31/08 09:18"
             },
             {
-                "title": "Roma, Rios è tornato di moda: contatti con il Benfica ma Italiano lo vuole al Besiktas",
-                "link": "https://www.tuttomercatoweb.com/serie-a/roma-richard-rios-tornato-moda-contatti-benfica-centrocampista-2268067",
-                "date": "30/08 09:00"
+                "title": "Real, Bellingham is back. Grazie a Mourinho: \"Ora sono più libero con lui. Rendo bene\"",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/real-bellingham-i-is-back-i-mourinho-ora-libero-lui-rendo-bene-2268454",
+                "date": "31/08 09:17"
             },
             {
-                "title": "Torino, il mercato per risalire la china: vicino un centrocampista dello Sporting CP",
-                "link": "https://www.tuttomercatoweb.com/serie-a/torino-mercato-risalire-china-centrocampista-sporting-cp-2268073",
-                "date": "30/08 08:54"
+                "title": "Fiorentina, può tornare Torreira. L'ultima idea porta allo scambio con Gudmundsson",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-pua-tornare-torreira-ultima-idea-porta-scambio-gudmundsson-2268452",
+                "date": "31/08 09:15"
             },
             {
-                "title": "Messi infinito: poker nel 7-1 contro Montreal, 6 anni fa l'ultima volta. E sono 927 in carriera",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/messi-infinito-poker-7-1-montreal-6-ultima-volta-927-carriera-2268069",
-                "date": "30/08 08:48"
+                "title": "Krosche, possibile addio all'Eintracht Francoforte: il Milan torna a pensarci come ds?",
+                "link": "https://www.tuttomercatoweb.com/serie-a/krosche-possibile-addio-eintracht-francoforte-milan-torna-pensarci-ds-2268450",
+                "date": "31/08 09:13"
             }
         ]
     }
