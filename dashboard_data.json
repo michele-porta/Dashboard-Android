@@ -1,9 +1,18 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "2.011",
+    "primi": [
+        "Gnocchi sardi al ragù di manzo e salsiccia",
+        "Pasta alle zucchine, basilico e pomodoro vegan"
+    ],
+    "secondi": [
+        "Petto di pollo alla provenzale",
+        "Filetto di merluzzo al pomodoro fresco e olive",
+        "Gateau di patate vegetariano"
+    ],
+    "contorni": [
+        "Patate al rosmarino"
+    ],
+    "date": "MAR 1 SET",
+    "gas_price": "2.015",
     "oct_luce_price": "0,1573",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,69",
@@ -12,26 +21,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Cagliari",
-                    "away": "Inter Milan",
-                    "home_score": "0",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
-                    "date": "2026-08-30",
+                    "home": "Atalanta",
+                    "away": "Bologna",
+                    "home_score": "1",
+                    "away_score": "0",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
+                    "date": "2026-08-31",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Lecce",
-                    "away": "Roma",
+                    "home": "Genoa",
+                    "away": "Como",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-                    "date": "2026-08-31",
-                    "time": "16:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "date": "2026-09-04",
+                    "time": "18:45:00"
                 }
             ]
         },
@@ -63,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "Juventus, Cabal resta sul piede di partenza: torna in auge l'idea Tagliafico",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-cabal-resta-piede-partenza-torna-auge-idea-tagliafico-2268448",
-                "date": "31/08 09:22"
+                "title": "Treviso, rinforzo in difesa: vicino l'arrivo dello svincolato Ceccacci",
+                "link": "https://www.tuttomercatoweb.com/serie-c/treviso-rinforzo-difesa-arrivo-svincolato-ceccacci-2268868",
+                "date": "01/09 08:33"
             },
             {
-                "title": "Tra i due litiganti, il terzo gode: niente Napoli o Parma, Zeballos va al Monza",
-                "link": "https://www.tuttomercatoweb.com/serie-a/litiganti-gode-napoli-parma-zeballos-monza-2268455",
-                "date": "31/08 09:19"
+                "title": "Quote prossima squadra Julian Alvarez, l'argentino verso la permanenza all'Atletico Madrid",
+                "link": "https://www.tuttomercatoweb.com/scommesse/quote-antepost/quote-prossima-squadra-julian-alvarez-2268634",
+                "date": "01/09 08:30"
             },
             {
-                "title": "Juve Stabia, si riflette sull'ingaggio di Vismara. Le prestazioni di Boer convincono",
-                "link": "https://www.tuttomercatoweb.com/serie-b/juve-stabia-riflette-ingaggio-vismara-prestazioni-boer-convincono-2268453",
-                "date": "31/08 09:18"
+                "title": "Fiorentina, via Madragora? Torino in pressing, all-in di Paratici per Thorstvedt",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-via-madragora-torino-pressing-all-in-paratici-thorstvedt-fagioli-2268867",
+                "date": "01/09 08:24"
             },
             {
-                "title": "Real, Bellingham is back. Grazie a Mourinho: \"Ora sono più libero con lui. Rendo bene\"",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/real-bellingham-i-is-back-i-mourinho-ora-libero-lui-rendo-bene-2268454",
-                "date": "31/08 09:17"
+                "title": "Serie C, 2ª giornata: il quadro completo del turno. Solo 5 squadre a punteggio pieno",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-2a-giornata-quadro-completo-turno-5-squadre-punteggio-2268817",
+                "date": "01/09 08:19"
             },
             {
-                "title": "Fiorentina, può tornare Torreira. L'ultima idea porta allo scambio con Gudmundsson",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-pua-tornare-torreira-ultima-idea-porta-scambio-gudmundsson-2268452",
-                "date": "31/08 09:15"
+                "title": "Juventus, problemi per Thuram? Carnevali pensa a Bakola: la posizione del Sassuolo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-problemi-thuram-carnevali-punta-riflettori-bakola-posizione-sassuolo-2268864",
+                "date": "01/09 08:15"
             },
             {
-                "title": "Krosche, possibile addio all'Eintracht Francoforte: il Milan torna a pensarci come ds?",
-                "link": "https://www.tuttomercatoweb.com/serie-a/krosche-possibile-addio-eintracht-francoforte-milan-torna-pensarci-ds-2268450",
-                "date": "31/08 09:13"
+                "title": "Capello: \"La Roma è una delle candidate allo scudetto. Como? Non l'ho visto così esaltante\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/capello-la-roma-candidate-scudetto-como-esaltante-2268862",
+                "date": "01/09 08:11"
             }
         ]
     }
