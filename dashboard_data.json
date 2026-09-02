@@ -1,21 +1,12 @@
 {
-    "primi": [
-        "Gnocchi sardi al ragù di manzo e salsiccia",
-        "Pasta alle zucchine, basilico e pomodoro vegan"
-    ],
-    "secondi": [
-        "Petto di pollo alla provenzale",
-        "Filetto di merluzzo al pomodoro fresco e olive",
-        "Gateau di patate vegetariano"
-    ],
-    "contorni": [
-        "Patate al rosmarino"
-    ],
-    "date": "MAR 1 SET",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
     "gas_price": "2.015",
-    "oct_luce_price": "0,1573",
+    "oct_luce_price": "0,1595",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,69",
+    "oct_gas_price": "0,73",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Treviso, rinforzo in difesa: vicino l'arrivo dello svincolato Ceccacci",
-                "link": "https://www.tuttomercatoweb.com/serie-c/treviso-rinforzo-difesa-arrivo-svincolato-ceccacci-2268868",
-                "date": "01/09 08:33"
+                "title": "Inter-Pio Esposito, primo calciatore in Serie A col nuovo decreto contratti",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-pio-esposito-calciatore-serie-decreto-contratti-2269440",
+                "date": "02/09 08:15"
             },
             {
-                "title": "Quote prossima squadra Julian Alvarez, l'argentino verso la permanenza all'Atletico Madrid",
-                "link": "https://www.tuttomercatoweb.com/scommesse/quote-antepost/quote-prossima-squadra-julian-alvarez-2268634",
-                "date": "01/09 08:30"
+                "title": "Pato 'tifa' per Amorim: \"Propone un calcio in linea con la storia del Milan\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/pato-tifa-amorim-propone-calcio-linea-storia-milan-2269437",
+                "date": "02/09 08:08"
             },
             {
-                "title": "Fiorentina, via Madragora? Torino in pressing, all-in di Paratici per Thorstvedt",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-via-madragora-torino-pressing-all-in-paratici-thorstvedt-fagioli-2268867",
-                "date": "01/09 08:24"
+                "title": "Oggi giocheranno così: le formazioni tipo delle venti formazioni di Serie B",
+                "link": "https://www.tuttomercatoweb.com/serie-b/giocherebbero-cosi-formazioni-tipo-venti-formazioni-serie-b-2266726",
+                "date": "02/09 08:04"
             },
             {
-                "title": "Serie C, 2ª giornata: il quadro completo del turno. Solo 5 squadre a punteggio pieno",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-2a-giornata-quadro-completo-turno-5-squadre-punteggio-2268817",
-                "date": "01/09 08:19"
+                "title": "Arrivederci mercato, ora spazio al campo: ci sono grandi opportunità all’orizzonte",
+                "link": "https://www.tuttomercatoweb.com/l-angolo-di-calcio2000/arrivederci-mercato-spazio-campo-grandi-opportunita-all-orizzonte-2269439",
+                "date": "02/09 08:00"
             },
             {
-                "title": "Juventus, problemi per Thuram? Carnevali pensa a Bakola: la posizione del Sassuolo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-problemi-thuram-carnevali-punta-riflettori-bakola-posizione-sassuolo-2268864",
-                "date": "01/09 08:15"
+                "title": "A. Lucarelli sulla Fiorentina: \"Squadra completamente nuova. Ci vorrà pazienza\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/a-lucarelli-fiorentina-squadra-completamente-nuova-vorra-pazienza-2269435",
+                "date": "02/09 08:00"
             },
             {
-                "title": "Capello: \"La Roma è una delle candidate allo scudetto. Como? Non l'ho visto così esaltante\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/capello-la-roma-candidate-scudetto-como-esaltante-2268862",
-                "date": "01/09 08:11"
+                "title": "Roma e Como da 8, Atalanta sul podio. Caos Fiorentina, Bologna da rivedere. Al Napoli il voto più basso: il pagellone del mercato di TMW",
+                "link": "https://www.tuttomercatoweb.com/editoriale/roma-como-8-atalanta-podio-caos-fiorentina-bologna-rivedere-napoli-voto-basso-pagellone-mercato-tmw-2269391",
+                "date": "02/09 08:00"
             }
         ]
     }
