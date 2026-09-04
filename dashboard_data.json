@@ -1,21 +1,21 @@
 {
     "primi": [
-        "Risotto allo zafferano",
-        "Penne rucola e speck"
+        "Sedani del salumiere",
+        "Insalata di farro vegan (pf)"
     ],
     "secondi": [
-        "Cotoletta di pollo",
-        "Trancio di verdesca in verde",
-        "Frittata alla campagnola"
+        "Bocconcini di manzo in salsa di soia e verdure",
+        "Filetto di scorfano in croccante di mais",
+        "Tortino di pasta sfoglia e verdure "
     ],
     "contorni": [
-        "Patate arrosto"
+        "Fagiolini con olive nere ed erba cipollina"
     ],
-    "date": "GIO 3 SET",
-    "gas_price": "N/D",
-    "oct_luce_price": "0,1595",
+    "date": "VEN 4 SET",
+    "gas_price": "2.041",
+    "oct_luce_price": "0,1694",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,73",
+    "oct_gas_price": "0,734",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -72,34 +72,34 @@
         },
         "calciomercato": [
             {
-                "title": "PSV, Lammers torna dopo sei anni. In 3 lasciano il club di Eindhoven, due in prestito",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/psv-lammers-torna-anni-3-lasciano-club-eindhoven-prestito-2269817",
-                "date": "03/09 08:12"
+                "title": "Serie C 2026/2027, il punto sulle panchine: Scafatese, out Ferraro, c'è Facciolo ad interim",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-punto-panchine-tedesco-perugia-diana-2259956",
+                "date": "04/09 08:19"
             },
             {
-                "title": "Gran Galà del Calcio, i premiati e le migliori immagini della serata: da Fabregas a Dimarco",
-                "link": "https://www.tuttomercatoweb.com/serie-a/gran-gala-calcio-premiati-migliori-immagini-serata-fabregas-dimarco-2269821",
-                "date": "03/09 08:08"
+                "title": "Pezzella riparte dall'Uruguay: l'ex difensore di River e Fiorentina firma col Penarol",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/pezzella-riparte-uruguay-difensore-river-fiorentina-firma-penarol-2270163",
+                "date": "04/09 08:12"
+            },
+            {
+                "title": "Marchegiani: \"Roma principale antagonista dell'Inter. Lazio, ognuno ha le sue ragioni\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/marchegiani-roma-principale-antagonista-inter-lazio-ragioni-2270153",
+                "date": "04/09 08:08"
             },
             {
                 "title": "Serie B 2026/2027, il punto sulle panchine: Pecchia torna alla Cremonese",
                 "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-2026-2027-punto-panchine-cremonese-saluta-marco-giampaolo-2269423",
-                "date": "03/09 08:04"
+                "date": "04/09 08:04"
             },
             {
-                "title": "Una folle sessione di calciomercato: il podio dei tecnici più felici. Gasperini, Fabregas, Sarri ma pure Chivu e Gattuso. I dubbi sull'estate della Juventus. Napoli, perché? Milan, manca un tassello fondamentale!",
-                "link": "https://www.tuttomercatoweb.com/editoriale/folle-sessione-calciomercato-podio-tecnici-felici-gasperini-fabregas-sarri-chivu-gattuso-dubbi-estate-juventus-napoli-perche-milan-convince-serio-2269154",
-                "date": "03/09 08:01"
+                "title": "Fiorentina, Pellegrino: \"Purtroppo siamo partiti male ma dateci tempo e fiducia\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-pellegrino-purtroppo-partiti-dateci-fiducia-2270161",
+                "date": "04/09 08:00"
             },
             {
-                "title": "Amelia: \"Fiorentina, De Gea è forte e tornerà a dimostrare il suo valore così come Grosso\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/amelia-fiorentina-de-gea-forte-tornera-dimostrare-valore-grosso-2269819",
-                "date": "03/09 08:00"
-            },
-            {
-                "title": "Il Midtjylland saluta Franculino: il Trabzonspor paga 17 milioni. Arriva Hong dal Magonza",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/midtjylland-saluta-franculino-trabzonspor-paga-17-milioni-arriva-hong-magonza-2269816",
-                "date": "03/09 07:56"
+                "title": "Nel caso Kessie tutte le incomprensioni della Juve. L’Inter sta cambiando pelle: attenzione a non fare la fine dei bianconeri. Per il Como è più facile, ma lo fa bene: smascherate un paio di bugie",
+                "link": "https://www.tuttomercatoweb.com/editoriale/kessie-incomprensioni-juve-l-inter-cambiando-pelle-attenzione-bianconeri-como-facile-bene-smascherat-2269978",
+                "date": "04/09 08:00"
             }
         ]
     }
