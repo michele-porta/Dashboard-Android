@@ -1,17 +1,8 @@
 {
-    "primi": [
-        "Sedani del salumiere",
-        "Insalata di farro vegan (pf)"
-    ],
-    "secondi": [
-        "Bocconcini di manzo in salsa di soia e verdure",
-        "Filetto di scorfano in croccante di mais",
-        "Tortino di pasta sfoglia e verdure "
-    ],
-    "contorni": [
-        "Fagiolini con olive nere ed erba cipollina"
-    ],
-    "date": "VEN 4 SET",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
     "gas_price": "2.041",
     "oct_luce_price": "0,1694",
     "oct_luce_fee": "72",
@@ -21,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Atalanta",
-                    "away": "Bologna",
+                    "home": "Genoa",
+                    "away": "Como",
                     "home_score": "1",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/2qi1u31655592366.png",
-                    "date": "2026-08-31",
+                    "away_score": "4",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "date": "2026-09-04",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Genoa",
-                    "away": "Como",
+                    "home": "Fiorentina",
+                    "away": "Torino",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "date": "2026-09-04",
-                    "time": "18:45:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
+                    "date": "2026-09-05",
+                    "time": "13:00:00"
                 }
             ]
         },
@@ -72,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Serie C 2026/2027, il punto sulle panchine: Scafatese, out Ferraro, c'è Facciolo ad interim",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-punto-panchine-tedesco-perugia-diana-2259956",
-                "date": "04/09 08:19"
+                "title": "Jashari: \"Amo il modo di giocare di Amorim. Mai avuto dubbi in estate di lasciare il Milan\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/jashari-amo-giocare-amorim-dubbi-estate-lasciare-milan-2270504",
+                "date": "05/09 08:10"
             },
             {
-                "title": "Pezzella riparte dall'Uruguay: l'ex difensore di River e Fiorentina firma col Penarol",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/pezzella-riparte-uruguay-difensore-river-fiorentina-firma-penarol-2270163",
-                "date": "04/09 08:12"
+                "title": "Udinese-Lazio, le probabili formazioni: Gattuso cambia due terzi dell'attacco",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/udinese-lazio-probabili-formazioni-gattuso-cambia-terzi-attacco-2270285",
+                "date": "05/09 08:10"
             },
             {
-                "title": "Marchegiani: \"Roma principale antagonista dell'Inter. Lazio, ognuno ha le sue ragioni\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/marchegiani-roma-principale-antagonista-inter-lazio-ragioni-2270153",
-                "date": "04/09 08:08"
+                "title": "Cagliari-Lecce, le probabili formazioni: Di Francesco si affida ai nuovi Ilic e Monteiro",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/cagliari-lecce-probabili-formazioni-francesco-affida-ilic-monteiro-2270282",
+                "date": "05/09 08:10"
             },
             {
-                "title": "Serie B 2026/2027, il punto sulle panchine: Pecchia torna alla Cremonese",
-                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-2026-2027-punto-panchine-cremonese-saluta-marco-giampaolo-2269423",
-                "date": "04/09 08:04"
+                "title": "Juventus-Milan, le probabili formazioni: Woltemade e Pulisic soltanto a gara in corso",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/juventus-milan-probabili-formazioni-woltemade-pulisic-gara-corso-2270280",
+                "date": "05/09 08:10"
             },
             {
-                "title": "Fiorentina, Pellegrino: \"Purtroppo siamo partiti male ma dateci tempo e fiducia\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fiorentina-pellegrino-purtroppo-partiti-dateci-fiducia-2270161",
-                "date": "04/09 08:00"
+                "title": "Bologna-Sassuolo, le probabili formazioni: Theate gioca dall'inizio, Mbangula ancora no",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/bologna-sassuolo-probabili-formazioni-theate-gioca-inizio-mbangula-2270278",
+                "date": "05/09 08:10"
             },
             {
-                "title": "Nel caso Kessie tutte le incomprensioni della Juve. L’Inter sta cambiando pelle: attenzione a non fare la fine dei bianconeri. Per il Como è più facile, ma lo fa bene: smascherate un paio di bugie",
-                "link": "https://www.tuttomercatoweb.com/editoriale/kessie-incomprensioni-juve-l-inter-cambiando-pelle-attenzione-bianconeri-como-facile-bene-smascherat-2269978",
-                "date": "04/09 08:00"
+                "title": "Parma-Monza, le probabili formazioni: può arrivare l'esordio di Romero da titolare",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/parma-monza-probabili-formazioni-arrivare-esordio-romero-titolare-2270274",
+                "date": "05/09 08:10"
             }
         ]
     }
