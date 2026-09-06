@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.041",
+    "gas_price": "2.047",
     "oct_luce_price": "0,1694",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,734",
@@ -12,25 +12,25 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Genoa",
-                    "away": "Como",
-                    "home_score": "1",
-                    "away_score": "4",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "date": "2026-09-04",
+                    "home": "Roma",
+                    "away": "Atalanta",
+                    "home_score": "2",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
+                    "date": "2026-09-05",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Fiorentina",
-                    "away": "Torino",
+                    "home": "Frosinone",
+                    "away": "Venezia",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
-                    "date": "2026-09-05",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
+                    "date": "2026-09-06",
                     "time": "13:00:00"
                 }
             ]
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Jashari: \"Amo il modo di giocare di Amorim. Mai avuto dubbi in estate di lasciare il Milan\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/jashari-amo-giocare-amorim-dubbi-estate-lasciare-milan-2270504",
-                "date": "05/09 08:10"
+                "title": "Altamura, Memushaj: \"Non è facile gestire ritmi così serrati, ma ho 24 ragazzi\"",
+                "link": "https://www.tuttomercatoweb.com/serie-c/altamura-memushaj-non-facile-gestire-ritmi-serrati-24-ragazzi-2270838",
+                "date": "06/09 08:17"
             },
             {
-                "title": "Udinese-Lazio, le probabili formazioni: Gattuso cambia due terzi dell'attacco",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/udinese-lazio-probabili-formazioni-gattuso-cambia-terzi-attacco-2270285",
-                "date": "05/09 08:10"
+                "title": "Vi sveliamo la nuova filosofia di mercato del Milan: perché solo top e giovani",
+                "link": "https://www.tuttomercatoweb.com/podcast-tmw/spieghiamo-nuova-filosofia-mercato-milan-top-giovani-2269468",
+                "date": "06/09 08:11"
             },
             {
-                "title": "Cagliari-Lecce, le probabili formazioni: Di Francesco si affida ai nuovi Ilic e Monteiro",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/cagliari-lecce-probabili-formazioni-francesco-affida-ilic-monteiro-2270282",
-                "date": "05/09 08:10"
+                "title": "Inter, Jones si proietta alla sfida contro il Real Madrid: \"Siamo fiduciosi, non molliamo mai\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-jones-proietta-sfida-real-madrid-siamo-fiduciosi-molliamo-mai-2270837",
+                "date": "06/09 08:06"
             },
             {
-                "title": "Juventus-Milan, le probabili formazioni: Woltemade e Pulisic soltanto a gara in corso",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/juventus-milan-probabili-formazioni-woltemade-pulisic-gara-corso-2270280",
-                "date": "05/09 08:10"
+                "title": "Il regalo di Paratici: Fiorentina punita dal miglior centrocampista del suo ultimo biennio",
+                "link": "https://www.tuttomercatoweb.com/serie-a/regalo-paratici-fiorentina-punita-miglior-centrocampista-biennio-2270834",
+                "date": "06/09 08:00"
             },
             {
-                "title": "Bologna-Sassuolo, le probabili formazioni: Theate gioca dall'inizio, Mbangula ancora no",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/bologna-sassuolo-probabili-formazioni-theate-gioca-inizio-mbangula-2270278",
-                "date": "05/09 08:10"
+                "title": "E’ una Roma da scudetto. Allegri è invecchiato di colpo e ora è un problema per De Laurentiis. Marotta ha fatto bene a blindare Lautaro. Paratici che Grosso errore. Fabregas merita la Panchina d’Oro",
+                "link": "https://www.tuttomercatoweb.com/editoriale/e-roma-scudetto-allegri-invecchiato-colpo-problema-de-laurentiis-marotta-blindare-lautaro-paratici-g-2270787",
+                "date": "06/09 08:00"
             },
             {
-                "title": "Parma-Monza, le probabili formazioni: può arrivare l'esordio di Romero da titolare",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/parma-monza-probabili-formazioni-arrivare-esordio-romero-titolare-2270274",
-                "date": "05/09 08:10"
+                "title": "Lautaro Martinez abbatte il Napoli e conquista il terzo posto tra i bomber interisti",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/lautaro-martinez-abbatte-napoli-conquista-bomber-interisti-2270836",
+                "date": "06/09 07:58"
             }
         ]
     }
