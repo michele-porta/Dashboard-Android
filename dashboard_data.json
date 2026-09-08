@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.049",
+    "gas_price": "2.053",
     "oct_luce_price": "0,1694",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,734",
@@ -12,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Juventus",
-                    "away": "AC Milan",
+                    "home": "Udinese",
+                    "away": "Lazio",
                     "home_score": "1",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
-                    "date": "2026-09-06",
+                    "away_score": "2",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
+                    "date": "2026-09-07",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Cagliari",
-                    "away": "Lecce",
+                    "home": "Venezia",
+                    "away": "Fiorentina",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
-                    "date": "2026-09-07",
-                    "time": "16:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
+                    "date": "2026-09-11",
+                    "time": "18:45:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "\"Lotito libera la Lazio\": la contestazione dei tifosi arriva in Formula 1 al GP d'Italia",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lotito-libera-lazio-contestazione-tifosi-arriva-formula-1-gp-italia-2271207",
-                "date": "07/09 08:30"
+                "title": "Serie C, il riepilogo della 3ª giornata: solo in 5 a punteggio pieno. Nessuna nel Girone B",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-riepilogo-3a-giornata-5-punteggio-pieno-girone-b-2271521",
+                "date": "08/09 08:20"
             },
             {
-                "title": "Al Ahli, spesi 13,5 milioni per il 19enne Ibrahima Diaby. Arriva dal Cercle Brugge",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/ahli-spesi-13-5-19enne-ibrahima-diaby-arriva-cercle-brugge-2271205",
-                "date": "07/09 08:27"
+                "title": "Milan, per Gila nessun problema. Ma a gennaio servirà un rinforzo in difesa",
+                "link": "https://www.tuttomercatoweb.com/serie-a/milan-gila-problema-gennaio-servira-rinforzo-difesa-2271554",
+                "date": "08/09 08:15"
             },
             {
-                "title": "Udinese-Lazio, le probabili formazioni: Gattuso cambia due terzi dell'attacco",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/udinese-lazio-probabili-formazioni-gattuso-cambia-terzi-attacco-2270285",
-                "date": "07/09 08:25"
+                "title": "Brasile, l'allarme di una leggenda: \"Non abbiamo fuoriclasse ma Ancelotti non ha colpe\"",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/brasile-allarme-leggenda-non-fuoriclasse-ancelotti-colpe-2271547",
+                "date": "08/09 08:12"
             },
             {
-                "title": "Cagliari-Lecce, le probabili formazioni: Di Francesco si affida ai nuovi Ilic e Monteiro",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/cagliari-lecce-probabili-formazioni-francesco-affida-ilic-monteiro-2270282",
-                "date": "07/09 08:25"
+                "title": "Behrami difende Allegri: \"Cambi solo difensivi? Ha messo anche De Bruyne e Neres\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/behrami-difende-allegri-cambi-difensivi-messo-de-bruyne-neres-2271545",
+                "date": "08/09 08:08"
             },
             {
-                "title": "125 milioni, zero gol: Kolo Muani e Goncalo Ramos steccano il big match Juve-Milan",
-                "link": "https://www.tuttomercatoweb.com/serie-a/125-milioni-zero-gol-kolo-muani-goncalo-ramos-steccano-big-match-juve-milan-2271211",
-                "date": "07/09 08:23"
+                "title": "Inter e Roma impressionano. Juve e Milan lontane. Paratici si smentisce. Lazio-Frattesi, che combinazione",
+                "link": "https://www.tuttomercatoweb.com/il-due-di-piccari/inter-roma-impressionano-juve-milan-lontane-paratici-smentisce-lazio-frattesi-combinazione-2271548",
+                "date": "08/09 08:05"
             },
             {
-                "title": "Serie C, il programma di oggi: il Picerno può fare 3 su 3. In campo 4 gare del Girone A",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-programma-oggi-picerno-3-3-campo-4-gare-girone-2271175",
-                "date": "07/09 08:19"
+                "title": "Serie B, il punto sulla 3ª giornata: il Palermo vola. Prima vittoria per Pecchia",
+                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-punto-3a-giornata-palermo-vola-vittoria-pecchia-2271506",
+                "date": "08/09 08:04"
             }
         ]
     }
