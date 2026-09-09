@@ -1,12 +1,21 @@
 {
-    "primi": [],
-    "secondi": [],
-    "contorni": [],
-    "date": "",
-    "gas_price": "2.053",
-    "oct_luce_price": "0,1694",
+    "primi": [
+        "Pasta zafferano e salsiccia",
+        "Insalata di riso con prosciutto cotto, rucola e edamer (pf)"
+    ],
+    "secondi": [
+        "Piccatina di suino alla palermitana",
+        "Filetto di merluzzo in croccante di verdure",
+        "Burger di barbabietola e soia con olio profumato al basilico vegan"
+    ],
+    "contorni": [
+        "Finocchi con pane profumato"
+    ],
+    "date": "MER 9 SET",
+    "gas_price": "2.062",
+    "oct_luce_price": "0,1749",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,734",
+    "oct_gas_price": "0,79",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
@@ -38,59 +47,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Viking",
-                    "away": "Dinamo Zagreb",
-                    "home_score": "3",
+                    "home": "Real Madrid",
+                    "away": "Inter Milan",
+                    "home_score": "2",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/zcb6f61784988620.png",
-                    "date": "2026-08-26",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
+                    "date": "2026-09-08",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Club Brugge",
-                    "away": "Aston Villa",
+                    "home": "Stuttgart",
+                    "away": "Viking",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png",
-                    "away_badge": "https://www.thesportsdb.com/images/media/team/badge/uwzw561787679026.png",
-                    "date": "2026-09-08",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
+                    "date": "2026-09-09",
                     "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Serie C, il riepilogo della 3ª giornata: solo in 5 a punteggio pieno. Nessuna nel Girone B",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-riepilogo-3a-giornata-5-punteggio-pieno-girone-b-2271521",
-                "date": "08/09 08:20"
+                "title": "Il grido di allarme di Coppitelli non può rimanere inascoltato. Il Cosenza deve rialzarsi",
+                "link": "https://www.tuttomercatoweb.com/serie-c/grido-allarme-coppitelli-rimanere-inascoltato-cosenza-rialzarsi-2271732",
+                "date": "09/09 08:19"
             },
             {
-                "title": "Milan, per Gila nessun problema. Ma a gennaio servirà un rinforzo in difesa",
-                "link": "https://www.tuttomercatoweb.com/serie-a/milan-gila-problema-gennaio-servira-rinforzo-difesa-2271554",
-                "date": "08/09 08:15"
+                "title": "Napoli-Arsenal, Behrami punta su Lobotka: \"Ha l'intelligenza per innescare De Bruyne\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-arsenal-behrami-punta-lobotka-ha-intelligenza-innescare-de-bruyne-2271860",
+                "date": "09/09 08:15"
             },
             {
-                "title": "Brasile, l'allarme di una leggenda: \"Non abbiamo fuoriclasse ma Ancelotti non ha colpe\"",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/brasile-allarme-leggenda-non-fuoriclasse-ancelotti-colpe-2271547",
-                "date": "08/09 08:12"
+                "title": "Kylian Mbappé segna e vince, Ethan perde e si fa cacciare: gomitata rifilata a un ex Napoli",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/kylian-segna-vince-ethan-perde-cacciare-gomitata-2271856",
+                "date": "09/09 08:12"
             },
             {
-                "title": "Behrami difende Allegri: \"Cambi solo difensivi? Ha messo anche De Bruyne e Neres\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/behrami-difende-allegri-cambi-difensivi-messo-de-bruyne-neres-2271545",
-                "date": "08/09 08:08"
+                "title": "Manchester United e Liverpool in agguato, la Juve blinda Kalulu: pronto il rinnovo",
+                "link": "https://www.tuttomercatoweb.com/serie-a/manchester-united-liverpool-agguato-juve-blinda-kalulu-pronto-rinnovo-2271854",
+                "date": "09/09 08:08"
             },
             {
-                "title": "Inter e Roma impressionano. Juve e Milan lontane. Paratici si smentisce. Lazio-Frattesi, che combinazione",
-                "link": "https://www.tuttomercatoweb.com/il-due-di-piccari/inter-roma-impressionano-juve-milan-lontane-paratici-smentisce-lazio-frattesi-combinazione-2271548",
-                "date": "08/09 08:05"
+                "title": "La Romagna chiama (e porta) Ronaldinho, l'Emilia risponde con il Gallo Belotti",
+                "link": "https://www.tuttomercatoweb.com/serie-b/romagna-chiama-e-porta-ronaldinho-emilia-risponde-gallo-belotti-2271721",
+                "date": "09/09 08:03"
             },
             {
-                "title": "Serie B, il punto sulla 3ª giornata: il Palermo vola. Prima vittoria per Pecchia",
-                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-punto-3a-giornata-palermo-vola-vittoria-pecchia-2271506",
-                "date": "08/09 08:04"
+                "title": "Marco Cassin: “Contento della stagione, a Desenzano posso crescere. Ter Stegen e Raya i miei modelli. Padelli un padre sportivo. E il mio futuro…”",
+                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/marco-cassin-contento-stagione-desenzano-posso-crescere-ter-stegen-raya-modelli-padelli-padre-sporti-2271829",
+                "date": "09/09 08:00"
             }
         ]
     }
