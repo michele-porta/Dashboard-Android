@@ -1,18 +1,9 @@
 {
-    "primi": [
-        "Pasta zafferano e salsiccia",
-        "Insalata di riso con prosciutto cotto, rucola e edamer (pf)"
-    ],
-    "secondi": [
-        "Piccatina di suino alla palermitana",
-        "Filetto di merluzzo in croccante di verdure",
-        "Burger di barbabietola e soia con olio profumato al basilico vegan"
-    ],
-    "contorni": [
-        "Finocchi con pane profumato"
-    ],
-    "date": "MER 9 SET",
-    "gas_price": "2.062",
+    "primi": [],
+    "secondi": [],
+    "contorni": [],
+    "date": "",
+    "gas_price": "2.072",
     "oct_luce_price": "0,1749",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,79",
@@ -47,59 +38,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Real Madrid",
-                    "away": "Inter Milan",
-                    "home_score": "2",
+                    "home": "Napoli",
+                    "away": "Arsenal",
+                    "home_score": "0",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
-                    "date": "2026-09-08",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
+                    "date": "2026-09-09",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Stuttgart",
-                    "away": "Viking",
+                    "home": "PSV Eindhoven",
+                    "away": "Shakhtar Donetsk",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-                    "date": "2026-09-09",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
+                    "date": "2026-09-10",
                     "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Il grido di allarme di Coppitelli non può rimanere inascoltato. Il Cosenza deve rialzarsi",
-                "link": "https://www.tuttomercatoweb.com/serie-c/grido-allarme-coppitelli-rimanere-inascoltato-cosenza-rialzarsi-2271732",
-                "date": "09/09 08:19"
+                "title": "Coppa Italia Serie C, definito il quadro degli ottavi di finale. Ma si va in campo a ottobre",
+                "link": "https://www.tuttomercatoweb.com/serie-c/coppa-italia-serie-c-definito-quadro-ottavi-finale-campo-ottobre-2272084",
+                "date": "10/09 08:18"
             },
             {
-                "title": "Napoli-Arsenal, Behrami punta su Lobotka: \"Ha l'intelligenza per innescare De Bruyne\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-arsenal-behrami-punta-lobotka-ha-intelligenza-innescare-de-bruyne-2271860",
-                "date": "09/09 08:15"
+                "title": "Juventus, un altro talento italiano nel radar bianconero: piace Filippo Mané del Dortmund",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-talento-italiano-radar-bianconero-piace-filippo-mane-dortmund-2272200",
+                "date": "10/09 08:15"
             },
             {
-                "title": "Kylian Mbappé segna e vince, Ethan perde e si fa cacciare: gomitata rifilata a un ex Napoli",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/kylian-segna-vince-ethan-perde-cacciare-gomitata-2271856",
-                "date": "09/09 08:12"
+                "title": "Cristiano Ronaldo a segno: ora sono 979, il traguardo dei mille gol è sempre più vicino",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/cristiano-ronaldo-segno-979-traguardo-mille-gol-2272198",
+                "date": "10/09 08:12"
             },
             {
-                "title": "Manchester United e Liverpool in agguato, la Juve blinda Kalulu: pronto il rinnovo",
-                "link": "https://www.tuttomercatoweb.com/serie-a/manchester-united-liverpool-agguato-juve-blinda-kalulu-pronto-rinnovo-2271854",
-                "date": "09/09 08:08"
+                "title": "Quote risultato esatto Fenerbahce-Roma",
+                "link": "https://www.tuttomercatoweb.com/scommesse/pronostici/quote-risultato-esatto-fenerbahce-roma-2272001",
+                "date": "10/09 08:10"
             },
             {
-                "title": "La Romagna chiama (e porta) Ronaldinho, l'Emilia risponde con il Gallo Belotti",
-                "link": "https://www.tuttomercatoweb.com/serie-b/romagna-chiama-e-porta-ronaldinho-emilia-risponde-gallo-belotti-2271721",
-                "date": "09/09 08:03"
+                "title": "Napoli, dura contestazione degli ultras: cori e striscioni contro De Laurentiis al Maradona",
+                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-dura-contestazione-ultras-cori-striscioni-de-laurentiis-maradona-2272191",
+                "date": "10/09 08:08"
             },
             {
-                "title": "Marco Cassin: “Contento della stagione, a Desenzano posso crescere. Ter Stegen e Raya i miei modelli. Padelli un padre sportivo. E il mio futuro…”",
-                "link": "https://www.tuttomercatoweb.com/a-tu-per-tu/marco-cassin-contento-stagione-desenzano-posso-crescere-ter-stegen-raya-modelli-padelli-padre-sporti-2271829",
-                "date": "09/09 08:00"
+                "title": "\"Il calcio è uno spettacolo, la salute no\". Non basta giocare di sera solo sui campi sintetici",
+                "link": "https://www.tuttomercatoweb.com/serie-b/il-calcio-spettacolo-salute-no-giocare-sera-campi-sintetici-2272138",
+                "date": "10/09 08:04"
             }
         ]
     }
