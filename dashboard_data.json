@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.072",
+    "gas_price": "2.081",
     "oct_luce_price": "0,1749",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,79",
@@ -38,59 +38,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Napoli",
-                    "away": "Arsenal",
-                    "home_score": "0",
+                    "home": "Como",
+                    "away": "RB Leipzig",
+                    "home_score": "4",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
-                    "date": "2026-09-09",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
+                    "date": "2026-09-10",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "PSV Eindhoven",
-                    "away": "Shakhtar Donetsk",
+                    "home": "Lens",
+                    "away": "Sporting CP",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
-                    "date": "2026-09-10",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
+                    "date": "2026-10-13",
                     "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Coppa Italia Serie C, definito il quadro degli ottavi di finale. Ma si va in campo a ottobre",
-                "link": "https://www.tuttomercatoweb.com/serie-c/coppa-italia-serie-c-definito-quadro-ottavi-finale-campo-ottobre-2272084",
-                "date": "10/09 08:18"
+                "title": "Como, Fabregas pensa già al Barça: \"Ti fanno sfigurare perché hanno tantissime soluzioni\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/como-fabregas-pensa-barca-ti-sfigurare-tantissime-soluzioni-2272527",
+                "date": "11/09 08:26"
             },
             {
-                "title": "Juventus, un altro talento italiano nel radar bianconero: piace Filippo Mané del Dortmund",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-talento-italiano-radar-bianconero-piace-filippo-mane-dortmund-2272200",
-                "date": "10/09 08:15"
+                "title": "Como, Baturina eletto Player of the Match contro il Lipsia: \"Sensazione incredibile\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/como-baturina-eletto-player-of-the-match-lipsia-sensazione-incredibile-2272524",
+                "date": "11/09 08:22"
             },
             {
-                "title": "Cristiano Ronaldo a segno: ora sono 979, il traguardo dei mille gol è sempre più vicino",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/cristiano-ronaldo-segno-979-traguardo-mille-gol-2272198",
-                "date": "10/09 08:12"
+                "title": "Serie C, 4ª giornata: spicca Ravenna-Perugia anche per la diretta Rai2. La guida completa",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-4a-giornata-guida-completa-2272331",
+                "date": "11/09 08:19"
             },
             {
-                "title": "Quote risultato esatto Fenerbahce-Roma",
-                "link": "https://www.tuttomercatoweb.com/scommesse/pronostici/quote-risultato-esatto-fenerbahce-roma-2272001",
-                "date": "10/09 08:10"
+                "title": "Fenerbahce, comunicato sul caso Kartal: \"L'autore del lancio della bottiglietta è stato identificato\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fenerbahce-comunicato-kartal-l-autore-lancio-bottiglietta-identificato-2272526",
+                "date": "11/09 08:15"
             },
             {
-                "title": "Napoli, dura contestazione degli ultras: cori e striscioni contro De Laurentiis al Maradona",
-                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-dura-contestazione-ultras-cori-striscioni-de-laurentiis-maradona-2272191",
-                "date": "10/09 08:08"
+                "title": "Inter, Carlos Augusto spazza via i dubbi: al via la trattativa per il rinnovo di contratto",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-carlos-augusto-spazza-via-dubbi-via-trattativa-rinnovo-contratto-2272525",
+                "date": "11/09 08:11"
             },
             {
-                "title": "\"Il calcio è uno spettacolo, la salute no\". Non basta giocare di sera solo sui campi sintetici",
-                "link": "https://www.tuttomercatoweb.com/serie-b/il-calcio-spettacolo-salute-no-giocare-sera-campi-sintetici-2272138",
-                "date": "10/09 08:04"
+                "title": "Zazzaroni: \"Roma fregata in Turchia dal tè caldo tanto caro a Caressa, ma mi è piaciuta\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/zazzaroni-roma-fregata-turchia-te-caldo-caro-caressa-piaciuta-2272523",
+                "date": "11/09 08:08"
             }
         ]
     }
