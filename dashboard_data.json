@@ -2,36 +2,36 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "",
+    "date": "SAB 12 SET",
     "gas_price": "2.081",
-    "oct_luce_price": "0,1749",
+    "oct_luce_price": "0,1826",
     "oct_luce_fee": "72",
-    "oct_gas_price": "0,79",
+    "oct_gas_price": "0,85",
     "oct_gas_fee": "84",
     "sports": {
         "seriea": {
             "past": [
                 {
-                    "home": "Udinese",
-                    "away": "Lazio",
-                    "home_score": "1",
-                    "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
-                    "date": "2026-09-07",
+                    "home": "Venezia",
+                    "away": "Fiorentina",
+                    "home_score": "2",
+                    "away_score": "4",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
+                    "date": "2026-09-11",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Venezia",
-                    "away": "Fiorentina",
+                    "home": "Genoa",
+                    "away": "Frosinone",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-                    "date": "2026-09-11",
-                    "time": "18:45:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
+                    "date": "2026-09-12",
+                    "time": "13:00:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Como, Fabregas pensa già al Barça: \"Ti fanno sfigurare perché hanno tantissime soluzioni\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/como-fabregas-pensa-barca-ti-sfigurare-tantissime-soluzioni-2272527",
-                "date": "11/09 08:26"
+                "title": "Napoli, rientra il caso Lang: dopo l’esclusione in Champions può partire titolare",
+                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-rientra-lang-l-esclusione-champions-partire-titolare-2272852",
+                "date": "12/09 08:18"
             },
             {
-                "title": "Como, Baturina eletto Player of the Match contro il Lipsia: \"Sensazione incredibile\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/como-baturina-eletto-player-of-the-match-lipsia-sensazione-incredibile-2272524",
-                "date": "11/09 08:22"
+                "title": "Juventus, emergenza totale a centrocampo. Ma Spalletti ritrova Sarr",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-emergenza-totale-centrocampo-spalletti-ritrova-sarr-2272851",
+                "date": "12/09 08:12"
             },
             {
-                "title": "Serie C, 4ª giornata: spicca Ravenna-Perugia anche per la diretta Rai2. La guida completa",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-4a-giornata-guida-completa-2272331",
-                "date": "11/09 08:19"
+                "title": "Probabili formazioni Serie A, le ultime sulla 4ª giornata di campionato",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/probabili-formazioni-serie-a-ultime-4a-giornata-campionato-2272545",
+                "date": "12/09 08:10"
             },
             {
-                "title": "Fenerbahce, comunicato sul caso Kartal: \"L'autore del lancio della bottiglietta è stato identificato\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fenerbahce-comunicato-kartal-l-autore-lancio-bottiglietta-identificato-2272526",
-                "date": "11/09 08:15"
+                "title": "Assaltò casa di Donnarumma a Parigi nel 2023, condannato a 9 anni 'Ganito'",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/assalto-casa-donnarumma-parigi-2023-condannato-9-ganito-2272850",
+                "date": "12/09 08:09"
             },
             {
-                "title": "Inter, Carlos Augusto spazza via i dubbi: al via la trattativa per il rinnovo di contratto",
-                "link": "https://www.tuttomercatoweb.com/serie-a/inter-carlos-augusto-spazza-via-dubbi-via-trattativa-rinnovo-contratto-2272525",
-                "date": "11/09 08:11"
+                "title": "Juventus, Woltemade: \"Posso giocare come numero 10. Qua ho tante cose da imparare\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-woltemade-posso-giocare-numero-10-tante-cose-imparare-2272849",
+                "date": "12/09 08:06"
             },
             {
-                "title": "Zazzaroni: \"Roma fregata in Turchia dal tè caldo tanto caro a Caressa, ma mi è piaciuta\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/zazzaroni-roma-fregata-turchia-te-caldo-caro-caressa-piaciuta-2272523",
-                "date": "11/09 08:08"
+                "title": "Inter-Udinese, le probabili formazioni: Stones verso l'esordio da titolare",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/inter-udinese-probabili-formazioni-stones-esordio-titolare-nuova-difesa-runjaic-2272610",
+                "date": "12/09 08:05"
             }
         ]
     }
