@@ -2,8 +2,8 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "SAB 12 SET",
-    "gas_price": "2.081",
+    "date": "DOM 13 SET",
+    "gas_price": "2.098",
     "oct_luce_price": "0,1826",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,85",
@@ -12,25 +12,25 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Venezia",
-                    "away": "Fiorentina",
-                    "home_score": "2",
-                    "away_score": "4",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-                    "date": "2026-09-11",
+                    "home": "Atalanta",
+                    "away": "Cagliari",
+                    "home_score": "1",
+                    "away_score": "2",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
+                    "date": "2026-09-12",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Genoa",
-                    "away": "Frosinone",
+                    "home": "Lecce",
+                    "away": "Monza",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
-                    "date": "2026-09-12",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/bxearg1603170113.png",
+                    "date": "2026-09-13",
                     "time": "13:00:00"
                 }
             ]
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Napoli, rientra il caso Lang: dopo l’esclusione in Champions può partire titolare",
-                "link": "https://www.tuttomercatoweb.com/serie-a/napoli-rientra-lang-l-esclusione-champions-partire-titolare-2272852",
-                "date": "12/09 08:18"
-            },
-            {
-                "title": "Juventus, emergenza totale a centrocampo. Ma Spalletti ritrova Sarr",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-emergenza-totale-centrocampo-spalletti-ritrova-sarr-2272851",
-                "date": "12/09 08:12"
-            },
-            {
                 "title": "Probabili formazioni Serie A, le ultime sulla 4ª giornata di campionato",
                 "link": "https://www.tuttomercatoweb.com/probabili-formazioni/probabili-formazioni-serie-a-ultime-4a-giornata-campionato-2272545",
-                "date": "12/09 08:10"
+                "date": "13/09 08:36"
             },
             {
-                "title": "Assaltò casa di Donnarumma a Parigi nel 2023, condannato a 9 anni 'Ganito'",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/assalto-casa-donnarumma-parigi-2023-condannato-9-ganito-2272850",
-                "date": "12/09 08:09"
+                "title": "Torino-Roma, le probabili formazioni: Molina pronto al debutto dal 1', Dybala può rifiatare",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/torino-roma-probabili-formazioni-molina-pronto-debutto-1-dybala-rifiatare-2272595",
+                "date": "13/09 08:35"
             },
             {
-                "title": "Juventus, Woltemade: \"Posso giocare come numero 10. Qua ho tante cose da imparare\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-woltemade-posso-giocare-numero-10-tante-cose-imparare-2272849",
-                "date": "12/09 08:06"
+                "title": "Como-Parma, le probabili formazioni: dopo la Champions, tocca a Rodriguez e Kean dal 1'",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/como-parma-probabili-formazioni-champions-tocca-rodriguez-kean-1-2272585",
+                "date": "13/09 08:35"
             },
             {
-                "title": "Inter-Udinese, le probabili formazioni: Stones verso l'esordio da titolare",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/inter-udinese-probabili-formazioni-stones-esordio-titolare-nuova-difesa-runjaic-2272610",
-                "date": "12/09 08:05"
+                "title": "Sassuolo-Juventus, le probabili formazioni: c'è Koopmeiners con Douglas Luiz",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/sassuolo-juventus-probabili-formazioni-koopmeiners-douglas-luiz-nico-confermato-2272575",
+                "date": "13/09 08:35"
+            },
+            {
+                "title": "Napoli-Bologna, le probabili formazioni: Allegri con Gilmour e Vergara a centrocampo",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/napoli-bologna-probabili-formazioni-allegri-giocare-gilmour-vergara-centrocampo-2272599",
+                "date": "13/09 08:35"
+            },
+            {
+                "title": "Lecce-Monza, le probabili formazioni: Pierotti e Monteiro nel tridente con Stulic",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lecce-monza-probabili-formazioni-pierotti-monteiro-tridente-stulic-2272565",
+                "date": "13/09 08:35"
             }
         ]
     }
