@@ -2,8 +2,8 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "DOM 13 SET",
-    "gas_price": "2.098",
+    "date": "",
+    "gas_price": "2.100",
     "oct_luce_price": "0,1826",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,85",
@@ -12,85 +12,63 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Atalanta",
-                    "away": "Cagliari",
-                    "home_score": "1",
+                    "home": "Sassuolo",
+                    "away": "Juventus",
+                    "home_score": "3",
                     "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
-                    "date": "2026-09-12",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
+                    "date": "2026-09-13",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Lecce",
-                    "away": "Monza",
+                    "home": "Torino",
+                    "away": "Roma",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/bxearg1603170113.png",
-                    "date": "2026-09-13",
-                    "time": "13:00:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
+                    "date": "2026-09-14",
+                    "time": "16:30:00"
                 }
             ]
         },
         "champions": {
-            "past": [
-                {
-                    "home": "Como",
-                    "away": "RB Leipzig",
-                    "home_score": "4",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
-                    "date": "2026-09-10",
-                    "time": "19:00:00"
-                }
-            ],
-            "next": [
-                {
-                    "home": "Lens",
-                    "away": "Sporting CP",
-                    "home_score": null,
-                    "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
-                    "date": "2026-10-13",
-                    "time": "16:45:00"
-                }
-            ]
+            "past": [],
+            "next": []
         },
         "calciomercato": [
             {
-                "title": "Probabili formazioni Serie A, le ultime sulla 4ª giornata di campionato",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/probabili-formazioni-serie-a-ultime-4a-giornata-campionato-2272545",
-                "date": "13/09 08:36"
+                "title": "Serie B, classifica marcatori: Shpendi del Cesena centra la vetta in solitaria",
+                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-classifica-marcatori-2273517",
+                "date": "14/09 08:49"
             },
             {
-                "title": "Torino-Roma, le probabili formazioni: Molina pronto al debutto dal 1', Dybala può rifiatare",
+                "title": "Inter-Udinese, le probabili formazioni: Stones verso l'esordio da titolare",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/inter-udinese-probabili-formazioni-stones-esordio-titolare-nuova-difesa-runjaic-2272610",
+                "date": "14/09 08:45"
+            },
+            {
+                "title": "Torino-Roma, le probabili formazioni: Molina pronto al debutto dal 1', Adams si ferma",
                 "link": "https://www.tuttomercatoweb.com/probabili-formazioni/torino-roma-probabili-formazioni-molina-pronto-debutto-1-dybala-rifiatare-2272595",
-                "date": "13/09 08:35"
+                "date": "14/09 08:45"
             },
             {
                 "title": "Como-Parma, le probabili formazioni: dopo la Champions, tocca a Rodriguez e Kean dal 1'",
                 "link": "https://www.tuttomercatoweb.com/probabili-formazioni/como-parma-probabili-formazioni-champions-tocca-rodriguez-kean-1-2272585",
-                "date": "13/09 08:35"
+                "date": "14/09 08:45"
             },
             {
-                "title": "Sassuolo-Juventus, le probabili formazioni: c'è Koopmeiners con Douglas Luiz",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/sassuolo-juventus-probabili-formazioni-koopmeiners-douglas-luiz-nico-confermato-2272575",
-                "date": "13/09 08:35"
+                "title": "Probabili formazioni Serie A, le ultime sulla 4ª giornata di campionato",
+                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/probabili-formazioni-serie-a-ultime-4a-giornata-campionato-2272545",
+                "date": "14/09 08:44"
             },
             {
-                "title": "Napoli-Bologna, le probabili formazioni: Allegri con Gilmour e Vergara a centrocampo",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/napoli-bologna-probabili-formazioni-allegri-giocare-gilmour-vergara-centrocampo-2272599",
-                "date": "13/09 08:35"
-            },
-            {
-                "title": "Lecce-Monza, le probabili formazioni: Pierotti e Monteiro nel tridente con Stulic",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/lecce-monza-probabili-formazioni-pierotti-monteiro-tridente-stulic-2272565",
-                "date": "13/09 08:35"
+                "title": "È morta Giusy Achilli: è stata la prima donna in Italia a divenire presidente di club professionistici",
+                "link": "https://www.tuttomercatoweb.com/altre-notizie/morta-giusy-achilli-donna-italia-divenire-presidente-club-professionistici-2273526",
+                "date": "14/09 08:41"
             }
         ]
     }
