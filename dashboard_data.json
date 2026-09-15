@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.100",
+    "gas_price": "2.114",
     "oct_luce_price": "0,1826",
     "oct_luce_fee": "72",
     "oct_gas_price": "0,85",
@@ -12,63 +12,85 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Sassuolo",
-                    "away": "Juventus",
-                    "home_score": "3",
-                    "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-                    "date": "2026-09-13",
+                    "home": "Inter Milan",
+                    "away": "Udinese",
+                    "home_score": "5",
+                    "away_score": "3",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
+                    "date": "2026-09-14",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Torino",
-                    "away": "Roma",
+                    "home": "Monza",
+                    "away": "Sassuolo",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-                    "date": "2026-09-14",
-                    "time": "16:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/bxearg1603170113.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
+                    "date": "2026-09-18",
+                    "time": "18:45:00"
                 }
             ]
         },
         "champions": {
-            "past": [],
-            "next": []
+            "past": [
+                {
+                    "home": "Como",
+                    "away": "RB Leipzig",
+                    "home_score": "4",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
+                    "date": "2026-09-10",
+                    "time": "19:00:00"
+                }
+            ],
+            "next": [
+                {
+                    "home": "Lens",
+                    "away": "Sporting CP",
+                    "home_score": null,
+                    "away_score": null,
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
+                    "date": "2026-10-13",
+                    "time": "16:45:00"
+                }
+            ]
         },
         "calciomercato": [
             {
-                "title": "Serie B, classifica marcatori: Shpendi del Cesena centra la vetta in solitaria",
-                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-classifica-marcatori-2273517",
-                "date": "14/09 08:49"
+                "title": "Como, Fabregas scherza: \"Kaiki vi ha sorpreso perché non guardate il calcio brasiliano\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/como-fabregas-scherza-kaiki-sorpreso-guardate-calcio-brasiliano-2273889",
+                "date": "15/09 08:30"
             },
             {
-                "title": "Inter-Udinese, le probabili formazioni: Stones verso l'esordio da titolare",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/inter-udinese-probabili-formazioni-stones-esordio-titolare-nuova-difesa-runjaic-2272610",
-                "date": "14/09 08:45"
+                "title": "Inter, Chivu: \"Martinez non è un problema e non lo sarà mai. Non sparate su di lui\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-chivu-martinez-problema-mai-sparate-lui-2273888",
+                "date": "15/09 08:26"
             },
             {
-                "title": "Torino-Roma, le probabili formazioni: Molina pronto al debutto dal 1', Adams si ferma",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/torino-roma-probabili-formazioni-molina-pronto-debutto-1-dybala-rifiatare-2272595",
-                "date": "14/09 08:45"
+                "title": "Allarme Bologna, Tedesco interviene: confronto con la squadra dopo il ko di Napoli",
+                "link": "https://www.tuttomercatoweb.com/serie-a/allarme-bologna-tedesco-interviene-confronto-squadra-ko-napoli-2273886",
+                "date": "15/09 08:23"
             },
             {
-                "title": "Como-Parma, le probabili formazioni: dopo la Champions, tocca a Rodriguez e Kean dal 1'",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/como-parma-probabili-formazioni-champions-tocca-rodriguez-kean-1-2272585",
-                "date": "14/09 08:45"
+                "title": "Serie C 2026/2027, 5ª giornata: il programma del turno infrasettimanale",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-5a-giornata-programma-turno-infrasettimanale-2273716",
+                "date": "15/09 08:19"
             },
             {
-                "title": "Probabili formazioni Serie A, le ultime sulla 4ª giornata di campionato",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/probabili-formazioni-serie-a-ultime-4a-giornata-campionato-2272545",
-                "date": "14/09 08:44"
+                "title": "Inter, ansia per Calhanoglu: oggi gli esami, ma problema agli adduttori già domenica",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-ansia-calhanoglu-esami-problema-adduttori-domenica-2273879",
+                "date": "15/09 08:15"
             },
             {
-                "title": "È morta Giusy Achilli: è stata la prima donna in Italia a divenire presidente di club professionistici",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/morta-giusy-achilli-donna-italia-divenire-presidente-club-professionistici-2273526",
-                "date": "14/09 08:41"
+                "title": "Classifiche a confronto: +6 Inter, -6 Napoli! Vola la Lazio, Spalletti peggio di Tudor",
+                "link": "https://www.tuttomercatoweb.com/serie-a/classifiche-confronto-6-inter-6-napoli-vola-lazio-spalletti-tudor-2273851",
+                "date": "15/09 08:11"
             }
         ]
     }
