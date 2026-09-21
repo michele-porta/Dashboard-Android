@@ -2,7 +2,7 @@
     "primi": [],
     "secondi": [],
     "contorni": [],
-    "date": "OGGI",
+    "date": "",
     "gas_price": "2.149",
     "oct_luce_price": "0,176",
     "oct_luce_fee": "72",
@@ -12,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Venezia",
-                    "away": "Lazio",
-                    "home_score": "0",
-                    "away_score": "2",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/rwqyvs1448806608.png",
-                    "date": "2026-09-19",
+                    "home": "AC Milan",
+                    "away": "Lecce",
+                    "home_score": "3",
+                    "away_score": "0",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/j4vznr1567365249.png",
+                    "date": "2026-09-20",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Fiorentina",
-                    "away": "Napoli",
+                    "home": "Genoa",
+                    "away": "Fiorentina",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-                    "date": "2026-09-20",
-                    "time": "10:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/52s8dn1655553600.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/hc8nhu1656098030.png",
+                    "date": "2026-10-10",
+                    "time": "13:00:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Zazzaroni: \"Dopo il primo tempo di ieri fatichiamo a non considerare la Roma da scudetto\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/zazzaroni-dopo-fatichiamo-considerare-roma-scudetto-2275526",
-                "date": "20/09 08:49"
+                "title": "Carrarese, un solo punto in cinque partite: Cioffi si gioca tutto dopo la sosta",
+                "link": "https://www.tuttomercatoweb.com/serie-b/carrarese-punto-partite-cioffi-gioca-sosta-2275904",
+                "date": "21/09 08:50"
             },
             {
-                "title": "E se tornasse Neto alla Juve? Ecco gli svincolati che possono sostituire Grabara",
-                "link": "https://www.tuttomercatoweb.com/serie-a/tornasse-neto-juve-svincolati-possono-sostituire-grabara-2275527",
-                "date": "20/09 08:44"
+                "title": "Como, Kean non è ancora al top e la mira va raddrizzata. Due foto con il Frosinone",
+                "link": "https://www.tuttomercatoweb.com/serie-a/como-kean-top-palmisani-formidabile-mira-raddrizzata-2275903",
+                "date": "21/09 08:46"
             },
             {
-                "title": "Masitto: \"Tutti in campo con un solo obiettivo: aiutare la Cavese a conquistare punti\"",
-                "link": "https://www.tuttomercatoweb.com/serie-c/masitto-tutti-campo-obiettivo-aiutare-cavese-conquistare-punti-2275529",
-                "date": "20/09 08:38"
+                "title": "Ordine: \"Dite ad Amorim di scegliere i migliori per il Milan. L'UNESCO protegga Modric\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/ordine-dite-amorim-scegliere-migliori-milan-unesco-protegga-modric-2275902",
+                "date": "21/09 08:42"
             },
             {
-                "title": "Rivera ricorda Mazzola: \"Eravamo divisi solo dal derby. Il dualismo? Un po' gonfiato\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/rivera-ricorda-mazzola-eravamo-divisi-derby-dualismo-gonfiato-2275525",
-                "date": "20/09 08:33"
+                "title": "Juventus, il preferito è Neto: il brasiliano vuole tornare. Restano 3 alternative",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-preferito-neto-totale-disponibilita-tornare-3-alternative-2275899",
+                "date": "21/09 08:37"
             },
             {
-                "title": "Fiorentina-Napoli, le probabili formazioni: Beto in vantaggio su Pellegrino, più Lang di Neres",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/fiorentina-napoli-probabili-formazioni-pellegrino-guida-attacco-lang-vantaggio-david-neres-2274930",
-                "date": "20/09 08:30"
+                "title": "Hellas Verona, Baroni: \"Compagnon si è rotto il crociato, dovrà operarsi\"",
+                "link": "https://www.tuttomercatoweb.com/serie-b/hellas-verona-baroni-compagnon-rotto-crociato-operarsi-2275900",
+                "date": "21/09 08:33"
             },
             {
-                "title": "Milan-Lecce, le probabili formazioni: Amorim si affida all'usato sicuro con Modric e Rabiot",
-                "link": "https://www.tuttomercatoweb.com/probabili-formazioni/milan-lecce-probabili-formazioni-amorim-affida-usato-sicuro-modric-rabiot-2274927",
-                "date": "20/09 08:30"
+                "title": "Capello: \"La Juventus è in crescita, Milan sulla strada giusta. Como, manca brillantezza\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/capello-la-juventus-crescita-milan-strada-giusta-como-manca-brillantezza-2275898",
+                "date": "21/09 08:30"
             }
         ]
     }
