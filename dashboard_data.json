@@ -12,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Napoli",
-                    "away": "Frosinone",
-                    "home_score": "3",
-                    "away_score": "0",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
-                    "date": "2026-10-10",
+                    "home": "Cagliari",
+                    "away": "Juventus",
+                    "home_score": "1",
+                    "away_score": "1",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
+                    "date": "2026-10-11",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Como",
-                    "away": "Roma",
+                    "home": "Atalanta",
+                    "away": "Venezia",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
-                    "date": "2026-10-11",
-                    "time": "10:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
+                    "date": "2026-10-12",
+                    "time": "16:30:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Oggi Como-Roma, il doppio ex Vierchowod: \"Mi piacerebbe lavorare con Fabregas e Gasp\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/como-roma-vierchowod-mi-piacerebbe-lavorare-fabregas-gasp-2282020",
-                "date": "11/10 09:37"
+                "title": "Avellino, Enrici: \"Con la Samp prestazione superlativa. Ma non rilassiamoci\"",
+                "link": "https://www.tuttomercatoweb.com/serie-b/avellino-enrici-con-samp-prestazione-superlativa-rilassiamoci-2282408",
+                "date": "12/10 09:49"
             },
             {
-                "title": "Juve Stabia, rabbia De Vito: \"C'era un rigore per noi. Sono disgustato, parlano le immagini\"",
-                "link": "https://www.tuttomercatoweb.com/serie-b/juve-stabia-rabbia-de-vito-c-rigore-noi-disgustato-parlano-immagini-2282019",
-                "date": "11/10 09:32"
+                "title": "Zazzaroni: \"A Como la Roma più bella di sempre, mai visto Fabregas costretto a palla indietro\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/zazzaroni-a-como-roma-bella-sempre-fabregas-costretto-palla-indietro-2282406",
+                "date": "12/10 09:45"
             },
             {
-                "title": "La politica dei contratti extra-large, Cole Palmer guadagna il massimo e sposa i Blues a vita",
-                "link": "https://www.tuttomercatoweb.com/altre-notizie/politica-contratti-extra-large-cole-palmer-guadagna-massimo-sposa-blues-2282024",
-                "date": "11/10 09:28"
+                "title": "Galatasaray con Osimhen e Leao, Gundogan: \"Possiamo mettere in difficoltà chiunque al mondo\"",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/galatasaray-osimhen-leao-gundogan-spavaldo-possiamo-mettere-difficolta-qualsiasi-squadra-mondo-2282407",
+                "date": "12/10 09:40"
             },
             {
-                "title": "Tottenham a secco di vittorie, oggi Liverpool-City: la situazione in Premier League",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/tottenham-secco-vittorie-liverpool-city-situazione-premier-league-2281989",
-                "date": "11/10 09:26"
+                "title": "Inler ricorda Villarreal-Napoli: \"Segnai e passammo il turno, un risultato clamoroso\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inler-ricorda-villarreal-napoli-segnai-passammo-turno-risultato-clamoroso-2282405",
+                "date": "12/10 09:38"
             },
             {
-                "title": "Diego Lopez non è più il Chief of Football del Genoa: il comunicato ufficiale rossoblù",
-                "link": "https://www.tuttomercatoweb.com/serie-a/diego-lopez-chief-of-football-genoa-comunicato-ufficiale-rossoblu-2282021",
-                "date": "11/10 09:21"
+                "title": "Palermo, numeri da record per Inzaghi: la produzione offensiva è degna del Barcellona",
+                "link": "https://www.tuttomercatoweb.com/serie-b/palermo-numeri-record-inzaghi-produzione-offensiva-degna-barcellona-2282404",
+                "date": "12/10 09:33"
             },
             {
-                "title": "Ascoli, Rizzo: \"E’ stata una bella partita fra due squadre che vogliono giocare a calcio\"",
-                "link": "https://www.tuttomercatoweb.com/serie-b/ascoli-rizzo-e-bella-partita-squadre-vogliono-giocare-calcio-2282017",
-                "date": "11/10 09:16"
+                "title": "Sommer: \"Amo l'Inter, addio deciso insieme. Domani per me sarà come giocare in casa\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/sommer-amo-inter-addio-deciso-insieme-domani-giocare-casa-2282402",
+                "date": "12/10 09:26"
             }
         ]
     }
