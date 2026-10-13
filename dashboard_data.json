@@ -12,26 +12,26 @@
         "seriea": {
             "past": [
                 {
-                    "home": "Cagliari",
-                    "away": "Juventus",
-                    "home_score": "1",
+                    "home": "Torino",
+                    "away": "Udinese",
+                    "home_score": "2",
                     "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/wvsvxt1447534471.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/uxf0gr1742983727.png",
-                    "date": "2026-10-11",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
+                    "date": "2026-10-12",
                     "time": "18:45:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Atalanta",
-                    "away": "Venezia",
+                    "home": "Frosinone",
+                    "away": "Sassuolo",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vbiget1781026964.png",
-                    "date": "2026-10-12",
-                    "time": "16:30:00"
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
+                    "date": "2026-10-16",
+                    "time": "18:45:00"
                 }
             ]
         },
@@ -63,34 +63,34 @@
         },
         "calciomercato": [
             {
-                "title": "Avellino, Enrici: \"Con la Samp prestazione superlativa. Ma non rilassiamoci\"",
-                "link": "https://www.tuttomercatoweb.com/serie-b/avellino-enrici-con-samp-prestazione-superlativa-rilassiamoci-2282408",
-                "date": "12/10 09:49"
+                "title": "L'Atletico Madrid guarda al futuro: nel mirino c'è Salinas (che piace anche in Italia)",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/atletico-madrid-guarda-futuro-mirino-salinas-che-piace-italia-2282776",
+                "date": "13/10 10:11"
             },
             {
-                "title": "Zazzaroni: \"A Como la Roma più bella di sempre, mai visto Fabregas costretto a palla indietro\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/zazzaroni-a-como-roma-bella-sempre-fabregas-costretto-palla-indietro-2282406",
-                "date": "12/10 09:45"
+                "title": "Spalletti e Juve sulla stessa linea: nessuna bocciatura, ma il club si guarda già intorno per una punta",
+                "link": "https://www.tuttomercatoweb.com/serie-a/spalletti-juve-linea-bocciatura-club-guarda-punta-2282775",
+                "date": "13/10 10:07"
             },
             {
-                "title": "Galatasaray con Osimhen e Leao, Gundogan: \"Possiamo mettere in difficoltà chiunque al mondo\"",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/galatasaray-osimhen-leao-gundogan-spavaldo-possiamo-mettere-difficolta-qualsiasi-squadra-mondo-2282407",
-                "date": "12/10 09:40"
+                "title": "Italia femminile, Piemonte sul Mondiale: “Un sogno. Sarebbe il mio primo”",
+                "link": "https://www.tuttomercatoweb.com/calcio-femminile/italia-femminile-piemonte-mondiale-un-sogno-primo-2282767",
+                "date": "13/10 10:04"
             },
             {
-                "title": "Inler ricorda Villarreal-Napoli: \"Segnai e passammo il turno, un risultato clamoroso\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/inler-ricorda-villarreal-napoli-segnai-passammo-turno-risultato-clamoroso-2282405",
-                "date": "12/10 09:38"
+                "title": "Tresoldi sul figlio Nicolò: \"Il suo sogno è giocare nel Milan. L'Italia? Sceglierà con il cuore\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/tresoldi-figlio-nicolo-il-sogno-giocare-milan-italia-scegliera-cuore-2282774",
+                "date": "13/10 10:00"
             },
             {
-                "title": "Palermo, numeri da record per Inzaghi: la produzione offensiva è degna del Barcellona",
-                "link": "https://www.tuttomercatoweb.com/serie-b/palermo-numeri-record-inzaghi-produzione-offensiva-degna-barcellona-2282404",
-                "date": "12/10 09:33"
+                "title": "Paura a Riyad, cosa è successo: missile intercettato prima della sfida di Champions asiatica",
+                "link": "https://www.tuttomercatoweb.com/calcio-estero/paura-riyad-successo-missile-intercettato-sfida-champions-asiatica-2282773",
+                "date": "13/10 09:56"
             },
             {
-                "title": "Sommer: \"Amo l'Inter, addio deciso insieme. Domani per me sarà come giocare in casa\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/sommer-amo-inter-addio-deciso-insieme-domani-giocare-casa-2282402",
-                "date": "12/10 09:26"
+                "title": "Mauro: \"Inter favorita per il titolo. Roma, qualche dubbio sulla continuità dei tre big\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/mauro-inter-favorita-titolo-roma-dubbio-continuita-big-2282763",
+                "date": "13/10 09:53"
             }
         ]
     }
