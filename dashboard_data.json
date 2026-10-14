@@ -3,7 +3,7 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.036",
+    "gas_price": "2.035",
     "oct_luce_price": "N/D",
     "oct_luce_fee": "N/D",
     "oct_gas_price": "N/D",
@@ -38,59 +38,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Como",
-                    "away": "RB Leipzig",
-                    "home_score": "4",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
-                    "date": "2026-09-10",
+                    "home": "Viking",
+                    "away": "Bayern Munich",
+                    "home_score": "3",
+                    "away_score": "3",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
+                    "date": "2026-10-13",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Lens",
-                    "away": "Sporting CP",
+                    "home": "Feyenoord",
+                    "away": "Como",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
-                    "date": "2026-10-13",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+                    "date": "2026-10-14",
                     "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "L'Atletico Madrid guarda al futuro: nel mirino c'è Salinas (che piace anche in Italia)",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/atletico-madrid-guarda-futuro-mirino-salinas-che-piace-italia-2282776",
-                "date": "13/10 10:11"
+                "title": "Inter, Bonny: \"Dobbiamo imparare dagli errori commessi con il Brugge e reagire subito\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-bonny-dobbiamo-imparare-errori-commessi-brugge-reagire-subito-2283100",
+                "date": "14/10 08:30"
             },
             {
-                "title": "Spalletti e Juve sulla stessa linea: nessuna bocciatura, ma il club si guarda già intorno per una punta",
-                "link": "https://www.tuttomercatoweb.com/serie-a/spalletti-juve-linea-bocciatura-club-guarda-punta-2282775",
-                "date": "13/10 10:07"
+                "title": "Capello: \"Il Real qualcosa concede, sarà una Roma aggressiva. Malen e Mbappé decisivi\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/capello-il-real-concede-roma-aggressiva-malen-mbappe-decisivi-2283110",
+                "date": "14/10 08:27"
             },
             {
-                "title": "Italia femminile, Piemonte sul Mondiale: “Un sogno. Sarebbe il mio primo”",
-                "link": "https://www.tuttomercatoweb.com/calcio-femminile/italia-femminile-piemonte-mondiale-un-sogno-primo-2282767",
-                "date": "13/10 10:04"
+                "title": "Juventus, assalto al 9: Balogun può lasciare il Monaco, ma è caro. C'è un piano B",
+                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-gennaio-assalto-9-balogun-lasciare-monaco-caro-piano-b-2283108",
+                "date": "14/10 08:23"
             },
             {
-                "title": "Tresoldi sul figlio Nicolò: \"Il suo sogno è giocare nel Milan. L'Italia? Sceglierà con il cuore\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/tresoldi-figlio-nicolo-il-sogno-giocare-milan-italia-scegliera-cuore-2282774",
-                "date": "13/10 10:00"
+                "title": "Serie C, continuano recuperi della 7ª e 8ª giornata: oggi tocca all'Atalanta",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-continuano-recuperi-7a-8a-giornata-tocca-atalanta-2283007",
+                "date": "14/10 08:19"
             },
             {
-                "title": "Paura a Riyad, cosa è successo: missile intercettato prima della sfida di Champions asiatica",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/paura-riyad-successo-missile-intercettato-sfida-champions-asiatica-2282773",
-                "date": "13/10 09:56"
+                "title": "Fabregas ritrova Addai: lo ha impressionato così. Se il Como vince contro il Feyenoord...",
+                "link": "https://www.tuttomercatoweb.com/serie-a/fabregas-riaccoglie-addai-impressionato-battendo-feyenoord-2283084",
+                "date": "14/10 08:15"
             },
             {
-                "title": "Mauro: \"Inter favorita per il titolo. Roma, qualche dubbio sulla continuità dei tre big\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/mauro-inter-favorita-titolo-roma-dubbio-continuita-big-2282763",
-                "date": "13/10 09:53"
+                "title": "Di Canio: \"Di Lorenzo trotterella sul secondo gol del Villarreal, doveva chiudere prima\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/canio-di-lorenzo-trotterella-gol-villarreal-doveva-chiudere-prima-2283103",
+                "date": "14/10 08:12"
             }
         ]
     }
