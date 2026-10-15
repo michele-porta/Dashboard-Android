@@ -38,59 +38,59 @@
         "champions": {
             "past": [
                 {
-                    "home": "Viking",
-                    "away": "Bayern Munich",
-                    "home_score": "3",
+                    "home": "Slovan Bratislava",
+                    "away": "Stuttgart",
+                    "home_score": "0",
                     "away_score": "3",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
-                    "date": "2026-10-13",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
+                    "date": "2026-10-14",
                     "time": "19:00:00"
                 }
             ],
             "next": [
                 {
-                    "home": "Feyenoord",
-                    "away": "Como",
+                    "home": "Fenerbahçe",
+                    "away": "Slavia Prague",
                     "home_score": null,
                     "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
-                    "date": "2026-10-14",
+                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
+                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/l7kl4n1759252139.png",
+                    "date": "2026-10-20",
                     "time": "16:45:00"
                 }
             ]
         },
         "calciomercato": [
             {
-                "title": "Inter, Bonny: \"Dobbiamo imparare dagli errori commessi con il Brugge e reagire subito\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/inter-bonny-dobbiamo-imparare-errori-commessi-brugge-reagire-subito-2283100",
-                "date": "14/10 08:30"
+                "title": "Endrick ed Espì, le mosse azzeccate di Mourinho: \"Partita folle, difficile trovare le parole\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/endrick-espi-mosse-azzeccate-mourinho-partita-folle-difficile-trovare-parole-2283483",
+                "date": "15/10 08:12"
             },
             {
-                "title": "Capello: \"Il Real qualcosa concede, sarà una Roma aggressiva. Malen e Mbappé decisivi\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/capello-il-real-concede-roma-aggressiva-malen-mbappe-decisivi-2283110",
-                "date": "14/10 08:27"
+                "title": "Venezia, la prima missione di Nicola per l'impresa: solidificare una squadra indifesa",
+                "link": "https://www.tuttomercatoweb.com/serie-a/venezia-missione-nicola-impresa-solidificare-squadra-indifesa-2283422",
+                "date": "15/10 08:08"
             },
             {
-                "title": "Juventus, assalto al 9: Balogun può lasciare il Monaco, ma è caro. C'è un piano B",
-                "link": "https://www.tuttomercatoweb.com/serie-a/juventus-gennaio-assalto-9-balogun-lasciare-monaco-caro-piano-b-2283108",
-                "date": "14/10 08:23"
+                "title": "Serie C 2026/2027, il punto sulle panchine: Raffaele sulla panchina dell'Altamura",
+                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-punto-panchine-gubbio-esonera-carlo-torna-braglia-2279969",
+                "date": "15/10 08:04"
             },
             {
-                "title": "Serie C, continuano recuperi della 7ª e 8ª giornata: oggi tocca all'Atalanta",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-c-continuano-recuperi-7a-8a-giornata-tocca-atalanta-2283007",
-                "date": "14/10 08:19"
+                "title": "Roma, Gasperini sugli infortunati: \"Stiramento per Koné, risentimento muscolare per Dybala\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/gasperini-infortunati-stiramento-kone-risentimento-muscolare-dybala-2283487",
+                "date": "15/10 08:00"
             },
             {
-                "title": "Fabregas ritrova Addai: lo ha impressionato così. Se il Como vince contro il Feyenoord...",
-                "link": "https://www.tuttomercatoweb.com/serie-a/fabregas-riaccoglie-addai-impressionato-battendo-feyenoord-2283084",
-                "date": "14/10 08:15"
+                "title": "Quote risultato esatto Celta Vigo-Juventus",
+                "link": "https://www.tuttomercatoweb.com/scommesse/pronostici/quote-risultato-esatto-celta-vigo-juventus-2283227",
+                "date": "15/10 08:00"
             },
             {
-                "title": "Di Canio: \"Di Lorenzo trotterella sul secondo gol del Villarreal, doveva chiudere prima\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/canio-di-lorenzo-trotterella-gol-villarreal-doveva-chiudere-prima-2283103",
-                "date": "14/10 08:12"
+                "title": "Roma, una beffa tanto dolorosa quanto ingiusta. Gasperini questa volta ha sbagliato i cambi e nel clamoroso ko c'è anche del suo. Le italiane in Champions sono un disastro: Marotta pensa davvero di colmare il gap con le big solo con lo stadio?",
+                "link": "https://www.tuttomercatoweb.com/editoriale/roma-beffa-dolorosa-ingiusta-gasperini-sbagliato-cambi-clamoroso-ko-suo-italiane-champions-disastro-2283462",
+                "date": "15/10 08:00"
             }
         ]
     }
