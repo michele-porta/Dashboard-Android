@@ -3,94 +3,50 @@
     "secondi": [],
     "contorni": [],
     "date": "",
-    "gas_price": "2.035",
+    "gas_price": "2.033",
     "oct_luce_price": "N/D",
     "oct_luce_fee": "N/D",
     "oct_gas_price": "N/D",
     "oct_gas_fee": "N/D",
     "sports": {
         "seriea": {
-            "past": [
-                {
-                    "home": "Torino",
-                    "away": "Udinese",
-                    "home_score": "2",
-                    "away_score": "1",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/xxprty1448806802.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvstr1448806811.png",
-                    "date": "2026-10-12",
-                    "time": "18:45:00"
-                }
-            ],
-            "next": [
-                {
-                    "home": "Frosinone",
-                    "away": "Sassuolo",
-                    "home_score": null,
-                    "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/a7xa151603170120.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/xystvp1448806138.png",
-                    "date": "2026-10-16",
-                    "time": "18:45:00"
-                }
-            ]
+            "past": [],
+            "next": []
         },
         "champions": {
-            "past": [
-                {
-                    "home": "Slovan Bratislava",
-                    "away": "Stuttgart",
-                    "home_score": "0",
-                    "away_score": "3",
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
-                    "date": "2026-10-14",
-                    "time": "19:00:00"
-                }
-            ],
-            "next": [
-                {
-                    "home": "Fenerbahçe",
-                    "away": "Slavia Prague",
-                    "home_score": null,
-                    "away_score": null,
-                    "home_badge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
-                    "away_badge": "https://r2.thesportsdb.com/images/media/team/badge/l7kl4n1759252139.png",
-                    "date": "2026-10-20",
-                    "time": "16:45:00"
-                }
-            ]
+            "past": [],
+            "next": []
         },
         "calciomercato": [
             {
-                "title": "Endrick ed Espì, le mosse azzeccate di Mourinho: \"Partita folle, difficile trovare le parole\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/endrick-espi-mosse-azzeccate-mourinho-partita-folle-difficile-trovare-parole-2283483",
-                "date": "15/10 08:12"
+                "title": "Fantacalcio, 4 scommesse da schierare per la 7ª giornata",
+                "link": "https://www.tuttomercatoweb.com/fantacalcio/fantacalcio-4-scommesse-schierare-7a-giornata-2283808",
+                "date": "16/10 08:10"
             },
             {
-                "title": "Venezia, la prima missione di Nicola per l'impresa: solidificare una squadra indifesa",
-                "link": "https://www.tuttomercatoweb.com/serie-a/venezia-missione-nicola-impresa-solidificare-squadra-indifesa-2283422",
-                "date": "15/10 08:08"
+                "title": "Atalanta, Scamacca: \"Il peggio è passato. Infortunio Raspadori? Speriamo non sia grave\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/atalanta-scamacca-il-passato-infortunio-raspadori-speriamo-grave-2283838",
+                "date": "16/10 08:08"
             },
             {
-                "title": "Serie C 2026/2027, il punto sulle panchine: Raffaele sulla panchina dell'Altamura",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-punto-panchine-gubbio-esonera-carlo-torna-braglia-2279969",
-                "date": "15/10 08:04"
+                "title": "Serie B, il programma della 7ª giornata: apre Hellas-Catanzaro. Mantova-Palermo il big match",
+                "link": "https://www.tuttomercatoweb.com/serie-b/serie-b-programma-7a-giornata-apre-hellas-catanzaro-mantova-palermo-big-match-2283765",
+                "date": "16/10 08:04"
             },
             {
-                "title": "Roma, Gasperini sugli infortunati: \"Stiramento per Koné, risentimento muscolare per Dybala\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/gasperini-infortunati-stiramento-kone-risentimento-muscolare-dybala-2283487",
-                "date": "15/10 08:00"
+                "title": "Cissé il manifesto del progetto Cardinale ma è incomprensibile aver tenuto fuori Bartesaghi per Estupinan. Kolo Muani top nel suo vero ruolo ma lì ci sono già Yildiz e Alajbegovic...",
+                "link": "https://www.tuttomercatoweb.com/editoriale/cisse-manifesto-progetto-cardinale-incomprensibile-tenuto-bartesaghi-estupinan-2283745",
+                "date": "16/10 08:01"
             },
             {
-                "title": "Quote risultato esatto Celta Vigo-Juventus",
-                "link": "https://www.tuttomercatoweb.com/scommesse/pronostici/quote-risultato-esatto-celta-vigo-juventus-2283227",
-                "date": "15/10 08:00"
+                "title": "Fantacalcio, gli 11 consigliati per la 7ª giornata",
+                "link": "https://www.tuttomercatoweb.com/fantacalcio/fantacalcio-11-consigliati-7a-giornata-2283792",
+                "date": "16/10 08:00"
             },
             {
-                "title": "Roma, una beffa tanto dolorosa quanto ingiusta. Gasperini questa volta ha sbagliato i cambi e nel clamoroso ko c'è anche del suo. Le italiane in Champions sono un disastro: Marotta pensa davvero di colmare il gap con le big solo con lo stadio?",
-                "link": "https://www.tuttomercatoweb.com/editoriale/roma-beffa-dolorosa-ingiusta-gasperini-sbagliato-cambi-clamoroso-ko-suo-italiane-champions-disastro-2283462",
-                "date": "15/10 08:00"
+                "title": "Inter, interesse dal Qatar: contatti esplorativi con Oaktree, che non commenta",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-interesse-qatar-contatti-esplorativi-oaktree-commenta-2283836",
+                "date": "16/10 07:57"
             }
         ]
     }
