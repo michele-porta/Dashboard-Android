@@ -4,32 +4,32 @@ Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburan
 Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.001
   (Session info: chrome=155.0.8059.39)
 Stacktrace:
-#0 0x559132cf31da <unknown>
-#1 0x5591326125c9 <unknown>
-#2 0x5591325f9fba <unknown>
-#3 0x5591325f9c36 <unknown>
-#4 0x5591325f7840 <unknown>
-#5 0x5591325f81af <unknown>
-#6 0x5591326073a0 <unknown>
-#7 0x5591326213c6 <unknown>
-#8 0x559132628f3b <unknown>
-#9 0x5591325f8909 <unknown>
-#10 0x559132621124 <unknown>
-#11 0x5591326b7c31 <unknown>
-#12 0x55913265c2f8 <unknown>
-#13 0x55913265d0d1 <unknown>
-#14 0x559132cb5cec <unknown>
-#15 0x559132cb4505 <unknown>
-#16 0x559132c9f3b5 <unknown>
-#17 0x559132cb515a <unknown>
-#18 0x559132c87939 <unknown>
-#19 0x559132cdd898 <unknown>
-#20 0x559132cdda35 <unknown>
-#21 0x559132cf1b63 <unknown>
-#22 0x7f148929cb84 <unknown>
-#23 0x7f1489329ecc <unknown>
+#0 0x5653fb5fc1da <unknown>
+#1 0x5653faf1b5c9 <unknown>
+#2 0x5653faf02fba <unknown>
+#3 0x5653faf02c36 <unknown>
+#4 0x5653faf00840 <unknown>
+#5 0x5653faf011af <unknown>
+#6 0x5653faf103a0 <unknown>
+#7 0x5653faf2a3c6 <unknown>
+#8 0x5653faf31f3b <unknown>
+#9 0x5653faf01909 <unknown>
+#10 0x5653faf2a124 <unknown>
+#11 0x5653fafc0c31 <unknown>
+#12 0x5653faf652f8 <unknown>
+#13 0x5653faf660d1 <unknown>
+#14 0x5653fb5becec <unknown>
+#15 0x5653fb5bd505 <unknown>
+#16 0x5653fb5a83b5 <unknown>
+#17 0x5653fb5be15a <unknown>
+#18 0x5653fb590939 <unknown>
+#19 0x5653fb5e6898 <unknown>
+#20 0x5653fb5e6a35 <unknown>
+#21 0x5653fb5fab63 <unknown>
+#22 0x7f5cb3e9cb84 <unknown>
+#23 0x7f5cb3f29ecc <unknown>
 
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-10-22T22:00:00.000Z&dataFine=2026-10-29T22:00:00.000Z
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-10-23T22:00:00.000Z&dataFine=2026-10-30T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
 Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
