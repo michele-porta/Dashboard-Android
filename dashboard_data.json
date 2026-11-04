@@ -4,10 +4,10 @@
     "contorni": [],
     "date": "",
     "gas_price": "N/D",
-    "oct_luce_price": "N/D",
-    "oct_luce_fee": "N/D",
-    "oct_gas_price": "N/D",
-    "oct_gas_fee": "N/D",
+    "oct_luce_price": "0,2167",
+    "oct_luce_fee": "72",
+    "oct_gas_price": "0,99",
+    "oct_gas_fee": "84",
     "sports": {
         "seriea": {
             "past": [],
@@ -19,34 +19,34 @@
         },
         "calciomercato": [
             {
-                "title": "Avellino, Pandolfi sui fischi: \"Li accetto e sono giusti. Sto rendendo meno di quel che valgo\"",
-                "link": "https://www.tuttomercatoweb.com/serie-b/avellino-pandolfi-fischi-li-accetto-giusti-rendendo-valgo-2290167",
-                "date": "03/11 09:18"
+                "title": "Molina guarda Lulli dalla panchina a Old Trafford. Eppure la Roma lo aveva preso per partite così",
+                "link": "https://www.tuttomercatoweb.com/serie-a/molina-guarda-lulli-panchina-old-trafford-roma-preso-partite-2290526",
+                "date": "04/11 08:49"
             },
             {
-                "title": "Everton, caso Grealish: Moyes apre al ritorno ma resta il mistero sul rientro. Club furioso",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/everton-grealish-moyes-apre-ritorno-resta-mistero-rientro-club-furioso-2290161",
-                "date": "03/11 09:12"
+                "title": "Feyenoord, l'analisi di Van Bronckhorst: \"Inter squadra di campioni, dovremo imparare da loro\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/analisi-van-bronckhorst-inter-squadra-campioni-dovremo-imparare-loro-2290521",
+                "date": "04/11 08:45"
             },
             {
-                "title": "Lautaro in campo ad Appiano... per salutare i compagni. Il punto sui rientri dell'Inter",
-                "link": "https://www.tuttomercatoweb.com/serie-a/lautaro-campo-appiano-salutare-compagni-punto-rientri-inter-2290160",
-                "date": "03/11 09:08"
+                "title": "Carrick dopo il 3-2 con la Roma: \"Nell'intervallo ho detto ai ragazzi di non farsi abbattere\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/carrick-conferenza-i-tifosi-vedevano-dessimo-aggrapparsi-2290515",
+                "date": "04/11 08:41"
             },
             {
-                "title": "Serie C 2026/2027, il punto sulle panchine: Vinicio Espinal nuovo tecnico della Dolomiti Bellunesi",
-                "link": "https://www.tuttomercatoweb.com/serie-c/serie-2026-2027-punto-panchine-vito-bari-sbarca-salernitana-2288987",
-                "date": "03/11 09:04"
+                "title": "Le italiane non vincono a Porto dal 2017. L'ultimo a riuscirci fu proprio Allegri",
+                "link": "https://www.tuttomercatoweb.com/serie-a/italiane-battono-porto-trasferta-2017-riuscirci-allegri-2290373",
+                "date": "04/11 08:38"
             },
             {
-                "title": "Cragnotti: \"Analogie fra la Lazio di Gattuso e quella di Zeman. Spero continui così\"",
-                "link": "https://www.tuttomercatoweb.com/serie-a/cragnotti-analogie-lazio-gattuso-zeman-spero-continui-cosi-2290163",
-                "date": "03/11 09:00"
+                "title": "Inter, Zielinski: \"Tutti sanno che siamo forti. Riunione? Bisognava darsi una regolata\"",
+                "link": "https://www.tuttomercatoweb.com/serie-a/inter-zielinski-tutti-sanno-forti-riunione-bisognava-darsi-regolata-2290513",
+                "date": "04/11 08:34"
             },
             {
-                "title": "Morata ritrova il gol dopo 279 giorni, ma la doppietta è inutile: Leganes di nuovo k.o.",
-                "link": "https://www.tuttomercatoweb.com/calcio-estero/morata-ritrova-gol-279-giorni-doppietta-inutile-leganes-k-o-2290158",
-                "date": "03/11 08:56"
+                "title": "Lazio, Gattuso ha costruito qualcosa di unico: il campo spazza via i pregiudizi",
+                "link": "https://www.tuttomercatoweb.com/serie-a/lazio-gattuso-costruito-unico-campo-spazza-via-pregiudizi-2290432",
+                "date": "04/11 08:30"
             }
         ]
     }
