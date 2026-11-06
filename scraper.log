@@ -2,41 +2,41 @@
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
 Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.002
-  (Session info: chrome=156.0.8078.47)
+  (Session info: chrome=156.0.8078.79)
 Stacktrace:
-#0 0x55a606c977ea <unknown>
-#1 0x55a6065d69e5 <unknown>
-#2 0x55a6065c6942 <unknown>
-#3 0x55a6065c66b6 <unknown>
-#4 0x55a6065c4e3b <unknown>
-#5 0x55a6065c524f <unknown>
-#6 0x55a6065d0866 <unknown>
-#7 0x55a6065e18d0 <unknown>
-#8 0x55a6065e757b <unknown>
-#9 0x55a6065c5b27 <unknown>
-#10 0x55a6065c5848 <unknown>
-#11 0x55a6065e1793 <unknown>
-#12 0x55a606654b7e <unknown>
-#13 0x55a60660fcd7 <unknown>
-#14 0x55a60660efee <unknown>
-#15 0x55a60660fac1 <unknown>
-#16 0x55a606c5a7ac <unknown>
-#17 0x55a606c58fb5 <unknown>
-#18 0x55a606c44315 <unknown>
-#19 0x55a606c59c1a <unknown>
-#20 0x55a606c2cbf9 <unknown>
-#21 0x55a606c81ef8 <unknown>
-#22 0x55a606c82095 <unknown>
-#23 0x55a606c96183 <unknown>
-#24 0x7f931a69cb84 <unknown>
-#25 0x7f931a729ecc <unknown>
+#0 0x556974c660aa <unknown>
+#1 0x556974599875 <unknown>
+#2 0x556974589802 <unknown>
+#3 0x556974589576 <unknown>
+#4 0x556974587cfb <unknown>
+#5 0x55697458810f <unknown>
+#6 0x5569745936f6 <unknown>
+#7 0x5569745a4740 <unknown>
+#8 0x5569745aa3eb <unknown>
+#9 0x5569745889e7 <unknown>
+#10 0x556974588708 <unknown>
+#11 0x5569745a4603 <unknown>
+#12 0x55697461799d <unknown>
+#13 0x5569745d2a07 <unknown>
+#14 0x5569745d1d1e <unknown>
+#15 0x5569745d27f1 <unknown>
+#16 0x556974c28c5c <unknown>
+#17 0x556974c27475 <unknown>
+#18 0x556974c127f8 <unknown>
+#19 0x556974c280ca <unknown>
+#20 0x556974bfb3f9 <unknown>
+#21 0x556974c50848 <unknown>
+#22 0x556974c509e5 <unknown>
+#23 0x556974c64a43 <unknown>
+#24 0x7fa6e469cb84 <unknown>
+#25 0x7fa6e4729ecc <unknown>
 
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-03T22:00:00.000Z&dataFine=2026-11-10T22:00:00.000Z
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-04T22:00:00.000Z&dataFine=2026-11-11T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
 Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
-Tariffe Octopus rilevate: Luce=0,2167, Gas=0,99
+Tariffe Octopus rilevate: Luce=0,2035, Gas=0,91
 Caricamento risultati sportivi da TheSportsDB...
 Errore caricamento lega seriea: HTTP Error 403: Forbidden
 Errore caricamento lega champions: HTTP Error 403: Forbidden
