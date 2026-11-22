@@ -1,38 +1,38 @@
 === Mensa Greenlife & MIMIT Fuel Scraper ===
 Avvio del browser headless...
 Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburanti/regioni
-Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.002
+Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.001
   (Session info: chrome=157.0.8103.78)
 Stacktrace:
-#0 0x5934b1751caa <unknown>
-#1 0x5934b1085cc5 <unknown>
-#2 0x5934b1075b32 <unknown>
-#3 0x5934b10758a6 <unknown>
-#4 0x5934b107402b <unknown>
-#5 0x5934b107443f <unknown>
-#6 0x5934b107f9d6 <unknown>
-#7 0x5934b1090b90 <unknown>
-#8 0x5934b109699b <unknown>
-#9 0x5934b1074d17 <unknown>
-#10 0x5934b1074a38 <unknown>
-#11 0x5934b1090a53 <unknown>
-#12 0x5934b110760d <unknown>
-#13 0x5934b10c2557 <unknown>
-#14 0x5934b10c186e <unknown>
-#15 0x5934b10c2341 <unknown>
-#16 0x5934b171479c <unknown>
-#17 0x5934b1712fcd <unknown>
-#18 0x5934b16fddf5 <unknown>
-#19 0x5934b1713c0a <unknown>
-#20 0x5934b16e6b99 <unknown>
-#21 0x5934b173c318 <unknown>
-#22 0x5934b173c4b5 <unknown>
-#23 0x5934b1750633 <unknown>
-#24 0x7fda2e0abdeb <unknown>
-#25 0x7fda2e13f4dc <unknown>
+#0 0x5f61c6e4bcaa <unknown>
+#1 0x5f61c677fcc5 <unknown>
+#2 0x5f61c676fb32 <unknown>
+#3 0x5f61c676f8a6 <unknown>
+#4 0x5f61c676e02b <unknown>
+#5 0x5f61c676e43f <unknown>
+#6 0x5f61c67799d6 <unknown>
+#7 0x5f61c678ab90 <unknown>
+#8 0x5f61c679099b <unknown>
+#9 0x5f61c676ed17 <unknown>
+#10 0x5f61c676ea38 <unknown>
+#11 0x5f61c678aa53 <unknown>
+#12 0x5f61c680160d <unknown>
+#13 0x5f61c67bc557 <unknown>
+#14 0x5f61c67bb86e <unknown>
+#15 0x5f61c67bc341 <unknown>
+#16 0x5f61c6e0e79c <unknown>
+#17 0x5f61c6e0cfcd <unknown>
+#18 0x5f61c6df7df5 <unknown>
+#19 0x5f61c6e0dc0a <unknown>
+#20 0x5f61c6de0b99 <unknown>
+#21 0x5f61c6e36318 <unknown>
+#22 0x5f61c6e364b5 <unknown>
+#23 0x5f61c6e4a633 <unknown>
+#24 0x7799468abdeb <unknown>
+#25 0x77994693f4dc <unknown>
 
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-19T22:00:00.000Z&dataFine=2026-11-26T22:00:00.000Z
-Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-20T22:00:00.000Z&dataFine=2026-11-27T22:00:00.000Z
+Caricamento via Selenium fallito (Expecting value: line 1 column 1 (char 0)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
 Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
 Caricamento tariffe Octopus: https://octopusenergy.it/offerta/tariffe
