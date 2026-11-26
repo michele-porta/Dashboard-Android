@@ -4,34 +4,34 @@ Caricamento prezzi carburanti: https://www.mimit.gov.it/it/prezzo-medio-carburan
 Errore carburante: Message: timeout: Timed out receiving message from renderer: -0.002
   (Session info: chrome=157.0.8103.78)
 Stacktrace:
-#0 0x5b254f22acaa <unknown>
-#1 0x5b254eb5ecc5 <unknown>
-#2 0x5b254eb4eb32 <unknown>
-#3 0x5b254eb4e8a6 <unknown>
-#4 0x5b254eb4d02b <unknown>
-#5 0x5b254eb4d43f <unknown>
-#6 0x5b254eb589d6 <unknown>
-#7 0x5b254eb69b90 <unknown>
-#8 0x5b254eb6f99b <unknown>
-#9 0x5b254eb4dd17 <unknown>
-#10 0x5b254eb4da38 <unknown>
-#11 0x5b254eb69a53 <unknown>
-#12 0x5b254ebe060d <unknown>
-#13 0x5b254eb9b557 <unknown>
-#14 0x5b254eb9a86e <unknown>
-#15 0x5b254eb9b341 <unknown>
-#16 0x5b254f1ed79c <unknown>
-#17 0x5b254f1ebfcd <unknown>
-#18 0x5b254f1d6df5 <unknown>
-#19 0x5b254f1ecc0a <unknown>
-#20 0x5b254f1bfb99 <unknown>
-#21 0x5b254f215318 <unknown>
-#22 0x5b254f2154b5 <unknown>
-#23 0x5b254f229633 <unknown>
-#24 0x791d33cabdeb <unknown>
-#25 0x791d33d3f4dc <unknown>
+#0 0x577ee1b4acaa <unknown>
+#1 0x577ee147ecc5 <unknown>
+#2 0x577ee146eb32 <unknown>
+#3 0x577ee146e8a6 <unknown>
+#4 0x577ee146d02b <unknown>
+#5 0x577ee146d43f <unknown>
+#6 0x577ee14789d6 <unknown>
+#7 0x577ee1489b90 <unknown>
+#8 0x577ee148f99b <unknown>
+#9 0x577ee146dd17 <unknown>
+#10 0x577ee146da38 <unknown>
+#11 0x577ee1489a53 <unknown>
+#12 0x577ee150060d <unknown>
+#13 0x577ee14bb557 <unknown>
+#14 0x577ee14ba86e <unknown>
+#15 0x577ee14bb341 <unknown>
+#16 0x577ee1b0d79c <unknown>
+#17 0x577ee1b0bfcd <unknown>
+#18 0x577ee1af6df5 <unknown>
+#19 0x577ee1b0cc0a <unknown>
+#20 0x577ee1adfb99 <unknown>
+#21 0x577ee1b35318 <unknown>
+#22 0x577ee1b354b5 <unknown>
+#23 0x577ee1b49633 <unknown>
+#24 0x7ca689cabdeb <unknown>
+#25 0x7ca689d3f4dc <unknown>
 
-Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-23T22:00:00.000Z&dataFine=2026-11-30T22:00:00.000Z
+Caricamento API Menu via Selenium: https://www.menuchiaro.it/greenlife/it/Menu/GetMenu/MTA5OTg3XzEwOTk4Nw%3d%3d?utenzaId=QURVTFRJ&dataInizio=2026-11-24T22:00:00.000Z&dataFine=2026-12-01T22:00:00.000Z
 Caricamento via Selenium fallito (Extra data: line 1 column 5 (char 4)). Avvio recupero parallelo tramite proxy...
 Avvio test di 30 proxy in parallelo...
 Errore mensa: Impossibile recuperare il menu sia direttamente che tramite proxy paralleli.
